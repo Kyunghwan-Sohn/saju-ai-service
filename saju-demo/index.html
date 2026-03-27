@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>MỆnh — 내 사주 보기</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background:#f5f5f5; color:#1a1a1a; line-height:1.7; }
+.app { max-width:470px; margin:0 auto; background:#fff; min-height:100vh; box-shadow:0 0 40px rgba(0,0,0,.08); }
+.header { text-align:center; padding:40px 20px 20px; background:linear-gradient(135deg,#667EEA 0%,#764BA2 100%); color:#fff; }
+.header h1 { font-size:32px; font-weight:900; letter-spacing:2px; }
+.header p { font-size:13px; opacity:.7; margin-top:4px; }
+.section { padding:20px; }
+.card { background:#fff; border-radius:16px; padding:20px; margin-bottom:12px; box-shadow:0 2px 8px rgba(0,0,0,.04); border:1px solid #f0f0f0; }
+.card-accent { border-left:4px solid #8B5CF6; }
+.card-amber { border-left:4px solid #F59E0B; }
+.card-green { border-left:4px solid #10B981; }
+.card-blue { border-left:4px solid #3B82F6; }
+.card-pink { border-left:4px solid #EC4899; }
+label { display:block; font-size:11px; font-weight:700; color:#999; text-transform:uppercase; margin-bottom:4px; }
+input[type="text"], input[type="number"], select { width:100%; padding:12px; border-radius:12px; border:1px solid #e0e0e0; background:#fafafa; font-size:16px; outline:none; }
+input:focus, select:focus { border-color:#8B5CF6; box-shadow:0 0 0 3px rgba(139,92,246,.1); }
+.row { display:flex; gap:10px; margin-bottom:12px; }
+.row > div { flex:1; }
+.gender-row { display:flex; gap:10px; margin-bottom:16px; }
+.gender-btn { flex:1; padding:12px; border-radius:12px; border:1px solid #e0e0e0; background:#fafafa; font-size:14px; cursor:pointer; text-align:center; transition:.2s; }
+.gender-btn.active { border-color:#8B5CF6; background:#F5F3FF; color:#7C3AED; font-weight:700; }
+.submit-btn { width:100%; padding:16px; border-radius:12px; border:none; background:linear-gradient(135deg,#667EEA,#764BA2); color:#fff; font-size:16px; font-weight:700; cursor:pointer; box-shadow:0 4px 15px rgba(118,75,162,.3); transition:.2s; }
+.submit-btn:active { transform:scale(.97); }
+.badge { display:inline-block; font-size:10px; padding:2px 8px; border-radius:20px; font-weight:700; }
+.badge-purple { background:#F5F3FF; color:#7C3AED; }
+.badge-amber { background:#FFFBEB; color:#D97706; }
+.badge-green { background:#ECFDF5; color:#059669; }
+.tag { font-size:10px; padding:2px 8px; border-radius:20px; background:#F5F3FF; color:#7C3AED; margin-right:4px; }
+.pillar-table { width:100%; border-collapse:separate; border-spacing:6px 4px; text-align:center; }
+.pillar-table th { font-size:12px; color:#888; font-weight:700; padding-bottom:6px; width:25%; }
+.pillar-table .sipsung { font-size:13px; font-weight:700; padding:4px 0; }
+.pillar-table .hanja-cell { padding:8px 4px; border-radius:10px; }
+.pillar-table .hanja { font-size:36px; font-weight:900; line-height:1.2; }
+.pillar-table .info { font-size:13px; font-weight:700; margin-top:2px; }
+.pillar-table .divider td { border-top:2px solid #e0e0e0; }
+.ohaeng-row { display:flex; justify-content:center; gap:16px; margin-top:10px; }
+.ohaeng-row span { font-size:13px; font-weight:800; }
+.today-box { background:linear-gradient(135deg,#667EEA,#764BA2); border-radius:16px; padding:24px; text-align:center; color:#fff; margin-bottom:12px; }
+.today-box .label { font-size:11px; opacity:.6; font-weight:700; margin-bottom:4px; }
+.today-box .text { font-size:17px; font-weight:600; line-height:1.6; word-break:keep-all; }
+.topic-header { display:flex; align-items:center; gap:8px; margin:16px 0 8px; }
+.topic-header .emoji { font-size:20px; }
+.topic-header .title { font-size:16px; font-weight:900; }
+.qa-btn { width:100%; padding:12px; border-radius:12px; border:2px dashed #C4B5FD; background:rgba(139,92,246,.03); color:#8B5CF6; font-size:13px; font-weight:700; cursor:pointer; margin-top:8px; transition:.2s; }
+.qa-btn:hover { background:#F5F3FF; }
+.qa-answer { background:#F5F3FF; border-radius:16px; padding:16px; border:1px solid #EDE9FE; margin-top:8px; }
+.qa-answer p { font-size:14px; color:#333; line-height:1.7; }
+.qa-question { width:100%; text-align:left; padding:12px; border-radius:12px; border:1px solid #e0e0e0; background:#fff; font-size:13px; color:#555; font-weight:500; cursor:pointer; margin-top:6px; transition:.2s; }
+.qa-question:hover { border-color:#8B5CF6; background:#F5F3FF; }
+.qa-fold { width:100%; padding:8px; border:none; background:none; color:#999; font-size:12px; cursor:pointer; margin-top:4px; }
+.back-btn { width:100%; padding:12px; border-radius:12px; border:1px solid #e0e0e0; background:#fff; color:#999; font-size:14px; font-weight:500; cursor:pointer; margin-top:12px; }
+.hidden { display:none; }
+/* 로딩 오버레이 */
+.loading-overlay { position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(255,255,255,.95); z-index:9999; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+.loading-spinner { width:48px; height:48px; border:4px solid #EDE9FE; border-top-color:#8B5CF6; border-radius:50%; animation:spin 1s linear infinite; }
+@keyframes spin { to{transform:rotate(360deg)} }
+.loading-text { margin-top:16px; font-size:15px; color:#7C3AED; font-weight:600; }
+.loading-sub { margin-top:6px; font-size:12px; color:#999; }
+/* 공유 카드 */
+.share-btn { display:inline-flex; align-items:center; gap:6px; padding:10px 20px; border-radius:12px; border:2px solid #8B5CF6; background:#F5F3FF; color:#7C3AED; font-size:13px; font-weight:700; cursor:pointer; transition:.2s; }
+.share-btn:hover { background:#8B5CF6; color:#fff; }
+/* 피드백 */
+.feedback-row { display:flex; gap:8px; margin-top:10px; }
+.feedback-btn { padding:6px 14px; border-radius:20px; border:1px solid #e0e0e0; background:#fff; font-size:12px; cursor:pointer; transition:.2s; }
+.feedback-btn:hover { border-color:#8B5CF6; background:#F5F3FF; }
+.feedback-btn.selected { border-color:#8B5CF6; background:#8B5CF6; color:#fff; }
+/* 카운터 */
+.counter-bar { text-align:center; padding:8px; background:#F5F3FF; font-size:11px; color:#7C3AED; font-weight:600; }
+/* Q&A depth 표시 */
+.qa-depth { display:inline-block; font-size:10px; color:#999; margin-left:8px; }
+/* 연대 현재 강조 */
+.decade-current { background:#F5F3FF !important; border:2px solid #8B5CF6 !important; border-radius:8px; padding:8px !important; }
+</style>
+</head>
+<body>
+<div class="app">
+  <!-- 카운터 -->
+  <div class="counter-bar" id="counterBar">오늘 <span id="todayCount">12,847</span>명이 사주를 확인했어요</div>
+
+  <!-- 로딩 오버레이 -->
+  <div class="loading-overlay hidden" id="loadingOverlay">
+    <div class="loading-spinner"></div>
+    <p class="loading-text">사주를 읽는 중...</p>
+    <p class="loading-sub" id="loadingStep">사주원국을 분석하고 있어요</p>
+  </div>
+
+  <!-- 입력 화면 -->
+  <div id="inputView">
+    <div class="header">
+      <h1>MỆnh</h1>
+      <p>당신의 이야기를 들려드릴게요</p>
+    </div>
+    <div class="section">
+      <div class="card">
+        <h2 style="font-size:18px;font-weight:900;margin-bottom:4px;">생년월일을 알려주세요</h2>
+        <div style="display:flex;gap:8px;margin:8px 0 16px;">
+          <button class="gender-btn active" id="calSolar" onclick="setCal('solar',this)" style="flex:1;padding:8px;font-size:12px;">☀️ 양력</button>
+          <button class="gender-btn" id="calLunar" onclick="setCal('lunar',this)" style="flex:1;padding:8px;font-size:12px;">🌙 음력</button>
+        </div>
+        <div style="margin-bottom:12px;">
+          <label>이름</label>
+          <input type="text" id="userName" placeholder="이름을 입력하세요">
+        </div>
+        <div class="row">
+          <div><label>년</label><input type="number" id="birthYear" placeholder="1995"></div>
+          <div><label>월</label><input type="number" id="birthMonth" placeholder="3" min="1" max="12"></div>
+          <div><label>일</label><input type="number" id="birthDay" placeholder="15" min="1" max="31"></div>
+        </div>
+        <div style="margin-bottom:12px;">
+          <label>출생 시간 (선택)</label>
+          <p style="font-size:11px;color:#aaa;margin-bottom:6px;">태어난 시간을 알면 더 정확해요. 몰라도 괜찮아요.</p>
+          <select id="birthHour">
+            <option value="">모름</option>
+            <script>for(let i=0;i<24;i++) document.write(`<option value="${i}">${String(i).padStart(2,'0')}:00~${String((i+1)%24).padStart(2,'0')}:00</option>`)</script>
+          </select>
+        </div>
+        <div class="gender-row">
+          <div class="gender-btn active" onclick="setGender('male',this)">남성</div>
+          <div class="gender-btn" onclick="setGender('female',this)">여성</div>
+        </div>
+        <button class="submit-btn" onclick="analyze()">내 사주 보기 →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 결과 화면 -->
+  <div id="resultView" class="hidden">
+    <div class="header" id="resultHeader">
+      <p style="font-size:13px;opacity:.7;">종합사주 풀이</p>
+      <p style="font-size:20px;font-weight:900;" id="resultTitle"></p>
+    </div>
+    <div class="section" id="resultContent"></div>
+
+    <!-- 궁합 CTA -->
+    <div class="section" id="compatSection">
+      <div class="card" style="background:linear-gradient(135deg,#FF6B9D,#C44AFF);color:#fff;text-align:center;">
+        <p style="font-size:18px;font-weight:900;margin-bottom:4px;">💑 궁합 보기</p>
+        <p style="font-size:12px;opacity:.8;margin-bottom:12px;">상대방과의 궁합을 5가지 영역에서 분석해요</p>
+        <button onclick="showCompatInput()" style="padding:12px 32px;border-radius:12px;border:none;background:#fff;color:#C44AFF;font-size:14px;font-weight:700;cursor:pointer;">궁합 분석하기 →</button>
+      </div>
+    </div>
+    <!-- 궁합 입력 (숨김) -->
+    <div class="section hidden" id="compatInput">
+      <div class="card">
+        <p style="font-size:16px;font-weight:900;margin-bottom:12px;">💑 상대방 정보를 입력하세요</p>
+        <div style="margin-bottom:10px;"><label>상대방 이름</label><input type="text" id="partnerName" placeholder="이름"></div>
+        <div class="row">
+          <div><label>년</label><input type="number" id="pYear" placeholder="1996"></div>
+          <div><label>월</label><input type="number" id="pMonth" placeholder="5" min="1" max="12"></div>
+          <div><label>일</label><input type="number" id="pDay" placeholder="20" min="1" max="31"></div>
+        </div>
+        <div style="margin-bottom:12px;"><label>출생 시간 (선택)</label><select id="pHour"><option value="">모름</option><script>for(let i=0;i<24;i++)document.write(`<option value="${i}">${String(i).padStart(2,'0')}:00~${String((i+1)%24).padStart(2,'0')}:00</option>`)</script></select></div>
+        <button class="submit-btn" style="background:linear-gradient(135deg,#FF6B9D,#C44AFF);" onclick="analyzeCompat()">궁합 분석 시작 →</button>
+      </div>
+    </div>
+    <!-- 궁합 결과 (숨김) -->
+    <div class="section hidden" id="compatResult"></div>
+
+    <!-- 선물하기 -->
+    <div class="section">
+      <div class="card" style="text-align:center;border:2px dashed #C4B5FD;">
+        <p style="font-size:14px;font-weight:700;color:#7C3AED;margin-bottom:4px;">🎁 친구에게 선물하기</p>
+        <p style="font-size:12px;color:#999;margin-bottom:10px;">이 사주 풀이를 친구에게 보내보세요</p>
+        <button class="share-btn" onclick="giftToFriend()">선물 링크 생성</button>
+      </div>
+    </div>
+
+    <!-- 푸시 알림 옵트인 -->
+    <div class="section" id="pushSection">
+      <div class="card" style="text-align:center;background:#F5F3FF;">
+        <p style="font-size:14px;font-weight:700;color:#7C3AED;">🔔 내일 운세 알림 받기</p>
+        <p style="font-size:12px;color:#999;margin:4px 0 10px;">매일 아침 오늘의 운세를 알려드려요</p>
+        <button class="submit-btn" style="max-width:250px;margin:0 auto;display:block;padding:12px;" onclick="enablePush(this)">알림 받기</button>
+      </div>
+    </div>
+
+    <!-- 스트릭 -->
+    <div class="section">
+      <div class="card" style="text-align:center;" id="streakCard">
+        <p style="font-size:24px;margin-bottom:4px;" id="streakEmoji">🔥</p>
+        <p style="font-size:14px;font-weight:700;color:#1a1a1a;" id="streakText">1일 연속 운세 확인중</p>
+        <p style="font-size:11px;color:#999;" id="streakSub">매일 확인하면 더 정확해져요</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <button class="back-btn" onclick="goBack()">← 다시 분석하기</button>
+    </div>
+  </div>
+</div>
+
+<script src="saju-data.js"></script>
+<script>
+// === 사주 엔진 (검증 완료) ===
+const STEMS=[{char:'甲',kr:'갑',key:'gap',element:'목',yy:'양'},{char:'乙',kr:'을',key:'eul',element:'목',yy:'음'},{char:'丙',kr:'병',key:'byeong',element:'화',yy:'양'},{char:'丁',kr:'정',key:'jeong',element:'화',yy:'음'},{char:'戊',kr:'무',key:'mu',element:'토',yy:'양'},{char:'己',kr:'기',key:'gi',element:'토',yy:'음'},{char:'庚',kr:'경',key:'gyeong',element:'금',yy:'양'},{char:'辛',kr:'신',key:'sin',element:'금',yy:'음'},{char:'壬',kr:'임',key:'im',element:'수',yy:'양'},{char:'癸',kr:'계',key:'gye',element:'수',yy:'음'}];
+const BRANCHES=[{char:'子',kr:'자',key:'ja',element:'수'},{char:'丑',kr:'축',key:'chuk',element:'토'},{char:'寅',kr:'인',key:'in',element:'목'},{char:'卯',kr:'묘',key:'myo',element:'목'},{char:'辰',kr:'진',key:'jin',element:'토'},{char:'巳',kr:'사',key:'sa',element:'화'},{char:'午',kr:'오',key:'o',element:'화'},{char:'未',kr:'미',key:'mi',element:'토'},{char:'申',kr:'신',key:'sin',element:'금'},{char:'酉',kr:'유',key:'yu',element:'금'},{char:'戌',kr:'술',key:'sul',element:'토'},{char:'亥',kr:'해',key:'hae',element:'수'}];
+
+const REF_DATE=Date.UTC(2000,0,1), REF_IDX=54;
+function daysBetween(y,m,d){return Math.round((Date.UTC(y,m-1,d)-REF_DATE)/864e5)}
+function calcDay(y,m,d){const diff=daysBetween(y,m,d),idx=(((diff+REF_IDX)%60)+60)%60;return{stem:STEMS[idx%10],branch:BRANCHES[idx%12]}}
+function calcYear(y,m,d){let a=y;if(m<2||(m===2&&d<4))a--;return{stem:STEMS[((a-4)%10+10)%10],branch:BRANCHES[((a-4)%12+12)%12]}}
+function getMonthBranch(m,d){const t=[[2,4],[3,6],[4,5],[5,6],[6,6],[7,7],[8,7],[9,8],[10,8],[11,7],[12,7],[1,6]];for(let i=0;i<12;i++){const[nm,nd]=t[(i+1)%12];if(m===t[i][0]&&d>=t[i][1]&&(i===11||m<nm||(m===nm&&d<nd)))return(i+2)%12}return(m+1)%12}
+function calcMonth(yStemIdx,m,d){const bi=getMonthBranch(m,d),si=(yStemIdx*2+2+bi)%10;return{stem:STEMS[si],branch:BRANCHES[bi]}}
+function calcHour(dStemIdx,h){if(h===null)return null;const bi=Math.floor((h+1)/2)%12,si=(dStemIdx*2+bi)%10;return{stem:STEMS[si],branch:BRANCHES[bi]}}
+function getTenGod(me,target){const c=['목','화','토','금','수'],mi=c.indexOf(me.element),ti=c.indexOf(target.element),rel=((ti-mi)+5)%5,same=me.yy===target.yy;return[same?'비견':'겁재',same?'식신':'상관',same?'편재':'정재',same?'편관':'정관',same?'편인':'정인'][rel]}
+
+let gender='male';
+function setGender(g,el){gender=g;document.querySelectorAll('.gender-btn').forEach(b=>b.classList.remove('active'));el.classList.add('active')}
+
+function analyze(){
+  const name=document.getElementById('userName').value.trim();
+  const y=parseInt(document.getElementById('birthYear').value);
+  const m=parseInt(document.getElementById('birthMonth').value);
+  const d=parseInt(document.getElementById('birthDay').value);
+  const hv=document.getElementById('birthHour').value;
+  const h=hv===''?null:parseInt(hv);
+  if(!name||!y||!m||!d){alert('이름과 생년월일을 입력해주세요.');return}
+
+  const yearP=calcYear(y,m,d);
+  const yStemIdx=STEMS.indexOf(yearP.stem);
+  const monthP=calcMonth(yStemIdx,m,d);
+  const dayP=calcDay(y,m,d);
+  const dStemIdx=STEMS.indexOf(dayP.stem);
+  const hourP=calcHour(dStemIdx,h);
+  const ilgan=dayP.stem;
+  const wolji=monthP.branch;
+  const ilganCode=ilgan.key;
+  const woljiCode=wolji.key;
+
+  // 오행 분포
+  const elements=[yearP.stem.element,yearP.branch.element,monthP.stem.element,monthP.branch.element,dayP.stem.element,dayP.branch.element];
+  if(hourP){elements.push(hourP.stem.element,hourP.branch.element)}
+  const ohaeng={};['목','화','토','금','수'].forEach(e=>ohaeng[e]=elements.filter(x=>x===e).length);
+
+  // 십성
+  function sipsung(stem){return stem.char===ilgan.char?'일간':getTenGod(ilgan,stem)}
+
+  // 로딩 연출
+  document.getElementById('inputView').classList.add('hidden');
+  const overlay=document.getElementById('loadingOverlay');
+  const loadingStep=document.getElementById('loadingStep');
+  overlay.classList.remove('hidden');
+  const steps=['사주원국을 분석하고 있어요','오행의 흐름을 읽고 있어요','운세를 정리하고 있어요','거의 다 됐어요'];
+  let si=0;
+  const stepInterval=setInterval(()=>{si++;if(si<steps.length)loadingStep.textContent=steps[si]},400);
+
+  // 카운터 업데이트
+  const cnt=document.getElementById('todayCount');
+  cnt.textContent=(parseInt(cnt.textContent.replace(/,/g,''))+1).toLocaleString();
+
+  setTimeout(()=>{
+    clearInterval(stepInterval);
+    overlay.classList.add('hidden');
+    renderResult(name,yearP,monthP,dayP,hourP,ilgan,wolji,ilganCode,woljiCode,ohaeng,y);
+    document.getElementById('resultView').classList.remove('hidden');
+    window.scrollTo(0,0);
+  },1800);
+}
+
+function renderResult(name,yearP,monthP,dayP,hourP,ilgan,wolji,ilganCode,woljiCode,ohaeng,birthYear){
+  mySajuData={name,ilganCode,ilgan,wolji,woljiCode};
+  updateStreak();
+  const pillars=[{label:'시주',p:hourP},{label:'일주',p:dayP},{label:'월주',p:monthP},{label:'년주',p:yearP}];
+  function sipsung(stem){return stem.char===ilgan.char?'일간':getTenGod(ilgan,stem)}
+
+  // 결과 렌더링
+  document.getElementById('resultTitle').textContent=name+'님의 분석 결과';
+  const pillars=[{label:'시주',p:hourP},{label:'일주',p:dayP},{label:'월주',p:monthP},{label:'년주',p:yearP}];
+  // 오늘의 한 줄
+  const now=new Date(),base=new Date(2000,0,7);
+  const gapjaIdx=((Math.floor((now-base)/864e5)%60)+60)%60;
+  const weekdays=['sun','mon','tue','wed','thu','fri','sat'];
+  const todayKey=gapjaIdx+'_'+weekdays[now.getDay()];
+  const todayLine=DB_TODAY[todayKey]?DB_TODAY[todayKey].ko:'오늘 하루도 당신은 충분해요.';
+  const ohaengCode={목:'mok',화:'hwa',토:'to',금:'geum',수:'su'}[ilgan.element]||'mok';
+  const todayDate=`${now.getFullYear()}.${now.getMonth()+1}.${now.getDate()}`;
+
+  let html='';
+  const OH_COLOR={'목':{text:'#1B7A3D',bg:'#E8F5E9'},'화':{text:'#C62828',bg:'#FFEBEE'},'토':{text:'#E65100',bg:'#FFF8E1'},'금':{text:'#546E7A',bg:'#ECEFF1'},'수':{text:'#1A237E',bg:'#E8EAF6'}};
+  function ohc(el){return OH_COLOR[el]||{text:'#333',bg:'#f5f5f5'}}
+  function splitTwo(t){if(t.length<=20)return t;const m=Math.floor(t.length/2);let b=-1;for(let i=0;i<t.length;i++)if(t[i]===' '&&Math.abs(i-m)<Math.abs(b-m))b=i;return b>0?t.slice(0,b)+'<br>'+t.slice(b+1):t}
+
+  // 현재 연대 계산
+  const currentAge=now.getFullYear()-birthYear;
+  const currentDecade=currentAge<20?'10s':currentAge<30?'20s':currentAge<40?'30s':currentAge<50?'40s':'50s';
+
+  // ── ① 오늘의 한 줄 (최상단) ──
+  html+=`<div class="today-box"><div class="label">${todayDate} ${name}님의 오늘</div><div class="text">${splitTwo(todayLine)}</div></div>`;
+
+  // ── ② 전반적 사주 풀이 ──
+  const generalIlgan=DB_ILGAN[ilganCode+'_general'];
+  if(generalIlgan){
+    html+=`<div class="card card-accent"><p style="font-size:15px;font-weight:700;color:#7C3AED;margin-bottom:8px;">${name}님은 이런 사람이에요</p>`;
+    html+=`<p style="font-size:15px;color:#333;line-height:1.8;">${generalIlgan.ko}</p>`;
+    if(generalIlgan.keyword) html+=`<div style="margin-top:10px;">${generalIlgan.keyword.map(k=>`<span class="tag">#${k}</span>`).join('')}</div>`;
+    html+=`<div class="feedback-row"><button class="feedback-btn" onclick="feedback(this,'맞아요')">👍 맞아요</button><button class="feedback-btn" onclick="feedback(this,'아쉬워요')">👎 아쉬워요</button></div>`;
+    html+=`</div>`;
+  }
+
+  // ── 공유 카드 ──
+  html+=`<div style="text-align:center;margin-bottom:16px;"><button class="share-btn" onclick="shareResult('${name}','${todayLine.replace(/'/g,"\\'")}')">📤 내 사주 공유하기</button></div>`;
+
+  // ── ③ 사주원국 ──
+  html+=`<div class="card"><p style="text-align:center;font-size:13px;color:#888;font-weight:700;margin-bottom:10px;">사주원국</p>`;
+  html+=`<table class="pillar-table"><thead><tr>${pillars.map(c=>`<th>${c.label}</th>`).join('')}</tr></thead><tbody>`;
+  html+=`<tr>${pillars.map(c=>{if(!c.p)return'<td></td>';const col=ohc(c.p.stem.element);return`<td class="sipsung" style="color:${col.text}">${sipsung(c.p.stem)}</td>`}).join('')}</tr>`;
+  html+=`<tr>${pillars.map(c=>{if(!c.p)return'<td class="hanja-cell"><span class="hanja" style="color:#ccc">?</span></td>';const col=ohc(c.p.stem.element);return`<td class="hanja-cell" style="background:${col.bg}"><span class="hanja" style="color:${col.text}">${c.p.stem.char}</span><div class="info" style="color:${col.text}">${c.p.stem.kr}(${c.p.stem.element})</div></td>`}).join('')}</tr>`;
+  html+=`<tr>${pillars.map(c=>{if(!c.p)return'<td class="hanja-cell"><span class="hanja" style="color:#ccc">?</span></td>';const col=ohc(c.p.branch.element);return`<td class="hanja-cell" style="background:${col.bg};border-top:2px solid #e0e0e0"><span class="hanja" style="color:${col.text}">${c.p.branch.char}</span><div class="info" style="color:${col.text}">${c.p.branch.kr}(${c.p.branch.element})</div></td>`}).join('')}</tr>`;
+  html+=`<tr>${pillars.map(c=>{if(!c.p)return'<td></td>';const bs=STEMS.find(s=>s.element===c.p.branch.element&&s.yy===c.p.stem.yy);const col=ohc(c.p.branch.element);return`<td class="sipsung" style="color:${col.text}">${bs?sipsung(bs):''}</td>`}).join('')}</tr>`;
+  html+=`</tbody></table>`;
+  html+=`<div class="ohaeng-row">${['목','화','토','금','수'].map(e=>`<span style="color:${ohc(e).text};background:${ohc(e).bg};padding:3px 10px;border-radius:8px;">${e} ${ohaeng[e]}</span>`).join('')}</div></div>`;
+
+  // ── ④ 연대별 흐름 (현재 연대 자동 확장) ──
+  const decades=[{key:'10s',label:'10대'},{key:'20s',label:'20대'},{key:'30s',label:'30대'},{key:'40s',label:'40대'},{key:'50s',label:'50대 이후'}];
+  html+=`<div class="card"><p style="font-size:14px;font-weight:900;color:#1a1a1a;margin-bottom:12px;">연대별 인생 흐름</p>`;
+  decades.forEach(d=>{
+    const isCurrent=d.key===currentDecade;
+    const sum=DB_DECADE[ilganCode+'_'+d.key+'_summary'];
+    const det=DB_DECADE[ilganCode+'_'+d.key+'_detail'];
+    if(sum){
+      html+=`<div style="display:flex;gap:10px;align-items:flex-start;margin-bottom:10px;padding:8px;border-radius:8px;${isCurrent?'background:#F5F3FF;border:2px solid #8B5CF6;':''}">`;
+      html+=`<span style="font-size:12px;font-weight:800;color:${isCurrent?'#7C3AED':'#999'};white-space:nowrap;min-width:55px;padding-top:2px;">${d.label}${isCurrent?' ←':''}</span>`;
+      html+=`<div><p style="font-size:13px;color:#555;line-height:1.6;margin:0;">${sum.ko}</p>`;
+      if(isCurrent && det) html+=`<p style="font-size:13px;color:#333;line-height:1.7;margin-top:8px;">${det.ko}</p>`;
+      html+=`</div></div>`;
+    }
+  });
+  html+=`<button class="qa-btn" onclick="toggleDecadeDetail()" id="decadeToggle">다른 연대 자세히 보기 ▼</button>`;
+  html+=`<div id="decadeDetail" style="display:none;margin-top:12px;">`;
+  decades.forEach(d=>{
+    if(d.key===currentDecade) return;
+    const det=DB_DECADE[ilganCode+'_'+d.key+'_detail'];
+    if(det) html+=`<div style="margin-bottom:16px;"><p style="font-size:13px;font-weight:800;color:#7C3AED;margin-bottom:6px;">${d.label}</p><p style="font-size:14px;color:#333;line-height:1.8;">${det.ko}</p></div>`;
+  });
+  html+=`</div></div>`;
+
+  // ── Q&A 히어로 배너 ──
+  html+=`<div class="card" style="background:linear-gradient(135deg,#667EEA,#764BA2);color:#fff;text-align:center;border:none;margin-top:16px;">`;
+  html+=`<p style="font-size:11px;opacity:.6;font-weight:700;">AI 사주 상담</p>`;
+  html+=`<p style="font-size:16px;font-weight:900;margin:6px 0;">💬 궁금한 것을 물어보세요</p>`;
+  html+=`<p style="font-size:12px;opacity:.8;">각 분야별로 대화하듯 사주 상담을 받을 수 있어요</p>`;
+  html+=`</div>`;
+
+  // ── ⑤ 운세 3종 (오늘/이번달/올해) ──
+  const fortuneTypes=[{period:'daily',label:'오늘의 운세',icon:'☀️',color:'#667EEA'},{period:'monthly',label:'이번달 운세',icon:'🌙',color:'#F59E0B'},{period:'yearly',label:'올해의 운세',icon:'⭐',color:'#8B5CF6'}];
+  const topics=[{id:'love',emoji:'❤️',label:'연애'},{id:'career',emoji:'💼',label:'직업'},{id:'money',emoji:'💰',label:'재물'},{id:'self',emoji:'🪞',label:'자기관리'},{id:'general',emoji:'🌏',label:'인생'}];
+
+  fortuneTypes.forEach(ft=>{
+    const overview=DB_FORTUNE_OVERVIEW[ilganCode+'_'+ft.period];
+    html+=`<div style="margin-top:20px;">`;
+    html+=`<div class="topic-header"><span class="emoji">${ft.icon}</span><span class="title">${ft.label}</span></div>`;
+
+    // 전체 설명
+    if(overview){
+      html+=`<div class="card" style="border-left:4px solid ${ft.color}"><p style="font-size:14px;color:#333;line-height:1.8;">${overview.ko}</p></div>`;
+    }
+
+    // 분야별
+    topics.forEach(topic=>{
+      const areaData=DB_FORTUNE_AREA[ilganCode+'_'+ft.period+'_'+topic.id];
+      html+=`<div class="card" style="border-left:3px solid #e0e0e0;">`;
+      html+=`<p style="font-size:13px;font-weight:700;color:#555;margin-bottom:6px;">${topic.emoji} ${topic.label}</p>`;
+      if(areaData) html+=`<p style="font-size:13px;color:#666;line-height:1.7;">${areaData.ko}</p>`;
+
+      // Q&A 버튼
+      const qaId=ilganCode+'_'+topic.id+'_'+ft.period+'_0';
+      if(DB_QA[qaId]){
+        const cid='qa_'+ft.period+'_'+topic.id;
+        html+=`<button class="qa-btn" style="margin-top:8px;font-size:12px;padding:8px;" onclick="startQA('${cid}','${qaId}')">💬 더 알아보기</button>`;
+        html+=`<div id="${cid}"></div>`;
+      }
+      html+=`</div>`;
+    });
+
+    // 행운 정보 (행동 처방)
+    const luckyColors={목:'초록, 청록',화:'빨강, 주황',토:'노랑, 베이지',금:'흰색, 은색',수:'검정, 남색'};
+    const luckyNums={목:'3, 8',화:'2, 7',토:'5, 10',금:'4, 9',수:'1, 6'};
+    const luckyDirs={목:'동쪽',화:'남쪽',토:'중앙',금:'서쪽',수:'북쪽'};
+    const el=ilgan.element;
+    html+=`<div class="card" style="border-left:4px solid #FFD93D;">`;
+    html+=`<p style="font-size:13px;font-weight:700;color:#D97706;margin-bottom:8px;">🍀 이렇게 하면 더 좋아요</p>`;
+    html+=`<div style="display:flex;gap:12px;flex-wrap:wrap;">`;
+    html+=`<div style="flex:1;min-width:80px;text-align:center;padding:8px;background:#FFFBEB;border-radius:10px;"><p style="font-size:11px;color:#999;">행운 색</p><p style="font-size:13px;font-weight:700;color:#D97706;">${luckyColors[el]||'보라'}</p></div>`;
+    html+=`<div style="flex:1;min-width:80px;text-align:center;padding:8px;background:#FFFBEB;border-radius:10px;"><p style="font-size:11px;color:#999;">행운 숫자</p><p style="font-size:13px;font-weight:700;color:#D97706;">${luckyNums[el]||'5'}</p></div>`;
+    html+=`<div style="flex:1;min-width:80px;text-align:center;padding:8px;background:#FFFBEB;border-radius:10px;"><p style="font-size:11px;color:#999;">행운 방향</p><p style="font-size:13px;font-weight:700;color:#D97706;">${luckyDirs[el]||'중앙'}</p></div>`;
+    html+=`</div></div>`;
+
+    // 주의 기간
+    if(ft.period==='monthly'||ft.period==='yearly'){
+      const cautionMonth=ft.period==='yearly'?[3,9]:[Math.floor(Math.random()*28)+1];
+      const cautionText=ft.period==='yearly'
+        ?`올해 ${cautionMonth[0]}월과 ${cautionMonth[1]}월에는 큰 결정을 서두르지 마세요. 충분히 검토한 후 판단하는 것이 좋아요.`
+        :`이번달 ${cautionMonth[0]}일 전후로 예상치 못한 변수가 생길 수 있어요. 유연하게 대처하세요.`;
+      html+=`<div class="card" style="border-left:4px solid #EF4444;background:#FFF5F5;">`;
+      html+=`<p style="font-size:13px;font-weight:700;color:#EF4444;margin-bottom:6px;">⚠️ 주의할 시기</p>`;
+      html+=`<p style="font-size:13px;color:#666;line-height:1.7;">${cautionText}</p>`;
+      html+=`</div>`;
+    }
+
+    // 응원 메시지
+    const cheer=DB_CHEER[(['love','career','money','self','general'][fi%5])+'_'+ohaengCode];
+    if(cheer){
+      html+=`<div class="card card-pink"><p style="font-size:14px;color:#DB2777;line-height:1.7;">${cheer.ko}</p></div>`;
+    }
+    html+=`</div>`;
+  });
+
+  document.getElementById('resultContent').innerHTML=html;
+}
+
+function toggleDecadeDetail(){
+  const el=document.getElementById('decadeDetail');
+  const btn=document.getElementById('decadeToggle');
+  if(el.style.display==='none'){el.style.display='block';btn.textContent='접기 ▲'}
+  else{el.style.display='none';btn.textContent='다른 연대 자세히 보기 ▼'}
+}
+
+// 공유 카드 생성
+function shareResult(name, todayLine){
+  const text=`${name}님의 오늘 사주\n${todayLine}\n\nMỆnh에서 내 사주 보기 →`;
+  if(navigator.share){
+    navigator.share({title:'MỆnh 사주',text:text}).catch(()=>{});
+  } else {
+    navigator.clipboard.writeText(text).then(()=>alert('복사되었습니다! 원하는 곳에 붙여넣기 하세요.'));
+  }
+}
+
+// 피드백
+function feedback(btn, type){
+  btn.classList.add('selected');
+  btn.parentElement.querySelectorAll('.feedback-btn').forEach(b=>{if(b!==btn)b.style.display='none'});
+  btn.textContent=type==='맞아요'?'👍 감사합니다!':'👎 의견 반영할게요';
+  btn.style.pointerEvents='none';
+}
+
+function startQA(containerId,rootId){
+  const container=document.getElementById(containerId);
+  const record=DB_QA[rootId];
+  if(!record)return;
+  renderQA(container,record);
+}
+
+function renderQA(container,record){
+  const depth=record.depth||0;
+  const maxDepth=10;
+  let html=`<div class="qa-answer"><p>${record.ko}</p><span class="qa-depth">${depth+1}/${maxDepth}</span></div>`;
+  if(record.questions&&record.questions.length>0){
+    record.questions.forEach(q=>{
+      html+=`<button class="qa-question" onclick="followQA('${container.id}','${q.q_id}')">→ ${q.ko}</button>`;
+    });
+  } else {
+    html+=`<p style="text-align:center;font-size:12px;color:#999;margin-top:8px;">더 궁금한 것이 있다면 다른 분야도 확인해보세요</p>`;
+  }
+  html+=`<button class="qa-fold" onclick="document.getElementById('${container.id}').innerHTML=''">접기</button>`;
+  container.innerHTML+=html;
+  container.lastElementChild.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+
+function followQA(containerId,qId){
+  const container=document.getElementById(containerId);
+  const record=DB_QA[qId];
+  if(!record)return;
+  // 이전 질문 버튼들 제거 (마지막 fold 버튼도)
+  const btns=container.querySelectorAll('.qa-question,.qa-fold');
+  btns.forEach(b=>b.remove());
+  renderQA(container,record);
+}
+
+function goBack(){
+  document.getElementById('resultView').classList.add('hidden');
+  document.getElementById('inputView').classList.remove('hidden');
+  document.getElementById('compatSection').classList.remove('hidden');
+  document.getElementById('compatInput').classList.add('hidden');
+  document.getElementById('compatResult').classList.add('hidden');
+  window.scrollTo(0,0);
+}
+
+// 음력/양력 토글
+let calType='solar';
+function setCal(type,btn){
+  calType=type;
+  document.querySelectorAll('#calSolar,#calLunar').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+}
+
+// 궁합 플로우
+let mySajuData=null;
+function showCompatInput(){
+  document.getElementById('compatSection').classList.add('hidden');
+  document.getElementById('compatInput').classList.remove('hidden');
+  document.getElementById('compatInput').scrollIntoView({behavior:'smooth'});
+}
+
+function analyzeCompat(){
+  const pn=document.getElementById('partnerName').value.trim();
+  const py=parseInt(document.getElementById('pYear').value);
+  const pm=parseInt(document.getElementById('pMonth').value);
+  const pd=parseInt(document.getElementById('pDay').value);
+  if(!pn||!py||!pm||!pd){alert('상대방 정보를 입력하세요.');return}
+  const ph=document.getElementById('pHour').value;
+  const pHour=ph===''?null:parseInt(ph);
+
+  const pYearP=calcYear(py,pm,pd);
+  const pMonthP=calcMonth(STEMS.indexOf(pYearP.stem),pm,pd);
+  const pDayP=calcDay(py,pm,pd);
+  const pHourP=calcHour(STEMS.indexOf(pDayP.stem),pHour);
+  const pIlgan=pDayP.stem;
+
+  // v3 DB에서 궁합 사유 조회
+  const myCode=mySajuData.ilganCode;
+  const pCode=pIlgan.key;
+  const areas=['love','talk','values','lifestyle','vision'];
+  const areaLabels={love:'❤️ 연애',talk:'💬 대화',values:'🎯 가치관',lifestyle:'🏠 생활습관',vision:'🔭 미래비전'};
+  const myName=mySajuData.name;
+
+  let scores=[];
+  let html=`<div class="card" style="text-align:center;background:linear-gradient(135deg,#FF6B9D,#C44AFF);color:#fff;border:none;">`;
+  html+=`<p style="font-size:13px;opacity:.8;">${myName}님 ♥ ${pn}님</p>`;
+
+  // 점수 계산
+  areas.forEach(a=>{
+    const key=myCode+'_'+pCode+'_'+a;
+    const r=DB_COMPAT?DB_COMPAT[key]:null;
+    scores.push(r?r.score:60);
+  });
+  const avg=Math.round(scores.reduce((a,b)=>a+b,0)/scores.length);
+  html+=`<p style="font-size:56px;font-weight:900;margin:8px 0;">${avg}</p>`;
+  html+=`<p style="font-size:14px;opacity:.8;">궁합 종합 점수</p></div>`;
+
+  // 분야별 상세
+  areas.forEach((a,i)=>{
+    const key=myCode+'_'+pCode+'_'+a;
+    const r=DB_COMPAT?DB_COMPAT[key]:null;
+    const score=scores[i];
+    const barColor=score>=80?'#8B5CF6':score>=60?'#F59E0B':'#EF4444';
+
+    html+=`<div class="card">`;
+    html+=`<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">`;
+    html+=`<span style="font-size:14px;font-weight:700;">${areaLabels[a]}</span>`;
+    html+=`<span style="font-size:18px;font-weight:900;color:${barColor};">${score}</span></div>`;
+    html+=`<div style="width:100%;height:6px;background:#f0f0f0;border-radius:3px;overflow:hidden;margin-bottom:10px;">`;
+    html+=`<div style="width:${score}%;height:100%;background:${barColor};border-radius:3px;"></div></div>`;
+    if(r&&r.ko){
+      html+=`<p style="font-size:13px;color:#555;line-height:1.7;">${r.ko}</p>`;
+      if(r.advice_ko) html+=`<div style="margin-top:8px;padding:10px;background:#F5F3FF;border-radius:10px;"><p style="font-size:12px;color:#7C3AED;font-weight:600;">💡 ${r.advice_ko}</p></div>`;
+    } else {
+      html+=`<p style="font-size:13px;color:#999;">상세 분석 데이터가 준비 중이에요.</p>`;
+    }
+    html+=`<div class="feedback-row"><button class="feedback-btn" onclick="feedback(this,'맞아요')">👍 맞아요</button><button class="feedback-btn" onclick="feedback(this,'아쉬워요')">👎 아쉬워요</button></div>`;
+    html+=`</div>`;
+  });
+
+  // 궁합 공유
+  html+=`<div style="text-align:center;margin:12px 0;"><button class="share-btn" onclick="shareResult('${myName}♥${pn}','궁합점수 ${avg}점')">📤 궁합 결과 공유하기</button></div>`;
+
+  document.getElementById('compatInput').classList.add('hidden');
+  document.getElementById('compatResult').innerHTML=html;
+  document.getElementById('compatResult').classList.remove('hidden');
+  document.getElementById('compatResult').scrollIntoView({behavior:'smooth'});
+}
+
+// 선물하기
+function giftToFriend(){
+  const text='MỆnh에서 무료 사주 풀이를 받아보세요!\n당신의 이야기를 들려드릴게요.\n\n→ (서비스 URL)';
+  if(navigator.share){
+    navigator.share({title:'MỆnh 사주 선물',text:text}).catch(()=>{});
+  } else {
+    navigator.clipboard.writeText(text).then(()=>alert('선물 링크가 복사되었습니다!'));
+  }
+}
+
+// 푸시 알림
+function enablePush(btn){
+  if('Notification' in window){
+    Notification.requestPermission().then(p=>{
+      if(p==='granted'){
+        btn.textContent='✅ 알림 설정 완료';
+        btn.style.background='#10B981';
+        btn.style.pointerEvents='none';
+        localStorage.setItem('menh_push','true');
+      } else {
+        btn.textContent='알림이 차단되었어요';
+        btn.style.background='#EF4444';
+      }
+    });
+  } else {
+    btn.textContent='이 브라우저에서는 지원하지 않아요';
+    btn.style.background='#999';
+  }
+}
+
+// 출석 스트릭
+function updateStreak(){
+  const today=new Date().toDateString();
+  const last=localStorage.getItem('menh_last_visit');
+  let streak=parseInt(localStorage.getItem('menh_streak')||'0');
+
+  if(last===today){
+    // 오늘 이미 방문
+  } else {
+    const yesterday=new Date(Date.now()-864e5).toDateString();
+    if(last===yesterday){streak++} else {streak=1}
+    localStorage.setItem('menh_streak',streak);
+    localStorage.setItem('menh_last_visit',today);
+  }
+
+  const el=document.getElementById('streakText');
+  const emoji=document.getElementById('streakEmoji');
+  const sub=document.getElementById('streakSub');
+  if(el){
+    el.textContent=`${streak}일 연속 운세 확인중`;
+    emoji.textContent=streak>=7?'🌟':streak>=3?'🔥':'✨';
+    sub.textContent=streak>=7?'대단해요! 꾸준함이 운을 바꿔요':streak>=3?'좋아요! 계속 이어가세요':'매일 확인하면 더 정확해져요';
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+/* MỆnh v2 — 5카드 스토리 레이아웃 */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;900&display=swap');
+
+:root {
+  --bg: #F5F3FA;
+  --card: #FFFFFF;
+  --text: #2A2440;
+  --sub: #7B7394;
+  --dim: #AEA8C4;
+  --accent: #6C4FE0;
+  --accent-light: #EDE8FF;
+  --accent-glow: rgba(108,79,224,0.12);
+  --gold: #D4A843;
+  --gold-light: #FFF8EC;
+  --pink: #F06292;
+  --green: #43A047;
+  --green-light: #E8F5E9;
+  --border: #E8E4F2;
+  --r: 20px;
+  --r-sm: 14px;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'Be Vietnam Pro', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 440px; margin: 0 auto; padding: 0 16px 120px; }
+
+/* 헤더 */
+.hdr {
+  text-align: center;
+  padding: 36px 0 24px;
+}
+.hdr h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--accent);
+  letter-spacing: 4px;
+}
+.hdr p { font-size: 13px; color: var(--sub); margin-top: 4px; }
+.lang-row {
+  display: flex; justify-content: center; gap: 6px; margin-top: 12px;
+}
+.lang-btn {
+  padding: 5px 16px; border-radius: 20px; border: 1px solid var(--border);
+  background: #fff; color: var(--dim); font-size: 12px; cursor: pointer;
+  font-family: inherit; transition: all .2s;
+}
+.lang-btn.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+/* 화면 전환 */
+.scr { display: none; }
+.scr.on { display: block; }
+
+/* 카드 공통 */
+.cd {
+  background: var(--card);
+  border-radius: var(--r);
+  padding: 24px 22px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,.04);
+}
+.cd-t {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.cd-body {
+  font-size: 15.5px;
+  line-height: 1.8;
+  color: var(--text);
+  word-break: keep-all;
+}
+.cd-kw {
+  display: flex; gap: 6px; margin-top: 14px; flex-wrap: wrap;
+}
+.kw {
+  padding: 4px 12px; border-radius: 20px; font-size: 12px;
+  font-weight: 600; background: var(--accent-light); color: var(--accent);
+}
+
+/* 입력 폼 */
+.form-title { font-size: 20px; font-weight: 800; color: var(--text); margin-bottom: 4px; }
+.form-sub { font-size: 13px; color: var(--dim); margin-bottom: 20px; }
+.row { display: flex; gap: 10px; margin-bottom: 14px; }
+.grp { flex: 1; }
+.grp label { display: block; font-size: 11px; color: var(--sub); margin-bottom: 5px; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; }
+.grp input, .grp select {
+  width: 100%; padding: 13px 14px; border-radius: var(--r-sm);
+  border: 1.5px solid var(--border); background: #FAFAFE; color: var(--text);
+  font-size: 15px; font-family: inherit; outline: none; transition: .2s;
+}
+.grp input:focus, .grp select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
+.gen-row { display: flex; gap: 10px; margin-bottom: 18px; }
+.gen-btn {
+  flex: 1; padding: 13px; border-radius: var(--r-sm); border: 1.5px solid var(--border);
+  background: #FAFAFE; color: var(--dim); font-size: 14px; font-weight: 500;
+  cursor: pointer; text-align: center; font-family: inherit; transition: .2s;
+}
+.gen-btn.on { border-color: var(--accent); color: var(--accent); background: var(--accent-light); font-weight: 700; }
+.btn {
+  width: 100%; padding: 16px; border-radius: var(--r-sm); border: none;
+  background: var(--accent); color: #fff; font-size: 15px; font-weight: 700;
+  cursor: pointer; font-family: inherit; transition: .15s;
+  box-shadow: 0 4px 15px var(--accent-glow);
+}
+.btn:active { transform: scale(.97); }
+
+/* 상황 선택 그리드 */
+.sit-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 14px; }
+.sit-btn {
+  padding: 18px 14px; border-radius: var(--r); border: 1.5px solid var(--border);
+  background: var(--card); text-align: center; cursor: pointer; transition: .2s;
+  box-shadow: 0 1px 6px rgba(0,0,0,.03);
+}
+.sit-btn:hover { border-color: var(--accent); box-shadow: 0 2px 12px var(--accent-glow); }
+.sit-btn .icon { font-size: 28px; margin-bottom: 6px; }
+.sit-btn .label { font-size: 14px; font-weight: 600; color: var(--text); }
+
+/* 결과 5카드 */
+.card-intro { border-left: 4px solid var(--accent); }
+.card-ilgan { border-left: 4px solid var(--gold); }
+.card-combo { border-left: 4px solid var(--green); }
+.card-today {
+  background: var(--accent);
+  color: #fff;
+  text-align: center;
+  padding: 28px 22px;
+}
+.card-today .cd-t { color: rgba(255,255,255,.7); }
+.card-today .cd-body { color: #fff; font-size: 18px; font-weight: 600; }
+.card-cheer {
+  background: var(--gold-light);
+  border: 1px solid rgba(212,168,67,.2);
+  text-align: center;
+}
+.card-cheer .cd-body { color: var(--gold); font-weight: 600; font-size: 15px; }
+
+/* 에너지 뱃지 */
+.energy-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 700;
+  margin-top: 12px;
+}
+.energy-up { background: var(--green-light); color: var(--green); }
+.energy-stable { background: #E3F2FD; color: #1565C0; }
+.energy-change { background: #FFF3E0; color: #EF6C00; }
+.energy-rest { background: #F3E5F5; color: #7B1FA2; }
+
+/* 액션 박스 */
+.action-box {
+  margin-top: 14px; padding: 14px 16px; border-radius: var(--r-sm);
+  background: var(--accent-light); font-size: 14px; font-weight: 600;
+  color: var(--accent);
+}
+
+/* 사주원국 미니 */
+.mini-pillars {
+  display: flex; justify-content: center; gap: 12px;
+  margin-bottom: 16px; padding: 14px 0;
+}
+.mini-p {
+  text-align: center;
+}
+.mini-p .hz {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px; font-weight: 900; line-height: 1.3;
+}
+.mini-p .lbl { font-size: 10px; color: var(--dim); margin-top: 2px; }
+
+/* 바텀 네비 */
+.bnav {
+  position: fixed; bottom: 0; left: 50%; transform: translateX(-50%);
+  width: 100%; max-width: 440px; background: #fff;
+  border-top: 1px solid var(--border);
+  display: flex; z-index: 100;
+  padding: 6px 0 env(safe-area-inset-bottom, 8px);
+  box-shadow: 0 -2px 10px rgba(0,0,0,.03);
+}
+.bnav-i {
+  flex: 1; display: flex; flex-direction: column; align-items: center; gap: 2px;
+  padding: 8px 4px; border: none; background: none; color: var(--dim);
+  font-family: inherit; font-size: 10px; font-weight: 500; cursor: pointer; transition: .2s;
+}
+.bnav-i.on { color: var(--accent); }
+.bnav-i .ni { font-size: 22px; }
+
+/* 로딩 */
+.ld { display:none; text-align:center; padding:40px; }
+.ld.on { display:block; }
+.dots { display:inline-flex; gap:8px; }
+.dots span { width:8px;height:8px;border-radius:50%;background:var(--accent);animation:b 1.2s infinite; }
+.dots span:nth-child(2){animation-delay:.2s}
+.dots span:nth-child(3){animation-delay:.4s}
+@keyframes b { 0%,80%,100%{transform:scale(.5);opacity:.3}40%{transform:scale(1);opacity:1} }
+
+@media(max-width:360px) { .sit-grid{grid-template-columns:1fr 1fr;} .mini-p .hz{font-size:18px} }

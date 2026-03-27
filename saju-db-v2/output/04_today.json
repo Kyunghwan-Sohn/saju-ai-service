@@ -1,0 +1,12 @@
+{
+  "0_mon": { "id": "0_mon", "gapja_index": 0, "gapja": "甲子", "weekday": "mon", "ko": "오늘은 새로 시작하기 딱 좋은 날이에요. 미뤄둔 그거, 오늘 그냥 시작해봐요.", "vi": "Hôm nay là ngày tuyệt vời để bắt đầu. Thứ bạn cứ trì hoãn ấy — hãy cứ bắt đầu thôi.", "type": "action" },
+  "0_tue": { "id": "0_tue", "gapja_index": 0, "gapja": "甲子", "weekday": "tue", "ko": "어제의 에너지가 이어지고 있어요. 오늘 결정한 건 꽤 좋은 결과로 이어져요.", "vi": "Năng lượng từ hôm qua vẫn tiếp tục. Quyết định hôm nay sẽ dẫn đến kết quả khá tốt đó.", "type": "energy" },
+  "0_wed": { "id": "0_wed", "gapja_index": 0, "gapja": "甲子", "weekday": "wed", "ko": "오늘은 사람 만남이 좋은 날이에요. 오랫동안 연락 안 했던 사람한테 먼저 연락해봐요.", "vi": "Hôm nay gặp gỡ mọi người sẽ tốt đó. Thử liên lạc với ai đó bạn lâu rồi chưa nói chuyện xem.", "type": "action" },
+  "0_thu": { "id": "0_thu", "gapja_index": 0, "gapja": "甲子", "weekday": "thu", "ko": "큰 결정은 내일로 미루세요. 오늘은 정보를 모으고 생각을 정리하는 날이에요.", "vi": "Hãy để quyết định lớn cho ngày mai. Hôm nay là ngày thu thập thông tin và sắp xếp suy nghĩ.", "type": "caution" },
+  "0_fri": { "id": "0_fri", "gapja_index": 0, "gapja": "甲子", "weekday": "fri", "ko": "이번 주 수고했어요. 오늘은 다음 주 계획보다 지금 이 순간 쉬는 게 먼저예요.", "vi": "Bạn đã cố gắng cả tuần rồi. Hôm nay, hãy nghỉ ngơi trước khi nghĩ đến tuần tới.", "type": "comfort" },
+  "0_sat": { "id": "0_sat", "gapja_index": 0, "gapja": "甲子", "weekday": "sat", "ko": "아무것도 안 해도 괜찮은 날이에요. 그냥 좋아하는 거 하면서 보내세요.", "vi": "Không làm gì cũng được hôm nay. Cứ làm những gì bạn thích nhé.", "type": "comfort" },
+  "0_sun": { "id": "0_sun", "gapja_index": 0, "gapja": "甲子", "weekday": "sun", "ko": "내일부터 새로운 한 주가 시작돼요. 오늘은 마음의 배터리를 충전하는 날이에요.", "vi": "Tuần mới bắt đầu từ ngày mai. Hôm nay là ngày sạc pin cho tâm hồn.", "type": "comfort" },
+  "1_mon": { "id": "1_mon", "gapja_index": 1, "gapja": "乙丑", "weekday": "mon", "ko": "월요일이지만 무리하지 마세요. 오늘은 천천히 워밍업하는 날이에요.", "vi": "Dù là thứ Hai nhưng đừng ép mình. Hôm nay cứ khởi động từ từ thôi.", "type": "comfort" },
+  "1_tue": { "id": "1_tue", "gapja_index": 1, "gapja": "乙丑", "weekday": "tue", "ko": "오늘은 주변 사람에게 고마움을 표현하기 좋은 날이에요. 작은 한마디가 큰 힘이 돼요.", "vi": "Hôm nay là ngày tốt để thể hiện lòng biết ơn. Một lời nhỏ cũng mang sức mạnh lớn.", "type": "action" },
+  "1_wed": { "id": "1_wed", "gapja_index": 1, "gapja": "乙丑", "weekday": "wed", "ko": "감정이 흔들릴 수 있는 날이에요. 중요한 대화는 내일로 미루는 게 나아요.", "vi": "Hôm nay cảm xúc có thể dao động. Tốt hơn hết hãy để cuộc trò chuyện quan trọng cho ngày mai.", "type": "caution" }
+}

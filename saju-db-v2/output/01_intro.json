@@ -1,0 +1,27 @@
+{
+  "love_gap": {
+    "id": "love_gap", "situation": "love", "ilgan": "甲",
+    "ko": "마음을 주기로 결심하면 온 힘을 다하는데, 상대방이 애매하게 굴면 확 떠나고 싶어지는 편이죠? 연애에서도 주도권을 갖고 싶은데, 그게 잘 안 될 때 유독 답답한 분이에요.",
+    "vi": "Khi đã quyết tâm trao tình cảm, bạn dốc hết tâm sức — nhưng khi đối phương tỏ ra mơ hồ thì lại muốn rời đi ngay? Bạn muốn chủ động trong tình yêu, và khi điều đó không được như ý thì rất bức bối."
+  },
+  "love_eul": {
+    "id": "love_eul", "situation": "love", "ilgan": "乙",
+    "ko": "겉으로는 괜찮은 척하면서 속으로 엄청 신경 쓰고 있죠? 상대의 작은 표정 변화도 놓치지 않는데, 정작 내 마음은 말 못 하고 삭히는 편이에요.",
+    "vi": "Bề ngoài tỏ ra ổn nhưng bên trong thì lo lắng ghê lắm, đúng không? Bạn không bỏ sót cả những thay đổi nhỏ trên gương mặt đối phương, nhưng lại giấu kín cảm xúc của mình."
+  },
+  "career_gap": {
+    "id": "career_gap", "situation": "career", "ilgan": "甲",
+    "ko": "회사에서 내 의견이 무시당하면 참기 힘든 타입이죠? 뭔가를 시작하면 끝을 봐야 직성이 풀리는데, 주변에서 자꾸 브레이크를 거는 느낌이에요.",
+    "vi": "Ở công ty, khi ý kiến bị phớt lờ thì bạn khó chịu lắm phải không? Khi đã bắt tay vào việc gì thì phải làm đến cùng mới chịu, nhưng cứ bị mọi người xung quanh cản lại."
+  },
+  "career_eul": {
+    "id": "career_eul", "situation": "career", "ilgan": "乙",
+    "ko": "직장에서 분위기 파악은 누구보다 빠른데, 정작 하고 싶은 말은 꾹 참고 있지 않나요? 갈등을 피하려다 보니 내 커리어도 함께 숨어버리는 느낌이에요.",
+    "vi": "Ở công ty bạn đọc không khí nhanh hơn ai hết, nhưng lại nuốt hết những gì muốn nói? Vì tránh xung đột mà sự nghiệp của mình cũng bị ẩn đi luôn."
+  },
+  "money_gap": {
+    "id": "money_gap", "situation": "money", "ilgan": "甲",
+    "ko": "돈을 쓸 때도 결정이 빠른 편이죠? 계획 없이 큰 지출을 하기도 하고, 반대로 아낄 때는 확실하게 아끼는 극과 극 스타일이에요.",
+    "vi": "Khi tiêu tiền, bạn quyết định rất nhanh phải không? Đôi khi chi lớn không có kế hoạch, nhưng khi tiết kiệm thì cũng triệt để — kiểu cực đoan luôn."
+  }
+}

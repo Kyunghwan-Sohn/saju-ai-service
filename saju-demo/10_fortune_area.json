@@ -1,0 +1,1502 @@
+{
+  "gap_daily_love": {
+    "id": "gap_daily_love",
+    "ilgan": "gap",
+    "period": "daily",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "오늘 연애 분야에서는 이런 흐름이에요. 혹시 연애할 때 내가 주도권을 잡아야 직성이 풀리는 편이죠? 추진력이 강한 만큼 상대방이 따라오길 바라다가 답답함을 느끼는 분이에요. 연애할 때 이 사람은 진짜 온 마음을 다하는 스타일이에요. 좋아하면 바로 티 내고, 먼저 고백하고, 관계를 이끌어가는 편이거든요. 주도적으로 데이트를 계획하고 상대방을 챙기는 게 자연스러운 사람이에요. 한번 마음을 줬다 하면 쉽게 안 변하고, 끝까지 책임지려는 모습도",
+    "vi": "Hôm nay trong lĩnh vực Tình duyên: Bạn có xu hướng phải nắm quyền chủ động trong chuyện tình cảm mới thấy ổn không? Vì bản lĩnh mạnh mẽ, bạn hay kỳ vọng đối phương theo kịp mình và dễ cảm thấy bí bách khi họ không làm được vậy đó. Bạn là người yêu hết mình, không giấu giếm gì đâu nha. Thích ai là dám nói thẳng, dám chủ động dẫn dắt mối quan hệ đó. Bạn hay lên kế hoạch hẹn hò, ch"
+  },
+  "gap_daily_career": {
+    "id": "gap_daily_career",
+    "ilgan": "gap",
+    "period": "daily",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "오늘 직업 분야에서는 이런 흐름이에요. 혹시 일할 때 남이 시키는 대로 따르기보다 내가 방향을 정하고 싶은 편이죠? 리더십이 강한 만큼 지시를 받는 환경에서 유독 답답함을 느끼는 분이에요. 일할 때 이 사람은 누가 시키는 거보다 내가 이끄는 걸 훨씬 더 잘하는 스타일이에요. 목표가 생기면 거침없이 달려가고, 팀에서 자연스럽게 중심이 되는 편이거든요. 새로운 프로젝트나 도전적인 일을 맡겼을 때 진짜 빛을 발해요. 어려운 상황에서도 포기하지 않고 끝까지 밀고",
+    "vi": "Hôm nay trong lĩnh vực Sự nghiệp: Bạn có thích tự mình định hướng công việc hơn là làm theo chỉ đạo của người khác không? Vì bản năng lãnh đạo mạnh, bạn hay cảm thấy bức bối trong môi trường phải tuân theo mệnh lệnh đó. Bạn làm việc tốt nhất khi được dẫn dắt, không phải khi bị sai khiến đâu nha. Có mục tiêu là lao thẳng vào, tự nhiên trở thành trung tâm của nhóm lúc n"
+  },
+  "gap_daily_money": {
+    "id": "gap_daily_money",
+    "ilgan": "gap",
+    "period": "daily",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "오늘 재물 분야에서는 이런 흐름이에요. 혹시 돈을 버는 방식에서도 내가 직접 주도하고 결정하고 싶은 편이죠? 추진력이 강한 만큼 사업이나 독립적인 수입을 꿈꾸지만 리스크 관리가 약한 분이에요. 돈에 관해서 이 사람은 크게 벌고 크게 쓰는 스타일이에요. 소심하게 아끼는 것보다 과감하게 투자하고 기회를 잡는 걸 더 잘하거든요. 한번 확신이 생기면 망설임 없이 실행하는 결단력이 있어서 타이밍을 잘 잡아요. 수입을 늘리는 방향으로 생각하는 게 자연스럽고, 새로운 수",
+    "vi": "Hôm nay trong lĩnh vực Tài lộc: Bạn có muốn tự mình quyết định và dẫn dắt cách kiếm tiền không? Vì bản lĩnh mạnh mẽ, bạn hay mơ đến kinh doanh hay thu nhập độc lập, nhưng lại hay yếu về quản lý rủi ro đó. Bạn thuộc kiểu kiếm lớn tiêu lớn đó. Thay vì chi li từng đồng, bạn giỏi đầu tư mạo hiểm và chớp cơ hội hơn. Một khi đã chắc chắn điều gì, bạn hành độn"
+  },
+  "gap_daily_self": {
+    "id": "gap_daily_self",
+    "ilgan": "gap",
+    "period": "daily",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "오늘 자기관리 분야에서는 이런 흐름이에요. 혹시 강한 추진력과 고집 때문에 남들이 벽을 느낀다는 말을 들어본 적 있는 편이죠? 리더십이 장점이지만 유연함이 부족해서 관계에서 고립감을 느끼는 분이에요. 이 사람은 자기 자신에 대한 기준이 되게 높아요. 스스로에게 엄격하고 항상 더 잘하고 싶다는 욕구가 강하거든요. 목표를 세우면 반드시 이루고야 말겠다는 의지가 있고, 남들이 포기할 때도 혼자 계속 밀고 나가는 편이에요. 자기 주관이 뚜렷하고 흔들리지 않는 중심이 있어요",
+    "vi": "Hôm nay trong lĩnh vực Bản thân: Bạn có từng nghe người ta nói rằng sự quyết đoán và cứng đầu của bạn khiến họ cảm thấy khó gần không? Khả năng lãnh đạo là điểm mạnh nhưng thiếu linh hoạt dễ khiến bạn cảm thấy cô lập trong các mối quan hệ đó. Bạn đặt tiêu chuẩn rất cao cho bản thân đó. Luôn nghiêm khắc với mình và không ngừng muốn làm tốt hơn. Đặt mục tiêu là phải đạt được bằng được, khi ng"
+  },
+  "gap_daily_general": {
+    "id": "gap_daily_general",
+    "ilgan": "gap",
+    "period": "daily",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "오늘 인생 전반 분야에서는 이런 흐름이에요. 혹시 살면서 내가 원하는 방향대로 밀고 나가다가 주변과 부딪히는 일이 잦은 편이죠? 강한 추진력과 고집이 때로는 삶의 큰 저항으로 돌아오는 분이에요. 이 사람의 인생 전반을 보면 한마디로 '뚝심'이에요. 한번 방향을 정하면 웬만해선 안 바꾸고, 어떤 상황에서도 포기라는 단어가 잘 없거든요. 주변 사람들한테 자연스럽게 믿음을 주고, 힘든 순간에 함께 있어주는 사람이에요. 새로운 길을 개척하는 것에 두려움이 없고, 오히",
+    "vi": "Hôm nay trong lĩnh vực Tổng quát: Bạn có thường xuyên va chạm với người xung quanh vì hay đẩy mọi thứ theo hướng bạn muốn không? Sức bật mạnh mẽ và sự kiên định đôi khi lại tạo ra những trở lực lớn trong cuộc sống của bạn đó. Nhìn tổng thể cuộc đời bạn, một chữ thôi: kiên định. Đã chọn hướng là hiếm khi thay đổi, và từ bỏ gần như không có trong từ điển của bạn đó. Bạn tự nh"
+  },
+  "gap_monthly_love": {
+    "id": "gap_monthly_love",
+    "ilgan": "gap",
+    "period": "monthly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "이번달 연애 분야의 흐름입니다. 연애할 때 이 사람은 진짜 온 마음을 다하는 스타일이에요. 좋아하면 바로 티 내고, 먼저 고백하고, 관계를 이끌어가는 편이거든요. 주도적으로 데이트를 계획하고 상대방을 챙기는 게 자연스러운 사람이에요. 한번 마음을 줬다 하면 쉽게 안 변하고, 끝까지 책임지려는 모습도 있어요. 근데 가끔 내 방식이 무조건 맞다고 밀어붙이다가 상대가 숨막혀할 수 있거든요. 사",
+    "vi": "Tháng này xu hướng Tình duyên: Bạn là người yêu hết mình, không giấu giếm gì đâu nha. Thích ai là dám nói thẳng, dám chủ động dẫn dắt mối quan hệ đó. Bạn hay lên kế hoạch hẹn hò, chăm sóc đối phương một cách tự nhiên như hít thở vậ"
+  },
+  "gap_monthly_career": {
+    "id": "gap_monthly_career",
+    "ilgan": "gap",
+    "period": "monthly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "이번달 직업 분야의 흐름입니다. 일할 때 이 사람은 누가 시키는 거보다 내가 이끄는 걸 훨씬 더 잘하는 스타일이에요. 목표가 생기면 거침없이 달려가고, 팀에서 자연스럽게 중심이 되는 편이거든요. 새로운 프로젝트나 도전적인 일을 맡겼을 때 진짜 빛을 발해요. 어려운 상황에서도 포기하지 않고 끝까지 밀고 나가는 추진력이 있어요. 다만 혼자 다 하려는 성향이 강해서 팀원들이 끼어들 틈이 없다고",
+    "vi": "Tháng này xu hướng Sự nghiệp: Bạn làm việc tốt nhất khi được dẫn dắt, không phải khi bị sai khiến đâu nha. Có mục tiêu là lao thẳng vào, tự nhiên trở thành trung tâm của nhóm lúc nào không hay. Giao cho bạn dự án mới hay thử thách"
+  },
+  "gap_monthly_money": {
+    "id": "gap_monthly_money",
+    "ilgan": "gap",
+    "period": "monthly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "이번달 재물 분야의 흐름입니다. 돈에 관해서 이 사람은 크게 벌고 크게 쓰는 스타일이에요. 소심하게 아끼는 것보다 과감하게 투자하고 기회를 잡는 걸 더 잘하거든요. 한번 확신이 생기면 망설임 없이 실행하는 결단력이 있어서 타이밍을 잘 잡아요. 수입을 늘리는 방향으로 생각하는 게 자연스럽고, 새로운 수익 기회에도 열려있어요. 근데 너무 자신감이 넘쳐서 리스크를 과소평가하는 경우가 있거든요.",
+    "vi": "Tháng này xu hướng Tài lộc: Bạn thuộc kiểu kiếm lớn tiêu lớn đó. Thay vì chi li từng đồng, bạn giỏi đầu tư mạo hiểm và chớp cơ hội hơn. Một khi đã chắc chắn điều gì, bạn hành động ngay không do dự — nhờ vậy thường bắt đúng thời"
+  },
+  "gap_monthly_self": {
+    "id": "gap_monthly_self",
+    "ilgan": "gap",
+    "period": "monthly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "이번달 자기관리 분야의 흐름입니다. 이 사람은 자기 자신에 대한 기준이 되게 높아요. 스스로에게 엄격하고 항상 더 잘하고 싶다는 욕구가 강하거든요. 목표를 세우면 반드시 이루고야 말겠다는 의지가 있고, 남들이 포기할 때도 혼자 계속 밀고 나가는 편이에요. 자기 주관이 뚜렷하고 흔들리지 않는 중심이 있어요. 근데 그 높은 기준 때문에 스스로를 너무 몰아붙여서 지치는 경우가 많아요. 조금 못해도",
+    "vi": "Tháng này xu hướng Bản thân: Bạn đặt tiêu chuẩn rất cao cho bản thân đó. Luôn nghiêm khắc với mình và không ngừng muốn làm tốt hơn. Đặt mục tiêu là phải đạt được bằng được, khi người khác bỏ cuộc thì bạn vẫn tiếp tục một mình. Bạ"
+  },
+  "gap_monthly_general": {
+    "id": "gap_monthly_general",
+    "ilgan": "gap",
+    "period": "monthly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "이번달 인생 전반 분야의 흐름입니다. 이 사람의 인생 전반을 보면 한마디로 '뚝심'이에요. 한번 방향을 정하면 웬만해선 안 바꾸고, 어떤 상황에서도 포기라는 단어가 잘 없거든요. 주변 사람들한테 자연스럽게 믿음을 주고, 힘든 순간에 함께 있어주는 사람이에요. 새로운 길을 개척하는 것에 두려움이 없고, 오히려 그 상황을 즐기는 편이에요. 근데 고집이 너무 강해서 좋은 조언도 흘려듣는 경우가 있어",
+    "vi": "Tháng này xu hướng Tổng quát: Nhìn tổng thể cuộc đời bạn, một chữ thôi: kiên định. Đã chọn hướng là hiếm khi thay đổi, và từ bỏ gần như không có trong từ điển của bạn đó. Bạn tự nhiên tạo được lòng tin với mọi người xung quanh, và"
+  },
+  "gap_yearly_love": {
+    "id": "gap_yearly_love",
+    "ilgan": "gap",
+    "period": "yearly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "올해 연애 분야의 큰 방향이에요. 연애할 때 이 사람은 진짜 온 마음을 다하는 스타일이에요. 좋아하면 바로 티 내고, 먼저 고백하고, 관계를 이끌어가는 편이거든요. 주도적으로 데이트를 계획하고 상대방을 챙기는 게 자연스러운 사람이에요. 한번 마음을 줬다 하면 쉽게 안 변하고, 끝까지 책임지려는 모습도 있어요. 근데 가끔 내 방식이 무조건 맞다고 밀어붙이다가 상대가 숨막혀할 수 있거든요. 사",
+    "vi": "Năm nay hướng đi lớn Tình duyên: Bạn là người yêu hết mình, không giấu giếm gì đâu nha. Thích ai là dám nói thẳng, dám chủ động dẫn dắt mối quan hệ đó. Bạn hay lên kế hoạch hẹn hò, chăm sóc đối phương một cách tự nhiên như hít thở vậ"
+  },
+  "gap_yearly_career": {
+    "id": "gap_yearly_career",
+    "ilgan": "gap",
+    "period": "yearly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "올해 직업 분야의 큰 방향이에요. 일할 때 이 사람은 누가 시키는 거보다 내가 이끄는 걸 훨씬 더 잘하는 스타일이에요. 목표가 생기면 거침없이 달려가고, 팀에서 자연스럽게 중심이 되는 편이거든요. 새로운 프로젝트나 도전적인 일을 맡겼을 때 진짜 빛을 발해요. 어려운 상황에서도 포기하지 않고 끝까지 밀고 나가는 추진력이 있어요. 다만 혼자 다 하려는 성향이 강해서 팀원들이 끼어들 틈이 없다고",
+    "vi": "Năm nay hướng đi lớn Sự nghiệp: Bạn làm việc tốt nhất khi được dẫn dắt, không phải khi bị sai khiến đâu nha. Có mục tiêu là lao thẳng vào, tự nhiên trở thành trung tâm của nhóm lúc nào không hay. Giao cho bạn dự án mới hay thử thách"
+  },
+  "gap_yearly_money": {
+    "id": "gap_yearly_money",
+    "ilgan": "gap",
+    "period": "yearly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "올해 재물 분야의 큰 방향이에요. 돈에 관해서 이 사람은 크게 벌고 크게 쓰는 스타일이에요. 소심하게 아끼는 것보다 과감하게 투자하고 기회를 잡는 걸 더 잘하거든요. 한번 확신이 생기면 망설임 없이 실행하는 결단력이 있어서 타이밍을 잘 잡아요. 수입을 늘리는 방향으로 생각하는 게 자연스럽고, 새로운 수익 기회에도 열려있어요. 근데 너무 자신감이 넘쳐서 리스크를 과소평가하는 경우가 있거든요.",
+    "vi": "Năm nay hướng đi lớn Tài lộc: Bạn thuộc kiểu kiếm lớn tiêu lớn đó. Thay vì chi li từng đồng, bạn giỏi đầu tư mạo hiểm và chớp cơ hội hơn. Một khi đã chắc chắn điều gì, bạn hành động ngay không do dự — nhờ vậy thường bắt đúng thời"
+  },
+  "gap_yearly_self": {
+    "id": "gap_yearly_self",
+    "ilgan": "gap",
+    "period": "yearly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "올해 자기관리 분야의 큰 방향이에요. 이 사람은 자기 자신에 대한 기준이 되게 높아요. 스스로에게 엄격하고 항상 더 잘하고 싶다는 욕구가 강하거든요. 목표를 세우면 반드시 이루고야 말겠다는 의지가 있고, 남들이 포기할 때도 혼자 계속 밀고 나가는 편이에요. 자기 주관이 뚜렷하고 흔들리지 않는 중심이 있어요. 근데 그 높은 기준 때문에 스스로를 너무 몰아붙여서 지치는 경우가 많아요. 조금 못해도",
+    "vi": "Năm nay hướng đi lớn Bản thân: Bạn đặt tiêu chuẩn rất cao cho bản thân đó. Luôn nghiêm khắc với mình và không ngừng muốn làm tốt hơn. Đặt mục tiêu là phải đạt được bằng được, khi người khác bỏ cuộc thì bạn vẫn tiếp tục một mình. Bạ"
+  },
+  "gap_yearly_general": {
+    "id": "gap_yearly_general",
+    "ilgan": "gap",
+    "period": "yearly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "올해 인생 전반 분야의 큰 방향이에요. 이 사람의 인생 전반을 보면 한마디로 '뚝심'이에요. 한번 방향을 정하면 웬만해선 안 바꾸고, 어떤 상황에서도 포기라는 단어가 잘 없거든요. 주변 사람들한테 자연스럽게 믿음을 주고, 힘든 순간에 함께 있어주는 사람이에요. 새로운 길을 개척하는 것에 두려움이 없고, 오히려 그 상황을 즐기는 편이에요. 근데 고집이 너무 강해서 좋은 조언도 흘려듣는 경우가 있어",
+    "vi": "Năm nay hướng đi lớn Tổng quát: Nhìn tổng thể cuộc đời bạn, một chữ thôi: kiên định. Đã chọn hướng là hiếm khi thay đổi, và từ bỏ gần như không có trong từ điển của bạn đó. Bạn tự nhiên tạo được lòng tin với mọi người xung quanh, và"
+  },
+  "eul_daily_love": {
+    "id": "eul_daily_love",
+    "ilgan": "eul",
+    "period": "daily",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "오늘 연애 분야에서는 이런 흐름이에요. 혹시 연애할 때 하고 싶은 말을 속으로만 삼키다가 지치는 편이죠? 눈치가 빠른 만큼 상대 기분에 맞춰주다가 정작 내 감정은 쌓아두게 되는 분이에요. 연애할 때 이 사람은 상대방의 기분을 귀신같이 읽어요. 분위기 파악이 빠르고, 상대가 뭘 원하는지 말 안 해도 어느 정도 아는 편이거든요. 부드럽게 맞춰주면서도 내 방식대로 관계를 조용히 이끌어가는 능력이 있어요. 갈등 상황에서도 직접 부딪히기보다는 유연하게 돌아가는",
+    "vi": "Hôm nay trong lĩnh vực Tình duyên: Bạn có hay nuốt hết lời muốn nói vào trong lòng rồi âm thầm mệt mỏi không? Vì nhạy cảm với người khác, bạn thường chiều theo cảm xúc của đối phương và vô tình tích tụ cảm xúc của chính mình đó nha. Bạn đọc tâm trạng đối phương như thần đó. Nhạy bén với không khí, biết người kia muốn gì dù họ chưa nói ra. Bạn khéo léo chiều theo mà vẫn âm thầm dẫn"
+  },
+  "eul_daily_career": {
+    "id": "eul_daily_career",
+    "ilgan": "eul",
+    "period": "daily",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "오늘 직업 분야에서는 이런 흐름이에요. 혹시 직장에서 분위기를 빠르게 읽고 유연하게 적응하지만 정작 내 의견은 잘 못 내는 편이죠? 눈치가 너무 빠른 게 오히려 나를 작게 만드는 분이에요. 일할 때 이 사람은 어떤 환경에서도 빠르게 적응하는 능력이 진짜 강해요. 새로운 팀, 새로운 업무 방식도 금방 익히고, 사람들 사이에서 부드럽게 녹아드는 편이거든요. 눈치가 빠르기 때문에 상황을 정확하게 읽고 영리하게 움직여요. 직접 나서기보다는 뒤에서 전체를 조율하는",
+    "vi": "Hôm nay trong lĩnh vực Sự nghiệp: Bạn có hay đọc được không khí nơi làm việc và thích nghi linh hoạt nhưng lại khó nêu lên ý kiến của chính mình không? Sự nhạy cảm quá mức đôi khi lại khiến bạn thu mình lại đó nha. Bạn có khả năng thích nghi với mọi môi trường cực kỳ nhanh đó. Nhóm mới, cách làm việc mới — bạn quen ngay và hòa vào mọi người một cách mượt mà. Nhờ"
+  },
+  "eul_daily_money": {
+    "id": "eul_daily_money",
+    "ilgan": "eul",
+    "period": "daily",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "오늘 재물 분야에서는 이런 흐름이에요. 혹시 돈 관련 결정에서 상대방 눈치를 보다가 손해를 보는 경우가 있는 편이죠? 유연하게 상황에 맞추다 보니 정작 내 이익을 주장하기가 어려운 분이에요. 돈 관리에서 이 사람은 상황을 잘 읽고 유연하게 대처하는 편이에요. 무조건 한 방향으로 밀어붙이기보다는 상황에 맞게 조절하는 능력이 있거든요. 트렌드를 빠르게 파악하고, 새로운 재테크 방식도 열린 마음으로 받아들여요. 작은 기회도 놓치지 않는 섬세함이 있어요. 근데 결",
+    "vi": "Hôm nay trong lĩnh vực Tài lộc: Bạn có từng chịu thiệt trong quyết định tài chính vì quá để ý đến người khác không? Vì linh hoạt thích nghi với hoàn cảnh, bạn hay khó lên tiếng đòi quyền lợi cho chính mình đó nha. Bạn giỏi đọc tình hình và xử lý linh hoạt trong chuyện tiền bạc đó. Thay vì đâm đầu một hướng, bạn biết điều chỉnh theo hoàn cảnh. Nắm bắt xu hướng nh"
+  },
+  "eul_daily_self": {
+    "id": "eul_daily_self",
+    "ilgan": "eul",
+    "period": "daily",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "오늘 자기관리 분야에서는 이런 흐름이에요. 혹시 상황에 유연하게 맞추다 보니 정작 나는 어떤 사람인지 모르겠다는 생각이 드는 편이죠? 적응력이 너무 좋은 나머지 내 본모습을 잃어가고 있는 분이에요. 이 사람은 자기 자신에 대해 굉장히 많이 생각하는 편이에요. 겉으로는 괜찮아 보여도 속으로는 계속 자기 자신을 돌아보고 있거든요. 감수성이 풍부하고, 주변 상황이나 사람들의 감정을 흡수하는 능력이 있어요. 자기 페이스를 지키면서도 주변과 조화를 이루는 걸 중요하게 생각",
+    "vi": "Hôm nay trong lĩnh vực Bản thân: Bạn có đôi khi tự hỏi mình thực sự là ai sau khi liên tục thích nghi với mọi người xung quanh không? Khả năng thích nghi quá tốt đôi khi khiến bạn dần đánh mất con người thật của mình đó nha. Bạn là người suy nghĩ rất nhiều về bản thân mình đó. Dù bề ngoài có vẻ ổn, bên trong bạn vẫn không ngừng nhìn lại chính mình. Cảm xúc phong phú và có"
+  },
+  "eul_daily_general": {
+    "id": "eul_daily_general",
+    "ilgan": "eul",
+    "period": "daily",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "오늘 인생 전반 분야에서는 이런 흐름이에요. 혹시 삶 전반에서 주변에 맞춰주다 보니 내가 진짜 원하는 게 뭔지 모르게 된 편이죠? 유연하게 흘러온 삶이 어느 순간 방향을 잃은 느낌을 주는 분이에요. 이 사람의 인생을 보면 물처럼 흘러가는 스타일이에요. 강하게 부딪히는 대신 유연하게 돌아가면서 결국 원하는 곳에 도달하거든요. 어떤 환경에도 뿌리를 내리는 생명력이 있고, 사람들과의 관계를 소중히 여겨요. 조용하지만 영리하게 자기 자리를 만들어가는 능력이 있어요. 근데",
+    "vi": "Hôm nay trong lĩnh vực Tổng quát: Bạn có cảm thấy không còn biết mình thực sự muốn gì sau bao năm thích nghi theo người xung quanh không? Cuộc sống linh hoạt trôi theo dòng đôi khi khiến bạn cảm giác mình đang mất phương hướng đó nha. Cuộc đời bạn chảy như nước đó. Thay vì va chạm mạnh, bạn linh hoạt vòng qua và cuối cùng vẫn đến được nơi mình muốn. Bạn có sức sống bén rễ trong bất"
+  },
+  "eul_monthly_love": {
+    "id": "eul_monthly_love",
+    "ilgan": "eul",
+    "period": "monthly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "이번달 연애 분야의 흐름입니다. 연애할 때 이 사람은 상대방의 기분을 귀신같이 읽어요. 분위기 파악이 빠르고, 상대가 뭘 원하는지 말 안 해도 어느 정도 아는 편이거든요. 부드럽게 맞춰주면서도 내 방식대로 관계를 조용히 이끌어가는 능력이 있어요. 갈등 상황에서도 직접 부딪히기보다는 유연하게 돌아가는 길을 찾아요. 근데 속으로 쌓아두는 게 너무 많아요. 상처받아도 표현을 잘 안 하다가 어느",
+    "vi": "Tháng này xu hướng Tình duyên: Bạn đọc tâm trạng đối phương như thần đó. Nhạy bén với không khí, biết người kia muốn gì dù họ chưa nói ra. Bạn khéo léo chiều theo mà vẫn âm thầm dẫn dắt mối quan hệ theo cách của mình. Khi có mâu th"
+  },
+  "eul_monthly_career": {
+    "id": "eul_monthly_career",
+    "ilgan": "eul",
+    "period": "monthly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "이번달 직업 분야의 흐름입니다. 일할 때 이 사람은 어떤 환경에서도 빠르게 적응하는 능력이 진짜 강해요. 새로운 팀, 새로운 업무 방식도 금방 익히고, 사람들 사이에서 부드럽게 녹아드는 편이거든요. 눈치가 빠르기 때문에 상황을 정확하게 읽고 영리하게 움직여요. 직접 나서기보다는 뒤에서 전체를 조율하는 역할을 잘 해요. 근데 자기 의견을 너무 숨기다 보니 인정을 못 받는 경우도 있어요. 능",
+    "vi": "Tháng này xu hướng Sự nghiệp: Bạn có khả năng thích nghi với mọi môi trường cực kỳ nhanh đó. Nhóm mới, cách làm việc mới — bạn quen ngay và hòa vào mọi người một cách mượt mà. Nhờ nhạy bén, bạn đọc tình huống chính xác và hành độn"
+  },
+  "eul_monthly_money": {
+    "id": "eul_monthly_money",
+    "ilgan": "eul",
+    "period": "monthly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "이번달 재물 분야의 흐름입니다. 돈 관리에서 이 사람은 상황을 잘 읽고 유연하게 대처하는 편이에요. 무조건 한 방향으로 밀어붙이기보다는 상황에 맞게 조절하는 능력이 있거든요. 트렌드를 빠르게 파악하고, 새로운 재테크 방식도 열린 마음으로 받아들여요. 작은 기회도 놓치지 않는 섬세함이 있어요. 근데 결정하는 게 오래 걸리고, 이 방법 저 방법 기웃거리다가 타이밍을 놓치는 경우가 있어요. 확",
+    "vi": "Tháng này xu hướng Tài lộc: Bạn giỏi đọc tình hình và xử lý linh hoạt trong chuyện tiền bạc đó. Thay vì đâm đầu một hướng, bạn biết điều chỉnh theo hoàn cảnh. Nắm bắt xu hướng nhanh và cởi mở với các hình thức đầu tư mới. Cơ hội"
+  },
+  "eul_monthly_self": {
+    "id": "eul_monthly_self",
+    "ilgan": "eul",
+    "period": "monthly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "이번달 자기관리 분야의 흐름입니다. 이 사람은 자기 자신에 대해 굉장히 많이 생각하는 편이에요. 겉으로는 괜찮아 보여도 속으로는 계속 자기 자신을 돌아보고 있거든요. 감수성이 풍부하고, 주변 상황이나 사람들의 감정을 흡수하는 능력이 있어요. 자기 페이스를 지키면서도 주변과 조화를 이루는 걸 중요하게 생각해요. 근데 너무 남의 시선을 의식해서 진짜 하고 싶은 걸 못 하는 경우가 있어요. 속으로",
+    "vi": "Tháng này xu hướng Bản thân: Bạn là người suy nghĩ rất nhiều về bản thân mình đó. Dù bề ngoài có vẻ ổn, bên trong bạn vẫn không ngừng nhìn lại chính mình. Cảm xúc phong phú và có khả năng hấp thụ tình huống xung quanh cũng như cả"
+  },
+  "eul_monthly_general": {
+    "id": "eul_monthly_general",
+    "ilgan": "eul",
+    "period": "monthly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "이번달 인생 전반 분야의 흐름입니다. 이 사람의 인생을 보면 물처럼 흘러가는 스타일이에요. 강하게 부딪히는 대신 유연하게 돌아가면서 결국 원하는 곳에 도달하거든요. 어떤 환경에도 뿌리를 내리는 생명력이 있고, 사람들과의 관계를 소중히 여겨요. 조용하지만 영리하게 자기 자리를 만들어가는 능력이 있어요. 근데 때로는 그 유연함이 주관 없어 보일 수 있어요. 이리 붙었다 저리 붙었다 하는 것처럼 보",
+    "vi": "Tháng này xu hướng Tổng quát: Cuộc đời bạn chảy như nước đó. Thay vì va chạm mạnh, bạn linh hoạt vòng qua và cuối cùng vẫn đến được nơi mình muốn. Bạn có sức sống bén rễ trong bất kỳ môi trường nào và trân trọng các mối quan hệ. L"
+  },
+  "eul_yearly_love": {
+    "id": "eul_yearly_love",
+    "ilgan": "eul",
+    "period": "yearly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "올해 연애 분야의 큰 방향이에요. 연애할 때 이 사람은 상대방의 기분을 귀신같이 읽어요. 분위기 파악이 빠르고, 상대가 뭘 원하는지 말 안 해도 어느 정도 아는 편이거든요. 부드럽게 맞춰주면서도 내 방식대로 관계를 조용히 이끌어가는 능력이 있어요. 갈등 상황에서도 직접 부딪히기보다는 유연하게 돌아가는 길을 찾아요. 근데 속으로 쌓아두는 게 너무 많아요. 상처받아도 표현을 잘 안 하다가 어느",
+    "vi": "Năm nay hướng đi lớn Tình duyên: Bạn đọc tâm trạng đối phương như thần đó. Nhạy bén với không khí, biết người kia muốn gì dù họ chưa nói ra. Bạn khéo léo chiều theo mà vẫn âm thầm dẫn dắt mối quan hệ theo cách của mình. Khi có mâu th"
+  },
+  "eul_yearly_career": {
+    "id": "eul_yearly_career",
+    "ilgan": "eul",
+    "period": "yearly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "올해 직업 분야의 큰 방향이에요. 일할 때 이 사람은 어떤 환경에서도 빠르게 적응하는 능력이 진짜 강해요. 새로운 팀, 새로운 업무 방식도 금방 익히고, 사람들 사이에서 부드럽게 녹아드는 편이거든요. 눈치가 빠르기 때문에 상황을 정확하게 읽고 영리하게 움직여요. 직접 나서기보다는 뒤에서 전체를 조율하는 역할을 잘 해요. 근데 자기 의견을 너무 숨기다 보니 인정을 못 받는 경우도 있어요. 능",
+    "vi": "Năm nay hướng đi lớn Sự nghiệp: Bạn có khả năng thích nghi với mọi môi trường cực kỳ nhanh đó. Nhóm mới, cách làm việc mới — bạn quen ngay và hòa vào mọi người một cách mượt mà. Nhờ nhạy bén, bạn đọc tình huống chính xác và hành độn"
+  },
+  "eul_yearly_money": {
+    "id": "eul_yearly_money",
+    "ilgan": "eul",
+    "period": "yearly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "올해 재물 분야의 큰 방향이에요. 돈 관리에서 이 사람은 상황을 잘 읽고 유연하게 대처하는 편이에요. 무조건 한 방향으로 밀어붙이기보다는 상황에 맞게 조절하는 능력이 있거든요. 트렌드를 빠르게 파악하고, 새로운 재테크 방식도 열린 마음으로 받아들여요. 작은 기회도 놓치지 않는 섬세함이 있어요. 근데 결정하는 게 오래 걸리고, 이 방법 저 방법 기웃거리다가 타이밍을 놓치는 경우가 있어요. 확",
+    "vi": "Năm nay hướng đi lớn Tài lộc: Bạn giỏi đọc tình hình và xử lý linh hoạt trong chuyện tiền bạc đó. Thay vì đâm đầu một hướng, bạn biết điều chỉnh theo hoàn cảnh. Nắm bắt xu hướng nhanh và cởi mở với các hình thức đầu tư mới. Cơ hội"
+  },
+  "eul_yearly_self": {
+    "id": "eul_yearly_self",
+    "ilgan": "eul",
+    "period": "yearly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "올해 자기관리 분야의 큰 방향이에요. 이 사람은 자기 자신에 대해 굉장히 많이 생각하는 편이에요. 겉으로는 괜찮아 보여도 속으로는 계속 자기 자신을 돌아보고 있거든요. 감수성이 풍부하고, 주변 상황이나 사람들의 감정을 흡수하는 능력이 있어요. 자기 페이스를 지키면서도 주변과 조화를 이루는 걸 중요하게 생각해요. 근데 너무 남의 시선을 의식해서 진짜 하고 싶은 걸 못 하는 경우가 있어요. 속으로",
+    "vi": "Năm nay hướng đi lớn Bản thân: Bạn là người suy nghĩ rất nhiều về bản thân mình đó. Dù bề ngoài có vẻ ổn, bên trong bạn vẫn không ngừng nhìn lại chính mình. Cảm xúc phong phú và có khả năng hấp thụ tình huống xung quanh cũng như cả"
+  },
+  "eul_yearly_general": {
+    "id": "eul_yearly_general",
+    "ilgan": "eul",
+    "period": "yearly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "올해 인생 전반 분야의 큰 방향이에요. 이 사람의 인생을 보면 물처럼 흘러가는 스타일이에요. 강하게 부딪히는 대신 유연하게 돌아가면서 결국 원하는 곳에 도달하거든요. 어떤 환경에도 뿌리를 내리는 생명력이 있고, 사람들과의 관계를 소중히 여겨요. 조용하지만 영리하게 자기 자리를 만들어가는 능력이 있어요. 근데 때로는 그 유연함이 주관 없어 보일 수 있어요. 이리 붙었다 저리 붙었다 하는 것처럼 보",
+    "vi": "Năm nay hướng đi lớn Tổng quát: Cuộc đời bạn chảy như nước đó. Thay vì va chạm mạnh, bạn linh hoạt vòng qua và cuối cùng vẫn đến được nơi mình muốn. Bạn có sức sống bén rễ trong bất kỳ môi trường nào và trân trọng các mối quan hệ. L"
+  },
+  "byeong_daily_love": {
+    "id": "byeong_daily_love",
+    "ilgan": "byeong",
+    "period": "daily",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "오늘 연애 분야에서는 이런 흐름이에요. 혹시 연애할 때 내가 더 많이 표현하고 더 많이 끌어가는 편이죠? 밝고 적극적인 에너지가 넘치다 보니 상대방이 부담스러워할 때 상처받는 분이에요. 연애할 때 이 사람은 그야말로 태양 같은 존재예요. 함께 있으면 괜히 기분이 좋아지고, 에너지가 넘쳐서 데이트가 항상 활기차거든요. 좋아하는 감정을 숨기는 게 거의 불가능하고, 표현이 풍부해서 상대방이 사랑받는다는 걸 확실히 느껴요. 새로운 곳, 새로운 경험을 함께 하",
+    "vi": "Hôm nay trong lĩnh vực Tình duyên: Bạn có phải kiểu người hay chủ động bày tỏ và dẫn dắt nhiều hơn trong tình yêu không? Năng lượng nhiệt tình của bạn đôi khi khiến đối phương cảm thấy áp lực, và điều đó lại làm bạn tổn thương đó. Trong tình yêu, bạn đúng là như mặt trời đó. Ở cạnh bạn là tự nhiên vui hơn, năng lượng tràn đầy khiến mỗi buổi hẹn hò đều sôi động. Cảm xúc yêu thích"
+  },
+  "byeong_daily_career": {
+    "id": "byeong_daily_career",
+    "ilgan": "byeong",
+    "period": "daily",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "오늘 직업 분야에서는 이런 흐름이에요. 혹시 일할 때 혼자 조용히 하는 것보다 사람들과 함께 움직이는 게 훨씬 잘 맞는 편이죠? 밝은 에너지로 팀을 이끌지만 단순 반복 업무엔 금방 지치는 분이에요. 일할 때 이 사람은 존재감 자체가 달라요. 회의실에 들어서면 분위기가 바뀌고, 발표할 때 사람들의 시선을 자연스럽게 끌어모으거든요. 적극적으로 아이디어를 내고, 팀 분위기를 띄우는 역할을 잘 해요. 사람을 상대하는 일, 앞에 나서는 일에서 특히 강해요. 근데 반복적이고",
+    "vi": "Hôm nay trong lĩnh vực Sự nghiệp: Bạn có thấy làm việc cùng mọi người phù hợp với mình hơn là ngồi một mình yên tĩnh không? Bạn dẫn dắt nhóm bằng năng lượng tươi vui, nhưng dễ mau chán với công việc lặp đi lặp lại đó. Bạn có sự hiện diện khác biệt trong công việc đó. Bước vào phòng họp là không khí thay đổi, lên thuyết trình là mọi ánh mắt tự nhiên đổ dồn về phía bạ"
+  },
+  "byeong_daily_money": {
+    "id": "byeong_daily_money",
+    "ilgan": "byeong",
+    "period": "daily",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "오늘 재물 분야에서는 이런 흐름이에요. 혹시 돈을 벌면 아끼기보다 즐겁게 쓰는 데 먼저 손이 가는 편이죠? 넘치는 에너지와 적극성 덕분에 벌기는 잘하지만 지출 관리가 약한 분이에요. 돈에 관해서 이 사람은 쓰는 걸 즐기는 스타일이에요. 경험에 투자하고, 사람들에게 베푸는 데 돈 쓰는 걸 아깝다고 생각 안 하거든요. 긍정적인 마인드가 강해서 돈 걱정을 크게 안 하는 편이고, 새로운 수입 기회도 특유의 적극성으로 잘 만들어내요. 사람들과의 네트워크를",
+    "vi": "Hôm nay trong lĩnh vực Tài lộc: Bạn có thường tiêu trước rồi mới nghĩ đến tiết kiệm sau khi kiếm được tiền không? Năng lượng dồi dào giúp bạn kiếm tốt, nhưng quản lý chi tiêu lại là điểm yếu của bạn đó nha. Bạn thuộc kiểu thích tiêu tiền đó. Chi cho trải nghiệm, hào phóng với mọi người — bạn không thấy tiếc khoản đó. Tư duy tích cực mạnh nên ít lo lắng về"
+  },
+  "byeong_daily_self": {
+    "id": "byeong_daily_self",
+    "ilgan": "byeong",
+    "period": "daily",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "오늘 자기관리 분야에서는 이런 흐름이에요. 혹시 밝고 활발한 겉모습 뒤에 주목받지 못할 때의 공허함을 느끼는 편이죠? 에너지 넘치는 모습이 자연스럽지만 혼자 있을 때 무기력해지는 분이에요. 이 사람은 자기 자신에 대해 꽤 긍정적이에요. 어두운 면보다는 밝은 면을 보려 하고, 나는 잘 될 거라는 믿음이 기본으로 깔려있거든요. 에너지가 넘치고, 새로운 자극을 계속 원하는 성향이 있어요. 주목받는 걸 좋아하고, 인정받을 때 더욱 빛나는 사람이에요. 근데 혼자",
+    "vi": "Hôm nay trong lĩnh vực Bản thân: Bạn có cảm thấy trống rỗng khi không được chú ý dù bề ngoài luôn vui vẻ và năng động không? Hình ảnh tràn đầy năng lượng rất tự nhiên với bạn, nhưng khi ở một mình bạn hay rơi vào trạng thái mệt mỏi đó nha. Bạn khá tích cực về bản thân mình đó. Luôn nhìn vào mặt sáng hơn là mặt tối, và niềm tin rằng mọi thứ sẽ ổn là điều mặc định trong bạn. Tràn đầy năng"
+  },
+  "byeong_daily_general": {
+    "id": "byeong_daily_general",
+    "ilgan": "byeong",
+    "period": "daily",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "오늘 인생 전반 분야에서는 이런 흐름이에요. 혹시 활기차게 살아왔는데 가끔 이 에너지가 다 어디서 오는 건지, 지속될 수 있는 건지 걱정되는 편이죠? 빛나게 살아왔지만 그 안의 지속 가능성을 고민하는 분이에요. 이 사람의 인생은 어디를 가든 빛이 나는 스타일이에요. 타고난 에너지와 밝음이 주변 사람들을 끌어당기고, 자연스럽게 좋은 기회와 인연이 따라오는 편이거든요. 새로운 도전을 두려워하지 않고, 긍정적인 에너지로 어려운 상황도 버텨내요. 사람들에게 희망과 활력을 주는 존재예",
+    "vi": "Hôm nay trong lĩnh vực Tổng quát: Bạn có khi nào sống rất sôi nổi nhưng chợt lo không biết năng lượng đó từ đâu ra và liệu có duy trì được mãi không? Bạn đã sống rực rỡ, nhưng bây giờ đang băn khoăn về sự bền vững của lối sống đó đó nha. Cuộc đời bạn tỏa sáng dù đi đâu đó. Năng lượng và sự rực rỡ bẩm sinh thu hút mọi người, và cơ hội tốt cùng nhân duyên tự nhiên theo về. Không sợ thử t"
+  },
+  "byeong_monthly_love": {
+    "id": "byeong_monthly_love",
+    "ilgan": "byeong",
+    "period": "monthly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "이번달 연애 분야의 흐름입니다. 연애할 때 이 사람은 그야말로 태양 같은 존재예요. 함께 있으면 괜히 기분이 좋아지고, 에너지가 넘쳐서 데이트가 항상 활기차거든요. 좋아하는 감정을 숨기는 게 거의 불가능하고, 표현이 풍부해서 상대방이 사랑받는다는 걸 확실히 느껴요. 새로운 곳, 새로운 경험을 함께 하는 걸 즐기고, 연애 자체를 신나게 만드는 사람이에요. 근데 가끔 관심이 분산되거나 새로운",
+    "vi": "Tháng này xu hướng Tình duyên: Trong tình yêu, bạn đúng là như mặt trời đó. Ở cạnh bạn là tự nhiên vui hơn, năng lượng tràn đầy khiến mỗi buổi hẹn hò đều sôi động. Cảm xúc yêu thích gần như không giấu được, biểu đạt phong phú nên đ"
+  },
+  "byeong_monthly_career": {
+    "id": "byeong_monthly_career",
+    "ilgan": "byeong",
+    "period": "monthly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "이번달 직업 분야의 흐름입니다. 일할 때 이 사람은 존재감 자체가 달라요. 회의실에 들어서면 분위기가 바뀌고, 발표할 때 사람들의 시선을 자연스럽게 끌어모으거든요. 적극적으로 아이디어를 내고, 팀 분위기를 띄우는 역할을 잘 해요. 사람을 상대하는 일, 앞에 나서는 일에서 특히 강해요. 근데 반복적이고 디테일한 업무는 금방 지루함을 느껴요. 꼼꼼한 마무리보다 큰 그림 그리는 걸 좋아하다 보",
+    "vi": "Tháng này xu hướng Sự nghiệp: Bạn có sự hiện diện khác biệt trong công việc đó. Bước vào phòng họp là không khí thay đổi, lên thuyết trình là mọi ánh mắt tự nhiên đổ dồn về phía bạn. Bạn tích cực đề xuất ý tưởng và giỏi khuấy động"
+  },
+  "byeong_monthly_money": {
+    "id": "byeong_monthly_money",
+    "ilgan": "byeong",
+    "period": "monthly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "이번달 재물 분야의 흐름입니다. 돈에 관해서 이 사람은 쓰는 걸 즐기는 스타일이에요. 경험에 투자하고, 사람들에게 베푸는 데 돈 쓰는 걸 아깝다고 생각 안 하거든요. 긍정적인 마인드가 강해서 돈 걱정을 크게 안 하는 편이고, 새로운 수입 기회도 특유의 적극성으로 잘 만들어내요. 사람들과의 네트워크를 통해 기회가 들어오는 경우도 많아요. 근데 충동 소비가 많고, 계획 없이 쓰다 보면 나중에",
+    "vi": "Tháng này xu hướng Tài lộc: Bạn thuộc kiểu thích tiêu tiền đó. Chi cho trải nghiệm, hào phóng với mọi người — bạn không thấy tiếc khoản đó. Tư duy tích cực mạnh nên ít lo lắng về tiền, và sự chủ động đặc trưng giúp bạn tạo ra cơ"
+  },
+  "byeong_monthly_self": {
+    "id": "byeong_monthly_self",
+    "ilgan": "byeong",
+    "period": "monthly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "이번달 자기관리 분야의 흐름입니다. 이 사람은 자기 자신에 대해 꽤 긍정적이에요. 어두운 면보다는 밝은 면을 보려 하고, 나는 잘 될 거라는 믿음이 기본으로 깔려있거든요. 에너지가 넘치고, 새로운 자극을 계속 원하는 성향이 있어요. 주목받는 걸 좋아하고, 인정받을 때 더욱 빛나는 사람이에요. 근데 혼자 조용히 있어야 하는 상황이나 깊이 파고드는 과정이 좀 힘들 수 있어요. 외부 에너지가 없으",
+    "vi": "Tháng này xu hướng Bản thân: Bạn khá tích cực về bản thân mình đó. Luôn nhìn vào mặt sáng hơn là mặt tối, và niềm tin rằng mọi thứ sẽ ổn là điều mặc định trong bạn. Tràn đầy năng lượng và liên tục tìm kiếm kích thích mới. Thích đ"
+  },
+  "byeong_monthly_general": {
+    "id": "byeong_monthly_general",
+    "ilgan": "byeong",
+    "period": "monthly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "이번달 인생 전반 분야의 흐름입니다. 이 사람의 인생은 어디를 가든 빛이 나는 스타일이에요. 타고난 에너지와 밝음이 주변 사람들을 끌어당기고, 자연스럽게 좋은 기회와 인연이 따라오는 편이거든요. 새로운 도전을 두려워하지 않고, 긍정적인 에너지로 어려운 상황도 버텨내요. 사람들에게 희망과 활력을 주는 존재예요. 근데 깊이보다 넓이로 가는 경우가 많아서 한 분야에서 전문성을 키우는 게 어려울 수",
+    "vi": "Tháng này xu hướng Tổng quát: Cuộc đời bạn tỏa sáng dù đi đâu đó. Năng lượng và sự rực rỡ bẩm sinh thu hút mọi người, và cơ hội tốt cùng nhân duyên tự nhiên theo về. Không sợ thử thách mới, dùng năng lượng tích cực để vượt qua tìn"
+  },
+  "byeong_yearly_love": {
+    "id": "byeong_yearly_love",
+    "ilgan": "byeong",
+    "period": "yearly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "올해 연애 분야의 큰 방향이에요. 연애할 때 이 사람은 그야말로 태양 같은 존재예요. 함께 있으면 괜히 기분이 좋아지고, 에너지가 넘쳐서 데이트가 항상 활기차거든요. 좋아하는 감정을 숨기는 게 거의 불가능하고, 표현이 풍부해서 상대방이 사랑받는다는 걸 확실히 느껴요. 새로운 곳, 새로운 경험을 함께 하는 걸 즐기고, 연애 자체를 신나게 만드는 사람이에요. 근데 가끔 관심이 분산되거나 새로운",
+    "vi": "Năm nay hướng đi lớn Tình duyên: Trong tình yêu, bạn đúng là như mặt trời đó. Ở cạnh bạn là tự nhiên vui hơn, năng lượng tràn đầy khiến mỗi buổi hẹn hò đều sôi động. Cảm xúc yêu thích gần như không giấu được, biểu đạt phong phú nên đ"
+  },
+  "byeong_yearly_career": {
+    "id": "byeong_yearly_career",
+    "ilgan": "byeong",
+    "period": "yearly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "올해 직업 분야의 큰 방향이에요. 일할 때 이 사람은 존재감 자체가 달라요. 회의실에 들어서면 분위기가 바뀌고, 발표할 때 사람들의 시선을 자연스럽게 끌어모으거든요. 적극적으로 아이디어를 내고, 팀 분위기를 띄우는 역할을 잘 해요. 사람을 상대하는 일, 앞에 나서는 일에서 특히 강해요. 근데 반복적이고 디테일한 업무는 금방 지루함을 느껴요. 꼼꼼한 마무리보다 큰 그림 그리는 걸 좋아하다 보",
+    "vi": "Năm nay hướng đi lớn Sự nghiệp: Bạn có sự hiện diện khác biệt trong công việc đó. Bước vào phòng họp là không khí thay đổi, lên thuyết trình là mọi ánh mắt tự nhiên đổ dồn về phía bạn. Bạn tích cực đề xuất ý tưởng và giỏi khuấy động"
+  },
+  "byeong_yearly_money": {
+    "id": "byeong_yearly_money",
+    "ilgan": "byeong",
+    "period": "yearly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "올해 재물 분야의 큰 방향이에요. 돈에 관해서 이 사람은 쓰는 걸 즐기는 스타일이에요. 경험에 투자하고, 사람들에게 베푸는 데 돈 쓰는 걸 아깝다고 생각 안 하거든요. 긍정적인 마인드가 강해서 돈 걱정을 크게 안 하는 편이고, 새로운 수입 기회도 특유의 적극성으로 잘 만들어내요. 사람들과의 네트워크를 통해 기회가 들어오는 경우도 많아요. 근데 충동 소비가 많고, 계획 없이 쓰다 보면 나중에",
+    "vi": "Năm nay hướng đi lớn Tài lộc: Bạn thuộc kiểu thích tiêu tiền đó. Chi cho trải nghiệm, hào phóng với mọi người — bạn không thấy tiếc khoản đó. Tư duy tích cực mạnh nên ít lo lắng về tiền, và sự chủ động đặc trưng giúp bạn tạo ra cơ"
+  },
+  "byeong_yearly_self": {
+    "id": "byeong_yearly_self",
+    "ilgan": "byeong",
+    "period": "yearly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "올해 자기관리 분야의 큰 방향이에요. 이 사람은 자기 자신에 대해 꽤 긍정적이에요. 어두운 면보다는 밝은 면을 보려 하고, 나는 잘 될 거라는 믿음이 기본으로 깔려있거든요. 에너지가 넘치고, 새로운 자극을 계속 원하는 성향이 있어요. 주목받는 걸 좋아하고, 인정받을 때 더욱 빛나는 사람이에요. 근데 혼자 조용히 있어야 하는 상황이나 깊이 파고드는 과정이 좀 힘들 수 있어요. 외부 에너지가 없으",
+    "vi": "Năm nay hướng đi lớn Bản thân: Bạn khá tích cực về bản thân mình đó. Luôn nhìn vào mặt sáng hơn là mặt tối, và niềm tin rằng mọi thứ sẽ ổn là điều mặc định trong bạn. Tràn đầy năng lượng và liên tục tìm kiếm kích thích mới. Thích đ"
+  },
+  "byeong_yearly_general": {
+    "id": "byeong_yearly_general",
+    "ilgan": "byeong",
+    "period": "yearly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "올해 인생 전반 분야의 큰 방향이에요. 이 사람의 인생은 어디를 가든 빛이 나는 스타일이에요. 타고난 에너지와 밝음이 주변 사람들을 끌어당기고, 자연스럽게 좋은 기회와 인연이 따라오는 편이거든요. 새로운 도전을 두려워하지 않고, 긍정적인 에너지로 어려운 상황도 버텨내요. 사람들에게 희망과 활력을 주는 존재예요. 근데 깊이보다 넓이로 가는 경우가 많아서 한 분야에서 전문성을 키우는 게 어려울 수",
+    "vi": "Năm nay hướng đi lớn Tổng quát: Cuộc đời bạn tỏa sáng dù đi đâu đó. Năng lượng và sự rực rỡ bẩm sinh thu hút mọi người, và cơ hội tốt cùng nhân duyên tự nhiên theo về. Không sợ thử thách mới, dùng năng lượng tích cực để vượt qua tìn"
+  },
+  "jeong_daily_love": {
+    "id": "jeong_daily_love",
+    "ilgan": "jeong",
+    "period": "daily",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "오늘 연애 분야에서는 이런 흐름이에요. 혹시 연애할 때 작은 말 한마디에도 오래 마음이 쓰이는 편이죠? 감수성이 깊은 만큼 상대방의 사소한 태도 하나에도 크게 흔들리는 분이에요. 연애할 때 이 사람은 정말 깊게 사랑하는 스타일이에요. 상대방의 작은 변화도 놓치지 않고, 감정 하나하나에 진지하게 반응하거든요. 표면적인 관계보다 진짜 내면을 나누는 깊은 연결을 원해요. 상대가 힘들 때 곁에서 따뜻하게 감싸주는 사람이에요. 근데 너무 예민해서 별거",
+    "vi": "Hôm nay trong lĩnh vực Tình duyên: Bạn có dễ bị một câu nói nhỏ ám ảnh mãi không thôi trong chuyện tình cảm không? Vì cảm xúc sâu sắc, bạn rất dễ bị lung lay bởi những thái độ tưởng chừng nhỏ nhặt của đối phương đó nha. Bạn yêu thật sâu đó. Không bỏ qua bất kỳ thay đổi nhỏ nào của đối phương, phản ứng nghiêm túc với từng cảm xúc. Bạn muốn có kết nối thật sự ở tầng sâu"
+  },
+  "jeong_daily_career": {
+    "id": "jeong_daily_career",
+    "ilgan": "jeong",
+    "period": "daily",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "오늘 직업 분야에서는 이런 흐름이에요. 혹시 직장에서 분위기나 사람 감정에 민감하게 반응해서 스트레스를 많이 받는 편이죠? 섬세한 감수성 덕분에 일을 잘하지만 그만큼 감정 소모가 큰 분이에요. 일할 때 이 사람은 맡은 일에 정성을 다하는 스타일이에요. 대충 넘어가는 게 잘 안 되고, 하나를 해도 의미있게 하고 싶어 하거든요. 창의적인 분야나 감성이 필요한 일에서 특히 능력을 발휘해요. 동료들의 감정 상태를 잘 파악하고, 팀 분위기를 섬세하게 돌보는 역할도 해",
+    "vi": "Hôm nay trong lĩnh vực Sự nghiệp: Bạn có dễ bị ảnh hưởng bởi không khí văn phòng hay cảm xúc của đồng nghiệp và hay bị stress không? Sự tinh tế giúp bạn làm việc tốt, nhưng cũng khiến bạn tiêu hao cảm xúc nhiều hơn người khác đó nha. Bạn làm việc với sự tận tâm thật sự đó. Khó mà qua loa, dù làm gì cũng muốn có ý nghĩa. Đặc biệt phát huy trong lĩnh vực sáng tạo hay những công việc"
+  },
+  "jeong_daily_money": {
+    "id": "jeong_daily_money",
+    "ilgan": "jeong",
+    "period": "daily",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "오늘 재물 분야에서는 이런 흐름이에요. 혹시 돈 문제에서 감정에 치우쳐 결정했다가 후회한 적이 있는 편이죠? 깊은 감수성이 재정 결정에도 영향을 미쳐 이성적인 판단이 흐려지는 분이에요. 돈에 관해서 이 사람은 가치 있는 것에 쓰는 걸 좋아해요. 싸고 질 낮은 것보다 비싸도 의미 있는 것, 아름다운 것에 끌리거든요. 자신이 좋아하는 분야에는 아낌없이 투자하고, 그 감각이 나중에 빛을 발하는 경우가 많아요. 돈의 흐름보다 삶의 질을 더 중요시하는 편이에요",
+    "vi": "Hôm nay trong lĩnh vực Tài lộc: Bạn có từng đưa ra quyết định tài chính theo cảm xúc rồi hối tiếc không? Cảm xúc sâu sắc của bạn đôi khi ảnh hưởng đến cả quyết định tiền bạc, khiến lý trí bị lu mờ đó nha. Bạn thích chi tiền cho những thứ có giá trị đó. Hơn là rẻ mà kém, bạn bị thu hút bởi những thứ đắt hơn nhưng có ý nghĩa và đẹp. Đầu tư hào phóng vào l"
+  },
+  "jeong_daily_self": {
+    "id": "jeong_daily_self",
+    "ilgan": "jeong",
+    "period": "daily",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "오늘 자기관리 분야에서는 이런 흐름이에요. 혹시 감수성이 풍부해서 혼자 감정의 파도를 타는 시간이 많은 편이죠? 깊은 내면세계가 풍요롭지만 그 감정들을 혼자 감당하기 버거운 분이에요. 이 사람은 자기 내면 세계가 굉장히 풍부해요. 생각이 많고, 감정이 깊고, 혼자만의 시간에 많은 걸 느끼고 처리하거든요. 예술, 음악, 글쓰기 같은 감성적인 것들에서 자기 자신을 발견하는 경우가 많아요. 공감 능력이 높아서 타인의 감정을 자기 것처럼 느끼기도 해요. 근",
+    "vi": "Hôm nay trong lĩnh vực Bản thân: Bạn có thường dành nhiều thời gian một mình để lướt qua những con sóng cảm xúc không? Thế giới nội tâm phong phú rất đẹp, nhưng đôi khi gánh nặng cảm xúc đó một mình thật sự quá sức với bạn đó nha. Thế giới nội tâm của bạn rất phong phú đó. Suy nghĩ nhiều, cảm xúc sâu, và xử lý rất nhiều thứ trong những khoảng thời gian một mình. Hay tìm thấy bản"
+  },
+  "jeong_daily_general": {
+    "id": "jeong_daily_general",
+    "ilgan": "jeong",
+    "period": "daily",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "오늘 인생 전반 분야에서는 이런 흐름이에요. 혹시 삶 전반에서 감정 기복이 심해서 스스로도 나를 예측하기 어렵다고 느끼는 편이죠? 풍부한 감수성이 삶을 깊게 만들어주지만 동시에 불안정하게 만드는 분이에요. 이 사람의 인생을 보면 작은 불꽃처럼 은은하지만 오래가는 스타일이에요. 화려하게 타오르지는 않지만 주변을 따뜻하게 밝히는 역할을 해요. 깊은 인간관계를 소중히 여기고, 진심으로 연결된 사람들과 함께 성장해요. 감성적인 통찰력이 있어서 사람들이 모르는 것들을 먼저 느끼는",
+    "vi": "Hôm nay trong lĩnh vực Tổng quát: Bạn có cảm thấy cảm xúc của mình lên xuống thất thường đến mức chính bạn cũng khó đoán bản thân không? Cảm xúc phong phú làm cho cuộc sống của bạn thêm chiều sâu, nhưng đồng thời cũng tạo ra sự bất ổn đó nha. Nhìn cuộc đời bạn, giống như ngọn lửa nhỏ — âm thầm nhưng cháy lâu đó. Không bùng cháy rực rỡ, nhưng sưởi ấm và soi sáng xung quanh. Trân trọng những"
+  },
+  "jeong_monthly_love": {
+    "id": "jeong_monthly_love",
+    "ilgan": "jeong",
+    "period": "monthly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "이번달 연애 분야의 흐름입니다. 연애할 때 이 사람은 정말 깊게 사랑하는 스타일이에요. 상대방의 작은 변화도 놓치지 않고, 감정 하나하나에 진지하게 반응하거든요. 표면적인 관계보다 진짜 내면을 나누는 깊은 연결을 원해요. 상대가 힘들 때 곁에서 따뜻하게 감싸주는 사람이에요. 근데 너무 예민해서 별거 아닌 말에도 상처받고, 혼자 오래 앓는 경우가 있어요. 상대방은 아무 생각 없이 한 말인데",
+    "vi": "Tháng này xu hướng Tình duyên: Bạn yêu thật sâu đó. Không bỏ qua bất kỳ thay đổi nhỏ nào của đối phương, phản ứng nghiêm túc với từng cảm xúc. Bạn muốn có kết nối thật sự ở tầng sâu hơn là mối quan hệ bề mặt. Khi người kia khó khăn"
+  },
+  "jeong_monthly_career": {
+    "id": "jeong_monthly_career",
+    "ilgan": "jeong",
+    "period": "monthly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "이번달 직업 분야의 흐름입니다. 일할 때 이 사람은 맡은 일에 정성을 다하는 스타일이에요. 대충 넘어가는 게 잘 안 되고, 하나를 해도 의미있게 하고 싶어 하거든요. 창의적인 분야나 감성이 필요한 일에서 특히 능력을 발휘해요. 동료들의 감정 상태를 잘 파악하고, 팀 분위기를 섬세하게 돌보는 역할도 해요. 근데 지나치게 완벽하게 하려다 보면 시간이 너무 오래 걸리고, 비판에 필요 이상으로",
+    "vi": "Tháng này xu hướng Sự nghiệp: Bạn làm việc với sự tận tâm thật sự đó. Khó mà qua loa, dù làm gì cũng muốn có ý nghĩa. Đặc biệt phát huy trong lĩnh vực sáng tạo hay những công việc cần cảm xúc. Bạn nắm bắt tốt trạng thái cảm xúc củ"
+  },
+  "jeong_monthly_money": {
+    "id": "jeong_monthly_money",
+    "ilgan": "jeong",
+    "period": "monthly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "이번달 재물 분야의 흐름입니다. 돈에 관해서 이 사람은 가치 있는 것에 쓰는 걸 좋아해요. 싸고 질 낮은 것보다 비싸도 의미 있는 것, 아름다운 것에 끌리거든요. 자신이 좋아하는 분야에는 아낌없이 투자하고, 그 감각이 나중에 빛을 발하는 경우가 많아요. 돈의 흐름보다 삶의 질을 더 중요시하는 편이에요. 근데 감정적으로 소비하는 경향이 있어서 기분에 따라 지갑이 열리는 경우가 있어요. 우울",
+    "vi": "Tháng này xu hướng Tài lộc: Bạn thích chi tiền cho những thứ có giá trị đó. Hơn là rẻ mà kém, bạn bị thu hút bởi những thứ đắt hơn nhưng có ý nghĩa và đẹp. Đầu tư hào phóng vào lĩnh vực yêu thích, và gu đó thường phát huy về sau"
+  },
+  "jeong_monthly_self": {
+    "id": "jeong_monthly_self",
+    "ilgan": "jeong",
+    "period": "monthly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "이번달 자기관리 분야의 흐름입니다. 이 사람은 자기 내면 세계가 굉장히 풍부해요. 생각이 많고, 감정이 깊고, 혼자만의 시간에 많은 걸 느끼고 처리하거든요. 예술, 음악, 글쓰기 같은 감성적인 것들에서 자기 자신을 발견하는 경우가 많아요. 공감 능력이 높아서 타인의 감정을 자기 것처럼 느끼기도 해요. 근데 그만큼 상처도 깊게 받고, 감정 기복이 있어서 스스로 지치는 경우도 있어요. 외부 자극",
+    "vi": "Tháng này xu hướng Bản thân: Thế giới nội tâm của bạn rất phong phú đó. Suy nghĩ nhiều, cảm xúc sâu, và xử lý rất nhiều thứ trong những khoảng thời gian một mình. Hay tìm thấy bản thân trong nghệ thuật, âm nhạc, viết lách — những"
+  },
+  "jeong_monthly_general": {
+    "id": "jeong_monthly_general",
+    "ilgan": "jeong",
+    "period": "monthly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "이번달 인생 전반 분야의 흐름입니다. 이 사람의 인생을 보면 작은 불꽃처럼 은은하지만 오래가는 스타일이에요. 화려하게 타오르지는 않지만 주변을 따뜻하게 밝히는 역할을 해요. 깊은 인간관계를 소중히 여기고, 진심으로 연결된 사람들과 함께 성장해요. 감성적인 통찰력이 있어서 사람들이 모르는 것들을 먼저 느끼는 경우가 많아요. 근데 감정 기복이 인생의 흐름에 영향을 많이 줘요. 기분이 안 좋은 시기",
+    "vi": "Tháng này xu hướng Tổng quát: Nhìn cuộc đời bạn, giống như ngọn lửa nhỏ — âm thầm nhưng cháy lâu đó. Không bùng cháy rực rỡ, nhưng sưởi ấm và soi sáng xung quanh. Trân trọng những mối quan hệ sâu sắc và cùng lớn lên với những ngườ"
+  },
+  "jeong_yearly_love": {
+    "id": "jeong_yearly_love",
+    "ilgan": "jeong",
+    "period": "yearly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "올해 연애 분야의 큰 방향이에요. 연애할 때 이 사람은 정말 깊게 사랑하는 스타일이에요. 상대방의 작은 변화도 놓치지 않고, 감정 하나하나에 진지하게 반응하거든요. 표면적인 관계보다 진짜 내면을 나누는 깊은 연결을 원해요. 상대가 힘들 때 곁에서 따뜻하게 감싸주는 사람이에요. 근데 너무 예민해서 별거 아닌 말에도 상처받고, 혼자 오래 앓는 경우가 있어요. 상대방은 아무 생각 없이 한 말인데",
+    "vi": "Năm nay hướng đi lớn Tình duyên: Bạn yêu thật sâu đó. Không bỏ qua bất kỳ thay đổi nhỏ nào của đối phương, phản ứng nghiêm túc với từng cảm xúc. Bạn muốn có kết nối thật sự ở tầng sâu hơn là mối quan hệ bề mặt. Khi người kia khó khăn"
+  },
+  "jeong_yearly_career": {
+    "id": "jeong_yearly_career",
+    "ilgan": "jeong",
+    "period": "yearly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "올해 직업 분야의 큰 방향이에요. 일할 때 이 사람은 맡은 일에 정성을 다하는 스타일이에요. 대충 넘어가는 게 잘 안 되고, 하나를 해도 의미있게 하고 싶어 하거든요. 창의적인 분야나 감성이 필요한 일에서 특히 능력을 발휘해요. 동료들의 감정 상태를 잘 파악하고, 팀 분위기를 섬세하게 돌보는 역할도 해요. 근데 지나치게 완벽하게 하려다 보면 시간이 너무 오래 걸리고, 비판에 필요 이상으로",
+    "vi": "Năm nay hướng đi lớn Sự nghiệp: Bạn làm việc với sự tận tâm thật sự đó. Khó mà qua loa, dù làm gì cũng muốn có ý nghĩa. Đặc biệt phát huy trong lĩnh vực sáng tạo hay những công việc cần cảm xúc. Bạn nắm bắt tốt trạng thái cảm xúc củ"
+  },
+  "jeong_yearly_money": {
+    "id": "jeong_yearly_money",
+    "ilgan": "jeong",
+    "period": "yearly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "올해 재물 분야의 큰 방향이에요. 돈에 관해서 이 사람은 가치 있는 것에 쓰는 걸 좋아해요. 싸고 질 낮은 것보다 비싸도 의미 있는 것, 아름다운 것에 끌리거든요. 자신이 좋아하는 분야에는 아낌없이 투자하고, 그 감각이 나중에 빛을 발하는 경우가 많아요. 돈의 흐름보다 삶의 질을 더 중요시하는 편이에요. 근데 감정적으로 소비하는 경향이 있어서 기분에 따라 지갑이 열리는 경우가 있어요. 우울",
+    "vi": "Năm nay hướng đi lớn Tài lộc: Bạn thích chi tiền cho những thứ có giá trị đó. Hơn là rẻ mà kém, bạn bị thu hút bởi những thứ đắt hơn nhưng có ý nghĩa và đẹp. Đầu tư hào phóng vào lĩnh vực yêu thích, và gu đó thường phát huy về sau"
+  },
+  "jeong_yearly_self": {
+    "id": "jeong_yearly_self",
+    "ilgan": "jeong",
+    "period": "yearly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "올해 자기관리 분야의 큰 방향이에요. 이 사람은 자기 내면 세계가 굉장히 풍부해요. 생각이 많고, 감정이 깊고, 혼자만의 시간에 많은 걸 느끼고 처리하거든요. 예술, 음악, 글쓰기 같은 감성적인 것들에서 자기 자신을 발견하는 경우가 많아요. 공감 능력이 높아서 타인의 감정을 자기 것처럼 느끼기도 해요. 근데 그만큼 상처도 깊게 받고, 감정 기복이 있어서 스스로 지치는 경우도 있어요. 외부 자극",
+    "vi": "Năm nay hướng đi lớn Bản thân: Thế giới nội tâm của bạn rất phong phú đó. Suy nghĩ nhiều, cảm xúc sâu, và xử lý rất nhiều thứ trong những khoảng thời gian một mình. Hay tìm thấy bản thân trong nghệ thuật, âm nhạc, viết lách — những"
+  },
+  "jeong_yearly_general": {
+    "id": "jeong_yearly_general",
+    "ilgan": "jeong",
+    "period": "yearly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "올해 인생 전반 분야의 큰 방향이에요. 이 사람의 인생을 보면 작은 불꽃처럼 은은하지만 오래가는 스타일이에요. 화려하게 타오르지는 않지만 주변을 따뜻하게 밝히는 역할을 해요. 깊은 인간관계를 소중히 여기고, 진심으로 연결된 사람들과 함께 성장해요. 감성적인 통찰력이 있어서 사람들이 모르는 것들을 먼저 느끼는 경우가 많아요. 근데 감정 기복이 인생의 흐름에 영향을 많이 줘요. 기분이 안 좋은 시기",
+    "vi": "Năm nay hướng đi lớn Tổng quát: Nhìn cuộc đời bạn, giống như ngọn lửa nhỏ — âm thầm nhưng cháy lâu đó. Không bùng cháy rực rỡ, nhưng sưởi ấm và soi sáng xung quanh. Trân trọng những mối quan hệ sâu sắc và cùng lớn lên với những ngườ"
+  },
+  "mu_daily_love": {
+    "id": "mu_daily_love",
+    "ilgan": "mu",
+    "period": "daily",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "오늘 연애 분야에서는 이런 흐름이에요. 혹시 연애할 때 고백이나 표현을 먼저 하기까지 오래 망설이는 편이죠? 신중하고 안정을 중시하다 보니 감정을 확신하기 전엔 좀처럼 움직이지 않는 분이에요. 연애할 때 이 사람은 묵직한 안정감을 주는 스타일이에요. 쉽게 흔들리지 않고, 상대방이 어떤 상황에 있어도 한결같이 곁에 있어주거든요. 천천히 마음을 열고, 진지하게 연애하는 걸 선호해요. 한번 마음을 정하면 오래 가고, 상대방을 든든하게 지켜주려는 마음이 강해요. 근",
+    "vi": "Hôm nay trong lĩnh vực Tình duyên: Bạn có thường mất rất lâu để quyết định bày tỏ hay thổ lộ tình cảm không? Vì thận trọng và coi trọng sự ổn định, bạn hiếm khi hành động trước khi chắc chắn về cảm xúc của mình đó. Trong tình yêu, bạn mang lại sự ổn định vững chắc đó. Không dễ lung lay, dù đối phương ở hoàn cảnh nào bạn cũng luôn ở bên không đổi thay. Bạn thích t"
+  },
+  "mu_daily_career": {
+    "id": "mu_daily_career",
+    "ilgan": "mu",
+    "period": "daily",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "오늘 직업 분야에서는 이런 흐름이에요. 혹시 진로를 결정할 때 빠른 변화보다 안정적인 길을 택하고 싶은 마음이 강한 편이죠? 신중하게 결정하는 스타일이라 기회를 놓칠까 봐 고민이 많은 분이에요. 일할 때 이 사람은 성실함이 기본으로 깔려있어요. 빠르게 치고 나가는 스타일은 아니지만 꾸준히 쌓아가고, 맡은 일은 끝까지 해내는 사람이거든요. 신중하게 판단하고 안정적으로 실행하는 능력이 있어요. 팀에서 흔들리지 않는 기둥 같은 역할을 하고, 동료들이 믿고 의지하는",
+    "vi": "Hôm nay trong lĩnh vực Sự nghiệp: Bạn có thiên hướng chọn con đường ổn định hơn là thay đổi nhanh khi quyết định về sự nghiệp không? Vì quyết định thận trọng, bạn hay lo lắng mình có thể bỏ lỡ cơ hội tốt đó. Bạn làm việc với sự tận tụy như điều hiển nhiên đó. Không phải kiểu nhanh bứt phá, nhưng tích lũy đều đặn và hoàn thành đến cùng việc được giao. Phán"
+  },
+  "mu_daily_money": {
+    "id": "mu_daily_money",
+    "ilgan": "mu",
+    "period": "daily",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "오늘 재물 분야에서는 이런 흐름이에요. 혹시 투자나 재테크보다 그냥 안전하게 모아두는 게 훨씬 편한 편이죠? 안정을 추구하는 성향 때문에 수익 기회를 놓쳐도 위험은 피하고 싶은 분이에요. 돈에 관해서 이 사람은 안전하게 모아가는 스타일이에요. 큰 리스크를 지기보다는 꾸준히 저축하고, 검증된 방법으로 재산을 쌓는 걸 선호하거든요. 충동 소비가 거의 없고, 필요한 것과 원하는 것을 구분하는 능력이 있어요. 장기적인 관점에서 돈을 바라보고, 미래를 위해 준비",
+    "vi": "Hôm nay trong lĩnh vực Tài lộc: Bạn có thấy cứ để dành an toàn thoải mái hơn nhiều so với đầu tư hay làm tài chính không? Vì thiên về sự ổn định, bạn thà bỏ lỡ cơ hội sinh lời còn hơn đối mặt với rủi ro đó. Bạn thuộc kiểu tích lũy an toàn đó. Thay vì chịu rủi ro lớn, bạn thích tiết kiệm đều đặn và xây dựng tài sản bằng phương pháp đã được kiểm chứng. Gần"
+  },
+  "mu_daily_self": {
+    "id": "mu_daily_self",
+    "ilgan": "mu",
+    "period": "daily",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "오늘 자기관리 분야에서는 이런 흐름이에요. 혹시 변화가 필요한 걸 알면서도 현재 상태를 유지하려는 마음이 더 강한 편이죠? 안정을 좋아하는 성향이 성장을 막는 벽이 되고 있는 건 아닌지 고민하는 분이에요. 이 사람은 자기 자신에 대해 굉장히 현실적이에요. 화려한 꿈보다는 실현 가능한 목표를 선호하고, 차근차근 해나가는 걸 즐기거든요. 감정적으로 흔들리는 일이 드물고, 어떤 상황에서도 중심을 잡으려 해요. 안정된 환경과 루틴을 통해 에너지를 충전하는 편이에요. 근데 너무",
+    "vi": "Hôm nay trong lĩnh vực Bản thân: Bạn có biết mình cần thay đổi nhưng lại mạnh mẽ muốn giữ nguyên hiện trạng không? Bạn đang tự hỏi liệu tính ưa ổn định của mình có đang trở thành rào cản cho sự phát triển không đó nha. Bạn rất thực tế về bản thân mình đó. Thích mục tiêu có thể thực hiện hơn là giấc mơ hào nhoáng, và thích từng bước làm cho ra hồn. Hiếm khi bị cảm xúc"
+  },
+  "mu_daily_general": {
+    "id": "mu_daily_general",
+    "ilgan": "mu",
+    "period": "daily",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "오늘 인생 전반 분야에서는 이런 흐름이에요. 혹시 살면서 안정을 잘 유지해왔는데 가끔 이게 정말 내가 원하는 삶인지 의문이 드는 편이죠? 든든하게 쌓아온 삶이 어느 순간 너무 무겁게 느껴지는 분이에요. 이 사람의 인생은 산처럼 묵직하고 단단한 스타일이에요. 빠르게 달리지는 않지만 흔들리지 않고, 주변 사람들에게 든든한 버팀목이 되어주거든요. 오래 걸려도 한번 이룬 것은 쉽게 무너지지 않아요. 꾸준히 쌓아온 신뢰와 관계가 이 사람의 가장 큰 자산이에요. 근데 변화의 파",
+    "vi": "Hôm nay trong lĩnh vực Tổng quát: Bạn có đôi khi tự hỏi liệu cuộc sống ổn định mình gây dựng bấy lâu nay có thực sự là điều mình muốn không? Cuộc sống chắc chắn bạn xây dựng đôi khi trở nên quá nặng nề với bạn đó nha. Cuộc đời bạn nặng chắc như núi đó. Không chạy nhanh nhưng không lung lay, và là chỗ dựa vững chắc cho mọi người xung quanh. Dù lâu đến đâu, một khi đã"
+  },
+  "mu_monthly_love": {
+    "id": "mu_monthly_love",
+    "ilgan": "mu",
+    "period": "monthly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "이번달 연애 분야의 흐름입니다. 연애할 때 이 사람은 묵직한 안정감을 주는 스타일이에요. 쉽게 흔들리지 않고, 상대방이 어떤 상황에 있어도 한결같이 곁에 있어주거든요. 천천히 마음을 열고, 진지하게 연애하는 걸 선호해요. 한번 마음을 정하면 오래 가고, 상대방을 든든하게 지켜주려는 마음이 강해요. 근데 표현이 부족해서 상대방이 답답해할 수 있어요. 마음속으로는 엄청 사랑하는데 행동으로 보",
+    "vi": "Tháng này xu hướng Tình duyên: Trong tình yêu, bạn mang lại sự ổn định vững chắc đó. Không dễ lung lay, dù đối phương ở hoàn cảnh nào bạn cũng luôn ở bên không đổi thay. Bạn thích từ từ mở lòng và yêu đương nghiêm túc. Đã quyết địn"
+  },
+  "mu_monthly_career": {
+    "id": "mu_monthly_career",
+    "ilgan": "mu",
+    "period": "monthly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "이번달 직업 분야의 흐름입니다. 일할 때 이 사람은 성실함이 기본으로 깔려있어요. 빠르게 치고 나가는 스타일은 아니지만 꾸준히 쌓아가고, 맡은 일은 끝까지 해내는 사람이거든요. 신중하게 판단하고 안정적으로 실행하는 능력이 있어요. 팀에서 흔들리지 않는 기둥 같은 역할을 하고, 동료들이 믿고 의지하는 사람이에요. 근데 변화에 적응하는 속도가 느리고, 새로운 방식을 받아들이는 게 어렵기도 해",
+    "vi": "Tháng này xu hướng Sự nghiệp: Bạn làm việc với sự tận tụy như điều hiển nhiên đó. Không phải kiểu nhanh bứt phá, nhưng tích lũy đều đặn và hoàn thành đến cùng việc được giao. Phán đoán thận trọng và thực thi ổn định. Trong nhóm, b"
+  },
+  "mu_monthly_money": {
+    "id": "mu_monthly_money",
+    "ilgan": "mu",
+    "period": "monthly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "이번달 재물 분야의 흐름입니다. 돈에 관해서 이 사람은 안전하게 모아가는 스타일이에요. 큰 리스크를 지기보다는 꾸준히 저축하고, 검증된 방법으로 재산을 쌓는 걸 선호하거든요. 충동 소비가 거의 없고, 필요한 것과 원하는 것을 구분하는 능력이 있어요. 장기적인 관점에서 돈을 바라보고, 미래를 위해 준비하는 타입이에요. 근데 너무 안전하게만 가다 보니 좋은 기회가 와도 망설이다가 놓치는 경우",
+    "vi": "Tháng này xu hướng Tài lộc: Bạn thuộc kiểu tích lũy an toàn đó. Thay vì chịu rủi ro lớn, bạn thích tiết kiệm đều đặn và xây dựng tài sản bằng phương pháp đã được kiểm chứng. Gần như không có chi tiêu bốc đồng, biết phân biệt cần"
+  },
+  "mu_monthly_self": {
+    "id": "mu_monthly_self",
+    "ilgan": "mu",
+    "period": "monthly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "이번달 자기관리 분야의 흐름입니다. 이 사람은 자기 자신에 대해 굉장히 현실적이에요. 화려한 꿈보다는 실현 가능한 목표를 선호하고, 차근차근 해나가는 걸 즐기거든요. 감정적으로 흔들리는 일이 드물고, 어떤 상황에서도 중심을 잡으려 해요. 안정된 환경과 루틴을 통해 에너지를 충전하는 편이에요. 근데 너무 현실적이다 보니 꿈꾸는 것 자체를 포기하거나 새로운 가능성을 닫아버리는 경우가 있어요. 변",
+    "vi": "Tháng này xu hướng Bản thân: Bạn rất thực tế về bản thân mình đó. Thích mục tiêu có thể thực hiện hơn là giấc mơ hào nhoáng, và thích từng bước làm cho ra hồn. Hiếm khi bị cảm xúc làm lung lay, trong bất kỳ tình huống nào cũng cố"
+  },
+  "mu_monthly_general": {
+    "id": "mu_monthly_general",
+    "ilgan": "mu",
+    "period": "monthly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "이번달 인생 전반 분야의 흐름입니다. 이 사람의 인생은 산처럼 묵직하고 단단한 스타일이에요. 빠르게 달리지는 않지만 흔들리지 않고, 주변 사람들에게 든든한 버팀목이 되어주거든요. 오래 걸려도 한번 이룬 것은 쉽게 무너지지 않아요. 꾸준히 쌓아온 신뢰와 관계가 이 사람의 가장 큰 자산이에요. 근데 변화의 파도가 빠르게 올 때는 뒤처지는 느낌이 들 수 있어요. 세상이 너무 빠르게 바뀌어서 적응이",
+    "vi": "Tháng này xu hướng Tổng quát: Cuộc đời bạn nặng chắc như núi đó. Không chạy nhanh nhưng không lung lay, và là chỗ dựa vững chắc cho mọi người xung quanh. Dù lâu đến đâu, một khi đã đạt được thì không dễ sụp đổ. Lòng tin và các mối"
+  },
+  "mu_yearly_love": {
+    "id": "mu_yearly_love",
+    "ilgan": "mu",
+    "period": "yearly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "올해 연애 분야의 큰 방향이에요. 연애할 때 이 사람은 묵직한 안정감을 주는 스타일이에요. 쉽게 흔들리지 않고, 상대방이 어떤 상황에 있어도 한결같이 곁에 있어주거든요. 천천히 마음을 열고, 진지하게 연애하는 걸 선호해요. 한번 마음을 정하면 오래 가고, 상대방을 든든하게 지켜주려는 마음이 강해요. 근데 표현이 부족해서 상대방이 답답해할 수 있어요. 마음속으로는 엄청 사랑하는데 행동으로 보",
+    "vi": "Năm nay hướng đi lớn Tình duyên: Trong tình yêu, bạn mang lại sự ổn định vững chắc đó. Không dễ lung lay, dù đối phương ở hoàn cảnh nào bạn cũng luôn ở bên không đổi thay. Bạn thích từ từ mở lòng và yêu đương nghiêm túc. Đã quyết địn"
+  },
+  "mu_yearly_career": {
+    "id": "mu_yearly_career",
+    "ilgan": "mu",
+    "period": "yearly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "올해 직업 분야의 큰 방향이에요. 일할 때 이 사람은 성실함이 기본으로 깔려있어요. 빠르게 치고 나가는 스타일은 아니지만 꾸준히 쌓아가고, 맡은 일은 끝까지 해내는 사람이거든요. 신중하게 판단하고 안정적으로 실행하는 능력이 있어요. 팀에서 흔들리지 않는 기둥 같은 역할을 하고, 동료들이 믿고 의지하는 사람이에요. 근데 변화에 적응하는 속도가 느리고, 새로운 방식을 받아들이는 게 어렵기도 해",
+    "vi": "Năm nay hướng đi lớn Sự nghiệp: Bạn làm việc với sự tận tụy như điều hiển nhiên đó. Không phải kiểu nhanh bứt phá, nhưng tích lũy đều đặn và hoàn thành đến cùng việc được giao. Phán đoán thận trọng và thực thi ổn định. Trong nhóm, b"
+  },
+  "mu_yearly_money": {
+    "id": "mu_yearly_money",
+    "ilgan": "mu",
+    "period": "yearly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "올해 재물 분야의 큰 방향이에요. 돈에 관해서 이 사람은 안전하게 모아가는 스타일이에요. 큰 리스크를 지기보다는 꾸준히 저축하고, 검증된 방법으로 재산을 쌓는 걸 선호하거든요. 충동 소비가 거의 없고, 필요한 것과 원하는 것을 구분하는 능력이 있어요. 장기적인 관점에서 돈을 바라보고, 미래를 위해 준비하는 타입이에요. 근데 너무 안전하게만 가다 보니 좋은 기회가 와도 망설이다가 놓치는 경우",
+    "vi": "Năm nay hướng đi lớn Tài lộc: Bạn thuộc kiểu tích lũy an toàn đó. Thay vì chịu rủi ro lớn, bạn thích tiết kiệm đều đặn và xây dựng tài sản bằng phương pháp đã được kiểm chứng. Gần như không có chi tiêu bốc đồng, biết phân biệt cần"
+  },
+  "mu_yearly_self": {
+    "id": "mu_yearly_self",
+    "ilgan": "mu",
+    "period": "yearly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "올해 자기관리 분야의 큰 방향이에요. 이 사람은 자기 자신에 대해 굉장히 현실적이에요. 화려한 꿈보다는 실현 가능한 목표를 선호하고, 차근차근 해나가는 걸 즐기거든요. 감정적으로 흔들리는 일이 드물고, 어떤 상황에서도 중심을 잡으려 해요. 안정된 환경과 루틴을 통해 에너지를 충전하는 편이에요. 근데 너무 현실적이다 보니 꿈꾸는 것 자체를 포기하거나 새로운 가능성을 닫아버리는 경우가 있어요. 변",
+    "vi": "Năm nay hướng đi lớn Bản thân: Bạn rất thực tế về bản thân mình đó. Thích mục tiêu có thể thực hiện hơn là giấc mơ hào nhoáng, và thích từng bước làm cho ra hồn. Hiếm khi bị cảm xúc làm lung lay, trong bất kỳ tình huống nào cũng cố"
+  },
+  "mu_yearly_general": {
+    "id": "mu_yearly_general",
+    "ilgan": "mu",
+    "period": "yearly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "올해 인생 전반 분야의 큰 방향이에요. 이 사람의 인생은 산처럼 묵직하고 단단한 스타일이에요. 빠르게 달리지는 않지만 흔들리지 않고, 주변 사람들에게 든든한 버팀목이 되어주거든요. 오래 걸려도 한번 이룬 것은 쉽게 무너지지 않아요. 꾸준히 쌓아온 신뢰와 관계가 이 사람의 가장 큰 자산이에요. 근데 변화의 파도가 빠르게 올 때는 뒤처지는 느낌이 들 수 있어요. 세상이 너무 빠르게 바뀌어서 적응이",
+    "vi": "Năm nay hướng đi lớn Tổng quát: Cuộc đời bạn nặng chắc như núi đó. Không chạy nhanh nhưng không lung lay, và là chỗ dựa vững chắc cho mọi người xung quanh. Dù lâu đến đâu, một khi đã đạt được thì không dễ sụp đổ. Lòng tin và các mối"
+  },
+  "gi_daily_love": {
+    "id": "gi_daily_love",
+    "ilgan": "gi",
+    "period": "daily",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "오늘 연애 분야에서는 이런 흐름이에요. 혹시 연애할 때 상대방 걱정을 내 걱정보다 더 많이 하는 편이죠? 꼼꼼하게 배려하다 보니 정작 내 감정을 챙기지 못하고 지쳐가는 분이에요. 연애할 때 이 사람은 진짜로 상대방을 챙기는 스타일이에요. 작은 것 하나도 놓치지 않고, 상대가 뭘 필요로 하는지 꼼꼼하게 파악하거든요. 실용적인 도움을 잘 주고, 일상 속에서 배려가 자연스럽게 묻어나요. 상대방이 편안하게 느낄 수 있는 안정적인 연애를 만들어가요. 근",
+    "vi": "Hôm nay trong lĩnh vực Tình duyên: Bạn có thường lo cho đối phương nhiều hơn lo cho chính mình trong tình yêu không? Vì hay quan tâm tỉ mỉ đến người khác, bạn dễ kiệt sức mà quên mất cảm xúc của bản thân đó nha. Trong tình yêu, bạn thực sự chăm sóc đối phương đó. Không bỏ qua điều nhỏ nào, nắm bắt tỉ mỉ người kia cần gì. Giúp đỡ thiết thực và sự quan tâm tự nh"
+  },
+  "gi_daily_career": {
+    "id": "gi_daily_career",
+    "ilgan": "gi",
+    "period": "daily",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "오늘 직업 분야에서는 이런 흐름이에요. 혹시 일할 때 꼼꼼하게 체크하고 또 체크하다 보니 결정이 늦어지는 편이죠? 실수를 극도로 싫어하는 완벽한 준비 때문에 정작 실행이 느려지는 분이에요. 일할 때 이 사람은 꼼꼼함이 진짜 강점이에요. 남들이 대충 넘기는 디테일도 다 잡아내고, 실수 없이 마무리하는 능력이 있거든요. 체계적으로 계획을 세우고 차근차근 실행하는 스타일이에요. 데이터나 수치를 다루거나 정확성이 요구되는 일에서 특히 빛나요. 근데 너무 걱정이",
+    "vi": "Hôm nay trong lĩnh vực Sự nghiệp: Bạn có hay kiểm tra đi kiểm tra lại đến mức quyết định bị chậm trễ trong công việc không? Vì ghét mắc sai lầm và luôn muốn chuẩn bị hoàn hảo, bạn thường hành động chậm hơn so với người khác đó nha. Sự tỉ mỉ là điểm mạnh thực sự của bạn trong công việc đó. Bắt được những chi tiết mà người khác bỏ qua, và có khả năng hoàn thành mà không để xảy ra l"
+  },
+  "gi_daily_money": {
+    "id": "gi_daily_money",
+    "ilgan": "gi",
+    "period": "daily",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "오늘 재물 분야에서는 이런 흐름이에요. 혹시 돈 관리는 꼼꼼히 잘 하는데 오히려 작은 지출에 너무 많이 신경 쓰는 편이죠? 실용적이고 꼼꼼한 성향이 때론 재정 걱정을 필요 이상으로 키우는 분이에요. 돈에 관해서 이 사람은 알뜰하게 관리하는 스타일이에요. 지출을 꼼꼼하게 파악하고, 새는 돈이 없도록 체계적으로 관리하거든요. 작은 금액도 소홀히 하지 않고, 장기적으로 착실하게 모아가는 편이에요. 실용적인 소비를 선호하고, 가성비를 따지는 능력이 뛰어나요. 근데 걱정이",
+    "vi": "Hôm nay trong lĩnh vực Tài lộc: Bạn có quản lý tiền bạc khá cẩn thận nhưng lại lo lắng thái quá với những khoản chi tiêu nhỏ không? Tính thực tế và tỉ mỉ đôi khi khiến bạn phóng đại nỗi lo về tài chính hơn mức cần thiết đó nha. Bạn quản lý tiền bạc tiết kiệm và khéo léo đó. Nắm rõ chi tiêu, quản lý có hệ thống để không rò rỉ tiền. Không xem nhẹ số tiền nhỏ, tích lũy đều đặn v"
+  },
+  "gi_daily_self": {
+    "id": "gi_daily_self",
+    "ilgan": "gi",
+    "period": "daily",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "오늘 자기관리 분야에서는 이런 흐름이에요. 혹시 걱정이 너무 많아서 정작 행동은 못하고 머릿속에서만 맴도는 편이죠? 꼼꼼하고 배려 깊은 성격이 때로는 나를 제자리에 묶어두는 분이에요. 이 사람은 자기 자신에 대해 걱정이 많은 편이에요. 내가 잘 하고 있는 건지, 이게 맞는 선택인지 계속 돌아보고 점검하거든요. 그만큼 책임감이 강하고, 스스로에게 엄격해요. 주변 사람들을 잘 챙기고, 공동체 안에서 자기 역할을 충실히 해요. 근데 너무 걱정을 많이 해서",
+    "vi": "Hôm nay trong lĩnh vực Bản thân: Bạn có hay lo lắng quá nhiều đến mức mọi thứ chỉ quẩn quanh trong đầu mà không thành hành động không? Tính cẩn thận và chu đáo đôi khi lại chính là thứ giữ bạn đứng yên một chỗ đó nha. Bạn lo lắng nhiều về bản thân mình đó. Mình có đang làm đúng không, đây có phải lựa chọn đúng không — liên tục nhìn lại và kiểm tra. Điều đó cũng có n"
+  },
+  "gi_daily_general": {
+    "id": "gi_daily_general",
+    "ilgan": "gi",
+    "period": "daily",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "오늘 인생 전반 분야에서는 이런 흐름이에요. 혹시 남들 걱정은 다 해주면서 정작 내 삶의 방향은 챙기지 못하고 있는 편이죠? 꼼꼼한 배려심이 내 인생을 뒤로 미루게 만드는 분이에요. 이 사람의 인생을 보면 대지처럼 모든 것을 품어주는 스타일이에요. 화려하지 않지만 주변 사람들이 편안하게 뿌리내릴 수 있도록 든든하게 받쳐주거든요. 꼼꼼하고 성실하게 하루하루를 쌓아가고, 그게 결국 탄탄한 인생으로 이어져요. 필요한 사람에게 실질적인 도움을 주는 능력이",
+    "vi": "Hôm nay trong lĩnh vực Tổng quát: Bạn có lo cho mọi người xung quanh đến mức quên mất hướng đi của chính cuộc đời mình không? Sự chu đáo tỉ mỉ đang khiến bạn liên tục gác lại cuộc sống của chính mình đó nha. Nhìn cuộc đời bạn, giống như mặt đất ôm trọn mọi thứ đó. Không hào nhoáng nhưng là chỗ dựa vững chắc để mọi người xung quanh an tâm bén rễ. Tỉ mỉ và t"
+  },
+  "gi_monthly_love": {
+    "id": "gi_monthly_love",
+    "ilgan": "gi",
+    "period": "monthly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "이번달 연애 분야의 흐름입니다. 연애할 때 이 사람은 진짜로 상대방을 챙기는 스타일이에요. 작은 것 하나도 놓치지 않고, 상대가 뭘 필요로 하는지 꼼꼼하게 파악하거든요. 실용적인 도움을 잘 주고, 일상 속에서 배려가 자연스럽게 묻어나요. 상대방이 편안하게 느낄 수 있는 안정적인 연애를 만들어가요. 근데 걱정이 너무 많아서 상대방을 통제하는 것처럼 보일 수 있어요. 사랑하기 때문에 걱정하는",
+    "vi": "Tháng này xu hướng Tình duyên: Trong tình yêu, bạn thực sự chăm sóc đối phương đó. Không bỏ qua điều nhỏ nào, nắm bắt tỉ mỉ người kia cần gì. Giúp đỡ thiết thực và sự quan tâm tự nhiên thấm vào từng ngày thường. Bạn xây dựng mối tì"
+  },
+  "gi_monthly_career": {
+    "id": "gi_monthly_career",
+    "ilgan": "gi",
+    "period": "monthly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "이번달 직업 분야의 흐름입니다. 일할 때 이 사람은 꼼꼼함이 진짜 강점이에요. 남들이 대충 넘기는 디테일도 다 잡아내고, 실수 없이 마무리하는 능력이 있거든요. 체계적으로 계획을 세우고 차근차근 실행하는 스타일이에요. 데이터나 수치를 다루거나 정확성이 요구되는 일에서 특히 빛나요. 근데 너무 걱정이 많아서 결정이 느리고, 완벽하게 준비가 안 됐다고 느끼면 시작을 못 하는 경우도 있어요.",
+    "vi": "Tháng này xu hướng Sự nghiệp: Sự tỉ mỉ là điểm mạnh thực sự của bạn trong công việc đó. Bắt được những chi tiết mà người khác bỏ qua, và có khả năng hoàn thành mà không để xảy ra lỗi. Lập kế hoạch có hệ thống và thực hiện từng bướ"
+  },
+  "gi_monthly_money": {
+    "id": "gi_monthly_money",
+    "ilgan": "gi",
+    "period": "monthly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "이번달 재물 분야의 흐름입니다. 돈에 관해서 이 사람은 알뜰하게 관리하는 스타일이에요. 지출을 꼼꼼하게 파악하고, 새는 돈이 없도록 체계적으로 관리하거든요. 작은 금액도 소홀히 하지 않고, 장기적으로 착실하게 모아가는 편이에요. 실용적인 소비를 선호하고, 가성비를 따지는 능력이 뛰어나요. 근데 걱정이 너무 많아서 필요한 투자도 못 하는 경우가 있어요. 리스크가 조금이라도 있으면 선뜻 못",
+    "vi": "Tháng này xu hướng Tài lộc: Bạn quản lý tiền bạc tiết kiệm và khéo léo đó. Nắm rõ chi tiêu, quản lý có hệ thống để không rò rỉ tiền. Không xem nhẹ số tiền nhỏ, tích lũy đều đặn về lâu dài. Thích tiêu dùng thực tế và xuất sắc tro"
+  },
+  "gi_monthly_self": {
+    "id": "gi_monthly_self",
+    "ilgan": "gi",
+    "period": "monthly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "이번달 자기관리 분야의 흐름입니다. 이 사람은 자기 자신에 대해 걱정이 많은 편이에요. 내가 잘 하고 있는 건지, 이게 맞는 선택인지 계속 돌아보고 점검하거든요. 그만큼 책임감이 강하고, 스스로에게 엄격해요. 주변 사람들을 잘 챙기고, 공동체 안에서 자기 역할을 충실히 해요. 근데 너무 걱정을 많이 해서 정작 자기 자신을 돌보는 게 뒷전이 되는 경우가 있어요. 남 챙기느라 자기 에너지가 바닥",
+    "vi": "Tháng này xu hướng Bản thân: Bạn lo lắng nhiều về bản thân mình đó. Mình có đang làm đúng không, đây có phải lựa chọn đúng không — liên tục nhìn lại và kiểm tra. Điều đó cũng có nghĩa là trách nhiệm cao và nghiêm khắc với bản thâ"
+  },
+  "gi_monthly_general": {
+    "id": "gi_monthly_general",
+    "ilgan": "gi",
+    "period": "monthly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "이번달 인생 전반 분야의 흐름입니다. 이 사람의 인생을 보면 대지처럼 모든 것을 품어주는 스타일이에요. 화려하지 않지만 주변 사람들이 편안하게 뿌리내릴 수 있도록 든든하게 받쳐주거든요. 꼼꼼하고 성실하게 하루하루를 쌓아가고, 그게 결국 탄탄한 인생으로 이어져요. 필요한 사람에게 실질적인 도움을 주는 능력이 있어요. 근데 너무 걱정이 많아서 즐길 수 있는 순간도 불안하게 보내는 경우가 있어요.",
+    "vi": "Tháng này xu hướng Tổng quát: Nhìn cuộc đời bạn, giống như mặt đất ôm trọn mọi thứ đó. Không hào nhoáng nhưng là chỗ dựa vững chắc để mọi người xung quanh an tâm bén rễ. Tỉ mỉ và tận tụy xây từng ngày, điều đó cuối cùng dẫn đến mộ"
+  },
+  "gi_yearly_love": {
+    "id": "gi_yearly_love",
+    "ilgan": "gi",
+    "period": "yearly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "올해 연애 분야의 큰 방향이에요. 연애할 때 이 사람은 진짜로 상대방을 챙기는 스타일이에요. 작은 것 하나도 놓치지 않고, 상대가 뭘 필요로 하는지 꼼꼼하게 파악하거든요. 실용적인 도움을 잘 주고, 일상 속에서 배려가 자연스럽게 묻어나요. 상대방이 편안하게 느낄 수 있는 안정적인 연애를 만들어가요. 근데 걱정이 너무 많아서 상대방을 통제하는 것처럼 보일 수 있어요. 사랑하기 때문에 걱정하는",
+    "vi": "Năm nay hướng đi lớn Tình duyên: Trong tình yêu, bạn thực sự chăm sóc đối phương đó. Không bỏ qua điều nhỏ nào, nắm bắt tỉ mỉ người kia cần gì. Giúp đỡ thiết thực và sự quan tâm tự nhiên thấm vào từng ngày thường. Bạn xây dựng mối tì"
+  },
+  "gi_yearly_career": {
+    "id": "gi_yearly_career",
+    "ilgan": "gi",
+    "period": "yearly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "올해 직업 분야의 큰 방향이에요. 일할 때 이 사람은 꼼꼼함이 진짜 강점이에요. 남들이 대충 넘기는 디테일도 다 잡아내고, 실수 없이 마무리하는 능력이 있거든요. 체계적으로 계획을 세우고 차근차근 실행하는 스타일이에요. 데이터나 수치를 다루거나 정확성이 요구되는 일에서 특히 빛나요. 근데 너무 걱정이 많아서 결정이 느리고, 완벽하게 준비가 안 됐다고 느끼면 시작을 못 하는 경우도 있어요.",
+    "vi": "Năm nay hướng đi lớn Sự nghiệp: Sự tỉ mỉ là điểm mạnh thực sự của bạn trong công việc đó. Bắt được những chi tiết mà người khác bỏ qua, và có khả năng hoàn thành mà không để xảy ra lỗi. Lập kế hoạch có hệ thống và thực hiện từng bướ"
+  },
+  "gi_yearly_money": {
+    "id": "gi_yearly_money",
+    "ilgan": "gi",
+    "period": "yearly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "올해 재물 분야의 큰 방향이에요. 돈에 관해서 이 사람은 알뜰하게 관리하는 스타일이에요. 지출을 꼼꼼하게 파악하고, 새는 돈이 없도록 체계적으로 관리하거든요. 작은 금액도 소홀히 하지 않고, 장기적으로 착실하게 모아가는 편이에요. 실용적인 소비를 선호하고, 가성비를 따지는 능력이 뛰어나요. 근데 걱정이 너무 많아서 필요한 투자도 못 하는 경우가 있어요. 리스크가 조금이라도 있으면 선뜻 못",
+    "vi": "Năm nay hướng đi lớn Tài lộc: Bạn quản lý tiền bạc tiết kiệm và khéo léo đó. Nắm rõ chi tiêu, quản lý có hệ thống để không rò rỉ tiền. Không xem nhẹ số tiền nhỏ, tích lũy đều đặn về lâu dài. Thích tiêu dùng thực tế và xuất sắc tro"
+  },
+  "gi_yearly_self": {
+    "id": "gi_yearly_self",
+    "ilgan": "gi",
+    "period": "yearly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "올해 자기관리 분야의 큰 방향이에요. 이 사람은 자기 자신에 대해 걱정이 많은 편이에요. 내가 잘 하고 있는 건지, 이게 맞는 선택인지 계속 돌아보고 점검하거든요. 그만큼 책임감이 강하고, 스스로에게 엄격해요. 주변 사람들을 잘 챙기고, 공동체 안에서 자기 역할을 충실히 해요. 근데 너무 걱정을 많이 해서 정작 자기 자신을 돌보는 게 뒷전이 되는 경우가 있어요. 남 챙기느라 자기 에너지가 바닥",
+    "vi": "Năm nay hướng đi lớn Bản thân: Bạn lo lắng nhiều về bản thân mình đó. Mình có đang làm đúng không, đây có phải lựa chọn đúng không — liên tục nhìn lại và kiểm tra. Điều đó cũng có nghĩa là trách nhiệm cao và nghiêm khắc với bản thâ"
+  },
+  "gi_yearly_general": {
+    "id": "gi_yearly_general",
+    "ilgan": "gi",
+    "period": "yearly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "올해 인생 전반 분야의 큰 방향이에요. 이 사람의 인생을 보면 대지처럼 모든 것을 품어주는 스타일이에요. 화려하지 않지만 주변 사람들이 편안하게 뿌리내릴 수 있도록 든든하게 받쳐주거든요. 꼼꼼하고 성실하게 하루하루를 쌓아가고, 그게 결국 탄탄한 인생으로 이어져요. 필요한 사람에게 실질적인 도움을 주는 능력이 있어요. 근데 너무 걱정이 많아서 즐길 수 있는 순간도 불안하게 보내는 경우가 있어요.",
+    "vi": "Năm nay hướng đi lớn Tổng quát: Nhìn cuộc đời bạn, giống như mặt đất ôm trọn mọi thứ đó. Không hào nhoáng nhưng là chỗ dựa vững chắc để mọi người xung quanh an tâm bén rễ. Tỉ mỉ và tận tụy xây từng ngày, điều đó cuối cùng dẫn đến mộ"
+  },
+  "gyeong_daily_love": {
+    "id": "gyeong_daily_love",
+    "ilgan": "gyeong",
+    "period": "daily",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "오늘 연애 분야에서는 이런 흐름이에요. 혹시 연애할 때 원칙이나 약속을 어기면 쉽게 넘기지 못하는 편이죠? 의리와 원칙을 중시하다 보니 상대방의 작은 실수에도 크게 실망하는 분이에요. 연애할 때 이 사람은 원칙이 있는 사랑을 해요. 약속을 지키고, 의리 있고, 한번 사랑한 사람은 끝까지 책임지려 하거든요. 솔직하고 직설적이어서 상대방이 내 마음을 헷갈릴 일이 없어요. 불합리한 상황은 딱 잘라 정리하는 결단력도 있어요. 근데 너무 냉철하고 원칙적이어서",
+    "vi": "Hôm nay trong lĩnh vực Tình duyên: Bạn có khó bỏ qua khi đối phương phá vỡ nguyên tắc hay hứa hẹn trong tình yêu không? Vì coi trọng nghĩa khí và nguyên tắc, bạn dễ thất vọng nặng nề dù chỉ là lỗi nhỏ của đối phương đó. Bạn yêu có nguyên tắc đó. Giữ lời hứa, nghĩa khí, và một khi đã yêu ai thì muốn chịu trách nhiệm đến cùng. Thẳng thắn và trực tiếp nên đối phương khôn"
+  },
+  "gyeong_daily_career": {
+    "id": "gyeong_daily_career",
+    "ilgan": "gyeong",
+    "period": "daily",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "오늘 직업 분야에서는 이런 흐름이에요. 혹시 일할 때 원칙에서 벗어난 방식엔 쉽게 동의하지 못하는 편이죠? 냉철하고 완벽주의적인 성향 때문에 타협을 요구받을 때 유독 힘든 분이에요. 일할 때 이 사람은 완벽주의자예요. 높은 기준을 갖고 있고, 어떤 일이든 최고의 퀄리티로 해내고 싶어 하거든요. 냉철하게 상황을 분석하고, 효율적인 방법을 찾아내는 능력이 탁월해요. 불합리한 것을 참지 못하고, 잘못된 것은 명확하게 지적해요. 근데 그 완벽주의가 자신에",
+    "vi": "Hôm nay trong lĩnh vực Sự nghiệp: Bạn có khó đồng ý với cách làm không theo nguyên tắc trong công việc không? Vì tính cách lạnh lùng và cầu toàn, bạn thường rất khó chịu khi bị yêu cầu thỏa hiệp đó. Bạn là người hoàn hảo chủ nghĩa trong công việc đó. Có tiêu chuẩn cao và muốn hoàn thành mọi việc với chất lượng tốt nhất. Phân tích tình huống lạnh l"
+  },
+  "gyeong_daily_money": {
+    "id": "gyeong_daily_money",
+    "ilgan": "gyeong",
+    "period": "daily",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "오늘 재물 분야에서는 이런 흐름이에요. 혹시 돈 문제에서도 원칙대로 정직하게만 하다 보니 손해를 보는 경우가 있는 편이죠? 냉철한 판단력은 있지만 융통성 없는 원칙주의가 재정 기회를 막는 분이에요. 돈에 관해서 이 사람은 원칙적으로 관리하는 스타일이에요. 충동 소비가 거의 없고, 지출 기준이 명확하거든요. 투자할 때도 철저하게 분석하고 나서 결정하는 편이에요. 불필요한 지출을 싫어하고, 효율적으로 자산을 운용하는 능력이 있어요. 근데 너무 원칙적이어서 유연하게 대",
+    "vi": "Hôm nay trong lĩnh vực Tài lộc: Bạn có từng chịu thiệt về tài chính vì cứ làm theo nguyên tắc và trung thực quá mức không? Dù có đầu óc tỉnh táo, nhưng sự cứng nhắc trong nguyên tắc đôi khi cản trở cơ hội tài chính của bạn đó. Bạn quản lý tiền bạc theo nguyên tắc đó. Gần như không có chi tiêu bốc đồng và tiêu chí chi tiêu rõ ràng. Khi đầu tư thì phân tích kỹ lưỡng rồi mới qu"
+  },
+  "gyeong_daily_self": {
+    "id": "gyeong_daily_self",
+    "ilgan": "gyeong",
+    "period": "daily",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "오늘 자기관리 분야에서는 이런 흐름이에요. 혹시 내 기준이 너무 높아서 스스로에게도 타인에게도 가혹하게 느껴질 때가 있는 편이죠? 완벽주의적인 원칙주의가 나를 지치게 만드는 분이에요. 이 사람은 자기 자신에게 엄청나게 엄격해요. 스스로에 대한 기준이 높고, 부족한 점을 보면 참을 수가 없거든요. 원칙과 소신이 뚜렷하고, 타인의 시선보다 자기 기준에 맞게 살려는 강한 의지가 있어요. 도전적인 목표를 세우고 냉철하게 실행하는 능력이 있어요. 근데 자기",
+    "vi": "Hôm nay trong lĩnh vực Bản thân: Bạn có đôi khi cảm thấy tiêu chuẩn của mình quá cao đến mức khắt khe với cả bản thân lẫn người khác không? Tính cầu toàn và nguyên tắc cứng nhắc đang dần làm bạn kiệt sức đó nha. Bạn cực kỳ nghiêm khắc với bản thân mình đó. Tiêu chuẩn cao với chính mình, và không chịu được khi thấy điểm thiếu sót của bản thân. Nguyên tắc và chí"
+  },
+  "gyeong_daily_general": {
+    "id": "gyeong_daily_general",
+    "ilgan": "gyeong",
+    "period": "daily",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "오늘 인생 전반 분야에서는 이런 흐름이에요. 혹시 옳고 그름을 중시하며 살아왔는데 세상이 그렇게 단순하지 않다는 걸 느끼며 혼란스러운 편이죠? 냉철한 원칙이 삶의 복잡함 앞에서 흔들리는 분이에요. 이 사람의 인생은 쇠처럼 단단하고 빛나는 스타일이에요. 한번 방향을 정하면 강하게 밀고 나가고, 어떤 압박에도 자기 원칙을 쉽게 굽히지 않거든요. 정직하고 의리 있어서 주변에 진짜 믿을 수 있는 사람으로 통해요. 시간이 지날수록 그 가치가 빛나는 사람이에요. 근데 유연",
+    "vi": "Hôm nay trong lĩnh vực Tổng quát: Bạn có cảm thấy bối rối khi nhận ra thế giới không đơn giản như những nguyên tắc đúng sai bạn từng tin không? Những nguyên tắc lạnh lùng của bạn đang lung lay trước sự phức tạp của cuộc đời đó nha. Cuộc đời bạn chắc và sáng như thép đó. Đã chọn hướng thì đẩy mạnh, không dễ cúi đầu trước áp lực để uốn cong nguyên tắc của mình. Trung thực và nghĩa"
+  },
+  "gyeong_monthly_love": {
+    "id": "gyeong_monthly_love",
+    "ilgan": "gyeong",
+    "period": "monthly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "이번달 연애 분야의 흐름입니다. 연애할 때 이 사람은 원칙이 있는 사랑을 해요. 약속을 지키고, 의리 있고, 한번 사랑한 사람은 끝까지 책임지려 하거든요. 솔직하고 직설적이어서 상대방이 내 마음을 헷갈릴 일이 없어요. 불합리한 상황은 딱 잘라 정리하는 결단력도 있어요. 근데 너무 냉철하고 원칙적이어서 감성적인 면이 부족하게 느껴질 수 있어요. 상대방이 감정적으로 위로받고 싶을 때 논리적으",
+    "vi": "Tháng này xu hướng Tình duyên: Bạn yêu có nguyên tắc đó. Giữ lời hứa, nghĩa khí, và một khi đã yêu ai thì muốn chịu trách nhiệm đến cùng. Thẳng thắn và trực tiếp nên đối phương không bao giờ phải đoán mò lòng bạn. Cũng có quyết đoá"
+  },
+  "gyeong_monthly_career": {
+    "id": "gyeong_monthly_career",
+    "ilgan": "gyeong",
+    "period": "monthly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "이번달 직업 분야의 흐름입니다. 일할 때 이 사람은 완벽주의자예요. 높은 기준을 갖고 있고, 어떤 일이든 최고의 퀄리티로 해내고 싶어 하거든요. 냉철하게 상황을 분석하고, 효율적인 방법을 찾아내는 능력이 탁월해요. 불합리한 것을 참지 못하고, 잘못된 것은 명확하게 지적해요. 근데 그 완벽주의가 자신에게도 팀원들에게도 부담이 될 수 있어요. 기준이 너무 높아서 함께 일하는 사람들이 힘들어하",
+    "vi": "Tháng này xu hướng Sự nghiệp: Bạn là người hoàn hảo chủ nghĩa trong công việc đó. Có tiêu chuẩn cao và muốn hoàn thành mọi việc với chất lượng tốt nhất. Phân tích tình huống lạnh lùng và xuất sắc trong việc tìm ra phương pháp hiệu"
+  },
+  "gyeong_monthly_money": {
+    "id": "gyeong_monthly_money",
+    "ilgan": "gyeong",
+    "period": "monthly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "이번달 재물 분야의 흐름입니다. 돈에 관해서 이 사람은 원칙적으로 관리하는 스타일이에요. 충동 소비가 거의 없고, 지출 기준이 명확하거든요. 투자할 때도 철저하게 분석하고 나서 결정하는 편이에요. 불필요한 지출을 싫어하고, 효율적으로 자산을 운용하는 능력이 있어요. 근데 너무 원칙적이어서 유연하게 대처해야 하는 상황에서 어려움을 겪기도 해요. 완벽하게 파악하기 전에는 움직이지 않아서 기회",
+    "vi": "Tháng này xu hướng Tài lộc: Bạn quản lý tiền bạc theo nguyên tắc đó. Gần như không có chi tiêu bốc đồng và tiêu chí chi tiêu rõ ràng. Khi đầu tư thì phân tích kỹ lưỡng rồi mới quyết định. Ghét chi tiêu không cần thiết và có khả"
+  },
+  "gyeong_monthly_self": {
+    "id": "gyeong_monthly_self",
+    "ilgan": "gyeong",
+    "period": "monthly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "이번달 자기관리 분야의 흐름입니다. 이 사람은 자기 자신에게 엄청나게 엄격해요. 스스로에 대한 기준이 높고, 부족한 점을 보면 참을 수가 없거든요. 원칙과 소신이 뚜렷하고, 타인의 시선보다 자기 기준에 맞게 살려는 강한 의지가 있어요. 도전적인 목표를 세우고 냉철하게 실행하는 능력이 있어요. 근데 자기 자신을 너무 몰아붙여서 번아웃이 오기도 해요. 완벽하지 않은 자신을 받아들이는 게 정말 힘",
+    "vi": "Tháng này xu hướng Bản thân: Bạn cực kỳ nghiêm khắc với bản thân mình đó. Tiêu chuẩn cao với chính mình, và không chịu được khi thấy điểm thiếu sót của bản thân. Nguyên tắc và chính kiến rõ ràng, ý chí mạnh mẽ muốn sống theo tiêu"
+  },
+  "gyeong_monthly_general": {
+    "id": "gyeong_monthly_general",
+    "ilgan": "gyeong",
+    "period": "monthly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "이번달 인생 전반 분야의 흐름입니다. 이 사람의 인생은 쇠처럼 단단하고 빛나는 스타일이에요. 한번 방향을 정하면 강하게 밀고 나가고, 어떤 압박에도 자기 원칙을 쉽게 굽히지 않거든요. 정직하고 의리 있어서 주변에 진짜 믿을 수 있는 사람으로 통해요. 시간이 지날수록 그 가치가 빛나는 사람이에요. 근데 유연함이 부족해서 변화하는 시대에 갈등을 겪기도 해요. 내 원칙과 세상의 방향이 충돌할 때 힘",
+    "vi": "Tháng này xu hướng Tổng quát: Cuộc đời bạn chắc và sáng như thép đó. Đã chọn hướng thì đẩy mạnh, không dễ cúi đầu trước áp lực để uốn cong nguyên tắc của mình. Trung thực và nghĩa khí nên được biết đến là người thực sự đáng tin tr"
+  },
+  "gyeong_yearly_love": {
+    "id": "gyeong_yearly_love",
+    "ilgan": "gyeong",
+    "period": "yearly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "올해 연애 분야의 큰 방향이에요. 연애할 때 이 사람은 원칙이 있는 사랑을 해요. 약속을 지키고, 의리 있고, 한번 사랑한 사람은 끝까지 책임지려 하거든요. 솔직하고 직설적이어서 상대방이 내 마음을 헷갈릴 일이 없어요. 불합리한 상황은 딱 잘라 정리하는 결단력도 있어요. 근데 너무 냉철하고 원칙적이어서 감성적인 면이 부족하게 느껴질 수 있어요. 상대방이 감정적으로 위로받고 싶을 때 논리적으",
+    "vi": "Năm nay hướng đi lớn Tình duyên: Bạn yêu có nguyên tắc đó. Giữ lời hứa, nghĩa khí, và một khi đã yêu ai thì muốn chịu trách nhiệm đến cùng. Thẳng thắn và trực tiếp nên đối phương không bao giờ phải đoán mò lòng bạn. Cũng có quyết đoá"
+  },
+  "gyeong_yearly_career": {
+    "id": "gyeong_yearly_career",
+    "ilgan": "gyeong",
+    "period": "yearly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "올해 직업 분야의 큰 방향이에요. 일할 때 이 사람은 완벽주의자예요. 높은 기준을 갖고 있고, 어떤 일이든 최고의 퀄리티로 해내고 싶어 하거든요. 냉철하게 상황을 분석하고, 효율적인 방법을 찾아내는 능력이 탁월해요. 불합리한 것을 참지 못하고, 잘못된 것은 명확하게 지적해요. 근데 그 완벽주의가 자신에게도 팀원들에게도 부담이 될 수 있어요. 기준이 너무 높아서 함께 일하는 사람들이 힘들어하",
+    "vi": "Năm nay hướng đi lớn Sự nghiệp: Bạn là người hoàn hảo chủ nghĩa trong công việc đó. Có tiêu chuẩn cao và muốn hoàn thành mọi việc với chất lượng tốt nhất. Phân tích tình huống lạnh lùng và xuất sắc trong việc tìm ra phương pháp hiệu"
+  },
+  "gyeong_yearly_money": {
+    "id": "gyeong_yearly_money",
+    "ilgan": "gyeong",
+    "period": "yearly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "올해 재물 분야의 큰 방향이에요. 돈에 관해서 이 사람은 원칙적으로 관리하는 스타일이에요. 충동 소비가 거의 없고, 지출 기준이 명확하거든요. 투자할 때도 철저하게 분석하고 나서 결정하는 편이에요. 불필요한 지출을 싫어하고, 효율적으로 자산을 운용하는 능력이 있어요. 근데 너무 원칙적이어서 유연하게 대처해야 하는 상황에서 어려움을 겪기도 해요. 완벽하게 파악하기 전에는 움직이지 않아서 기회",
+    "vi": "Năm nay hướng đi lớn Tài lộc: Bạn quản lý tiền bạc theo nguyên tắc đó. Gần như không có chi tiêu bốc đồng và tiêu chí chi tiêu rõ ràng. Khi đầu tư thì phân tích kỹ lưỡng rồi mới quyết định. Ghét chi tiêu không cần thiết và có khả"
+  },
+  "gyeong_yearly_self": {
+    "id": "gyeong_yearly_self",
+    "ilgan": "gyeong",
+    "period": "yearly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "올해 자기관리 분야의 큰 방향이에요. 이 사람은 자기 자신에게 엄청나게 엄격해요. 스스로에 대한 기준이 높고, 부족한 점을 보면 참을 수가 없거든요. 원칙과 소신이 뚜렷하고, 타인의 시선보다 자기 기준에 맞게 살려는 강한 의지가 있어요. 도전적인 목표를 세우고 냉철하게 실행하는 능력이 있어요. 근데 자기 자신을 너무 몰아붙여서 번아웃이 오기도 해요. 완벽하지 않은 자신을 받아들이는 게 정말 힘",
+    "vi": "Năm nay hướng đi lớn Bản thân: Bạn cực kỳ nghiêm khắc với bản thân mình đó. Tiêu chuẩn cao với chính mình, và không chịu được khi thấy điểm thiếu sót của bản thân. Nguyên tắc và chính kiến rõ ràng, ý chí mạnh mẽ muốn sống theo tiêu"
+  },
+  "gyeong_yearly_general": {
+    "id": "gyeong_yearly_general",
+    "ilgan": "gyeong",
+    "period": "yearly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "올해 인생 전반 분야의 큰 방향이에요. 이 사람의 인생은 쇠처럼 단단하고 빛나는 스타일이에요. 한번 방향을 정하면 강하게 밀고 나가고, 어떤 압박에도 자기 원칙을 쉽게 굽히지 않거든요. 정직하고 의리 있어서 주변에 진짜 믿을 수 있는 사람으로 통해요. 시간이 지날수록 그 가치가 빛나는 사람이에요. 근데 유연함이 부족해서 변화하는 시대에 갈등을 겪기도 해요. 내 원칙과 세상의 방향이 충돌할 때 힘",
+    "vi": "Năm nay hướng đi lớn Tổng quát: Cuộc đời bạn chắc và sáng như thép đó. Đã chọn hướng thì đẩy mạnh, không dễ cúi đầu trước áp lực để uốn cong nguyên tắc của mình. Trung thực và nghĩa khí nên được biết đến là người thực sự đáng tin tr"
+  },
+  "sin_daily_love": {
+    "id": "sin_daily_love",
+    "ilgan": "sin",
+    "period": "daily",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "오늘 연애 분야에서는 이런 흐름이에요. 혹시 연애할 때 나의 자존심 때문에 먼저 사과하기가 힘든 편이죠? 섬세한 감성을 가졌지만 자존심이 강해서 감정 표현을 절제하게 되는 분이에요. 연애할 때 이 사람은 자존심과 품격이 있는 사랑을 해요. 아무에게나 마음을 열지 않고, 자신의 기준에 맞는 사람에게만 진심을 보이거든요. 섬세한 감성이 있어서 상대방이 특별하게 느낄 수 있는 순간들을 만들어줘요. 사랑할 때 우아하고 깊이 있는 방식으로 표현하는 편이에요",
+    "vi": "Hôm nay trong lĩnh vực Tình duyên: Bạn có thấy khó xin lỗi trước vì tự ái trong chuyện tình cảm không? Dù cảm xúc tinh tế nhưng lòng tự trọng cao khiến bạn hay kiềm chế việc bộc lộ cảm xúc của mình đó nha. Bạn yêu với tự trọng và phẩm cách đó. Không mở lòng với bất kỳ ai, chỉ bộc lộ tấm lòng thật với người đáp ứng tiêu chuẩn của mình. Cảm xúc tinh tế giú"
+  },
+  "sin_daily_career": {
+    "id": "sin_daily_career",
+    "ilgan": "sin",
+    "period": "daily",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "오늘 직업 분야에서는 이런 흐름이에요. 혹시 일할 때 퀄리티에 대한 기준이 높아서 스스로를 너무 몰아붙이는 편이죠? 날카로운 감각과 자존심이 높은 기준을 만들어 결과물 하나하나에 집착하게 되는 분이에요. 일할 때 이 사람은 퀄리티에 대한 집착이 있어요. 대충 하는 걸 못 참고, 자신이 만들어내는 결과물에 대한 기준이 높거든요. 날카로운 분석력과 섬세한 감각으로 다른 사람들이 놓치는 것들을 잡아내요. 미적 감각이나 품격이 필요한 분야에서 특히 뛰어나요. 근데 자존심이 강",
+    "vi": "Hôm nay trong lĩnh vực Sự nghiệp: Bạn có thường tự đặt tiêu chuẩn chất lượng cao đến mức ép bản thân quá mức trong công việc không? Khiếu thẩm mỹ tinh tế và lòng tự trọng cao khiến bạn hay ám ảnh từng chi tiết trong kết quả làm ra đó nha. Bạn có sự ám ảnh về chất lượng trong công việc đó. Không chịu được sự qua loa và tiêu chuẩn cao với kết quả mình tạo ra. Năng lực phân tích sắc bén và"
+  },
+  "sin_daily_money": {
+    "id": "sin_daily_money",
+    "ilgan": "sin",
+    "period": "daily",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "오늘 재물 분야에서는 이런 흐름이에요. 혹시 품격 있는 소비를 추구하다 보니 지출이 예상보다 커지는 편이죠? 날카로운 심미안과 자존심이 맞물려 품질에 투자하는 걸 아끼지 않는 분이에요. 돈에 관해서 이 사람은 품격 있게 쓰는 스타일이에요. 싸고 질 낮은 것보다 조금 비싸더라도 좋은 것을 선호하거든요. 자신이 가치있다고 생각하는 것에는 아낌없이 투자하고, 그 안목이 나중에 빛을 발해요. 겉으로 보이는 것에 투자하는 것을 중요하게 생각해요. 근데 자존심",
+    "vi": "Hôm nay trong lĩnh vực Tài lộc: Bạn có xu hướng tiêu nhiều hơn dự định vì luôn muốn tiêu dùng sang trọng và có gu không? Khiếu thẩm mỹ tinh tế và lòng tự trọng cao khiến bạn không tiếc đầu tư vào chất lượng đó nha. Bạn chi tiêu với phẩm cách đó. Thích thứ tốt dù đắt hơn một chút, hơn là rẻ mà kém chất lượng. Đầu tư hào phóng vào điều mình cho là có giá trị, và co"
+  },
+  "sin_daily_self": {
+    "id": "sin_daily_self",
+    "ilgan": "sin",
+    "period": "daily",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "오늘 자기관리 분야에서는 이런 흐름이에요. 혹시 자존심을 지키려다 보니 도움을 요청하거나 약한 모습을 보이기가 어려운 편이죠? 날카롭고 품격 있는 이미지 뒤에 외로움을 감추는 분이에요. 이 사람은 자기 자신에 대한 자존심과 기준이 굉장히 높아요. 스스로를 함부로 낮추지 않고, 자신의 품격을 지키려는 의식이 강하거든요. 섬세한 감각과 날카로운 통찰력이 있어서 자기 자신을 깊이 이해하는 편이에요. 자신만의 독특한 감성과 스타일이 있어요. 근데 그 자존심이",
+    "vi": "Hôm nay trong lĩnh vực Bản thân: Bạn có khó nhờ giúp đỡ hay để lộ điểm yếu vì muốn giữ hình ảnh tự trọng không? Đằng sau vẻ ngoài sắc bén và lịch lãm, bạn đang che giấu sự cô đơn bên trong đó nha. Bạn có tự trọng và tiêu chuẩn về bản thân rất cao đó. Không tự hạ thấp mình và ý thức mạnh về việc giữ gìn phẩm cách. Cảm giác tinh tế và trực giác sắ"
+  },
+  "sin_daily_general": {
+    "id": "sin_daily_general",
+    "ilgan": "sin",
+    "period": "daily",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "오늘 인생 전반 분야에서는 이런 흐름이에요. 혹시 품격 있고 단정하게 살고 싶은데 현실의 어수선함이 자꾸 그 기준에 미치지 못해서 지치는 편이죠? 높은 기준이 삶을 아름답게 하지만 동시에 피곤하게 만드는 분이에요. 이 사람의 인생을 보면 보석처럼 갈고닦을수록 빛나는 스타일이에요. 처음부터 화려하지 않지만 시간이 지날수록 자신만의 가치와 독특함이 드러나거든요. 섬세한 감각과 높은 기준이 삶의 곳곳에 배어있어요. 진짜 가치있는 것들을 알아보는 안목이 있어요. 근데 자존심 때문에 사람",
+    "vi": "Hôm nay trong lĩnh vực Tổng quát: Bạn có mệt mỏi vì muốn sống sang trọng và ngăn nắp nhưng thực tế cứ lộn xộn không đạt tiêu chuẩn đó không? Tiêu chuẩn cao làm cuộc sống bạn thêm đẹp, nhưng đồng thời cũng làm bạn kiệt sức đó nha. Nhìn cuộc đời bạn, càng mài giũa càng sáng như viên ngọc đó. Không rực rỡ ngay từ đầu nhưng theo thời gian giá trị và sự độc đáo riêng của bạn ngày cà"
+  },
+  "sin_monthly_love": {
+    "id": "sin_monthly_love",
+    "ilgan": "sin",
+    "period": "monthly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "이번달 연애 분야의 흐름입니다. 연애할 때 이 사람은 자존심과 품격이 있는 사랑을 해요. 아무에게나 마음을 열지 않고, 자신의 기준에 맞는 사람에게만 진심을 보이거든요. 섬세한 감성이 있어서 상대방이 특별하게 느낄 수 있는 순간들을 만들어줘요. 사랑할 때 우아하고 깊이 있는 방식으로 표현하는 편이에요. 근데 자존심이 강해서 먼저 다가가거나 먼저 사과하는 게 정말 어려워요. 관계에서 작은",
+    "vi": "Tháng này xu hướng Tình duyên: Bạn yêu với tự trọng và phẩm cách đó. Không mở lòng với bất kỳ ai, chỉ bộc lộ tấm lòng thật với người đáp ứng tiêu chuẩn của mình. Cảm xúc tinh tế giúp bạn tạo ra những khoảnh khắc khiến đối phương cả"
+  },
+  "sin_monthly_career": {
+    "id": "sin_monthly_career",
+    "ilgan": "sin",
+    "period": "monthly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "이번달 직업 분야의 흐름입니다. 일할 때 이 사람은 퀄리티에 대한 집착이 있어요. 대충 하는 걸 못 참고, 자신이 만들어내는 결과물에 대한 기준이 높거든요. 날카로운 분석력과 섬세한 감각으로 다른 사람들이 놓치는 것들을 잡아내요. 미적 감각이나 품격이 필요한 분야에서 특히 뛰어나요. 근데 자존심이 강해서 협업에서 마찰이 생기기도 해요. 내 방식이 옳다고 생각할 때 양보하기가 어렵거든요.",
+    "vi": "Tháng này xu hướng Sự nghiệp: Bạn có sự ám ảnh về chất lượng trong công việc đó. Không chịu được sự qua loa và tiêu chuẩn cao với kết quả mình tạo ra. Năng lực phân tích sắc bén và cảm giác tinh tế giúp nắm bắt những gì người khác"
+  },
+  "sin_monthly_money": {
+    "id": "sin_monthly_money",
+    "ilgan": "sin",
+    "period": "monthly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "이번달 재물 분야의 흐름입니다. 돈에 관해서 이 사람은 품격 있게 쓰는 스타일이에요. 싸고 질 낮은 것보다 조금 비싸더라도 좋은 것을 선호하거든요. 자신이 가치있다고 생각하는 것에는 아낌없이 투자하고, 그 안목이 나중에 빛을 발해요. 겉으로 보이는 것에 투자하는 것을 중요하게 생각해요. 근데 자존심 때문에 손해를 보는 상황에서도 쉽게 물러서지 못할 수 있어요. 체면 때문에 불필요한 지출을",
+    "vi": "Tháng này xu hướng Tài lộc: Bạn chi tiêu với phẩm cách đó. Thích thứ tốt dù đắt hơn một chút, hơn là rẻ mà kém chất lượng. Đầu tư hào phóng vào điều mình cho là có giá trị, và con mắt đó thường phát huy về sau. Coi trọng việc đầ"
+  },
+  "sin_monthly_self": {
+    "id": "sin_monthly_self",
+    "ilgan": "sin",
+    "period": "monthly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "이번달 자기관리 분야의 흐름입니다. 이 사람은 자기 자신에 대한 자존심과 기준이 굉장히 높아요. 스스로를 함부로 낮추지 않고, 자신의 품격을 지키려는 의식이 강하거든요. 섬세한 감각과 날카로운 통찰력이 있어서 자기 자신을 깊이 이해하는 편이에요. 자신만의 독특한 감성과 스타일이 있어요. 근데 그 자존심이 때로는 상처를 숨기는 갑옷이 되기도 해요. 힘들어도 약한 모습을 보이지 않으려다 보니 혼",
+    "vi": "Tháng này xu hướng Bản thân: Bạn có tự trọng và tiêu chuẩn về bản thân rất cao đó. Không tự hạ thấp mình và ý thức mạnh về việc giữ gìn phẩm cách. Cảm giác tinh tế và trực giác sắc bén giúp bạn hiểu sâu về bản thân. Bạn có cảm xú"
+  },
+  "sin_monthly_general": {
+    "id": "sin_monthly_general",
+    "ilgan": "sin",
+    "period": "monthly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "이번달 인생 전반 분야의 흐름입니다. 이 사람의 인생을 보면 보석처럼 갈고닦을수록 빛나는 스타일이에요. 처음부터 화려하지 않지만 시간이 지날수록 자신만의 가치와 독특함이 드러나거든요. 섬세한 감각과 높은 기준이 삶의 곳곳에 배어있어요. 진짜 가치있는 것들을 알아보는 안목이 있어요. 근데 자존심 때문에 사람들에게 먼저 다가가거나 도움을 요청하는 게 어렵기도 해요. 인간관계에서 갈등이 생기면 해결",
+    "vi": "Tháng này xu hướng Tổng quát: Nhìn cuộc đời bạn, càng mài giũa càng sáng như viên ngọc đó. Không rực rỡ ngay từ đầu nhưng theo thời gian giá trị và sự độc đáo riêng của bạn ngày càng hiện rõ. Cảm giác tinh tế và tiêu chuẩn cao thấ"
+  },
+  "sin_yearly_love": {
+    "id": "sin_yearly_love",
+    "ilgan": "sin",
+    "period": "yearly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "올해 연애 분야의 큰 방향이에요. 연애할 때 이 사람은 자존심과 품격이 있는 사랑을 해요. 아무에게나 마음을 열지 않고, 자신의 기준에 맞는 사람에게만 진심을 보이거든요. 섬세한 감성이 있어서 상대방이 특별하게 느낄 수 있는 순간들을 만들어줘요. 사랑할 때 우아하고 깊이 있는 방식으로 표현하는 편이에요. 근데 자존심이 강해서 먼저 다가가거나 먼저 사과하는 게 정말 어려워요. 관계에서 작은",
+    "vi": "Năm nay hướng đi lớn Tình duyên: Bạn yêu với tự trọng và phẩm cách đó. Không mở lòng với bất kỳ ai, chỉ bộc lộ tấm lòng thật với người đáp ứng tiêu chuẩn của mình. Cảm xúc tinh tế giúp bạn tạo ra những khoảnh khắc khiến đối phương cả"
+  },
+  "sin_yearly_career": {
+    "id": "sin_yearly_career",
+    "ilgan": "sin",
+    "period": "yearly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "올해 직업 분야의 큰 방향이에요. 일할 때 이 사람은 퀄리티에 대한 집착이 있어요. 대충 하는 걸 못 참고, 자신이 만들어내는 결과물에 대한 기준이 높거든요. 날카로운 분석력과 섬세한 감각으로 다른 사람들이 놓치는 것들을 잡아내요. 미적 감각이나 품격이 필요한 분야에서 특히 뛰어나요. 근데 자존심이 강해서 협업에서 마찰이 생기기도 해요. 내 방식이 옳다고 생각할 때 양보하기가 어렵거든요.",
+    "vi": "Năm nay hướng đi lớn Sự nghiệp: Bạn có sự ám ảnh về chất lượng trong công việc đó. Không chịu được sự qua loa và tiêu chuẩn cao với kết quả mình tạo ra. Năng lực phân tích sắc bén và cảm giác tinh tế giúp nắm bắt những gì người khác"
+  },
+  "sin_yearly_money": {
+    "id": "sin_yearly_money",
+    "ilgan": "sin",
+    "period": "yearly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "올해 재물 분야의 큰 방향이에요. 돈에 관해서 이 사람은 품격 있게 쓰는 스타일이에요. 싸고 질 낮은 것보다 조금 비싸더라도 좋은 것을 선호하거든요. 자신이 가치있다고 생각하는 것에는 아낌없이 투자하고, 그 안목이 나중에 빛을 발해요. 겉으로 보이는 것에 투자하는 것을 중요하게 생각해요. 근데 자존심 때문에 손해를 보는 상황에서도 쉽게 물러서지 못할 수 있어요. 체면 때문에 불필요한 지출을",
+    "vi": "Năm nay hướng đi lớn Tài lộc: Bạn chi tiêu với phẩm cách đó. Thích thứ tốt dù đắt hơn một chút, hơn là rẻ mà kém chất lượng. Đầu tư hào phóng vào điều mình cho là có giá trị, và con mắt đó thường phát huy về sau. Coi trọng việc đầ"
+  },
+  "sin_yearly_self": {
+    "id": "sin_yearly_self",
+    "ilgan": "sin",
+    "period": "yearly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "올해 자기관리 분야의 큰 방향이에요. 이 사람은 자기 자신에 대한 자존심과 기준이 굉장히 높아요. 스스로를 함부로 낮추지 않고, 자신의 품격을 지키려는 의식이 강하거든요. 섬세한 감각과 날카로운 통찰력이 있어서 자기 자신을 깊이 이해하는 편이에요. 자신만의 독특한 감성과 스타일이 있어요. 근데 그 자존심이 때로는 상처를 숨기는 갑옷이 되기도 해요. 힘들어도 약한 모습을 보이지 않으려다 보니 혼",
+    "vi": "Năm nay hướng đi lớn Bản thân: Bạn có tự trọng và tiêu chuẩn về bản thân rất cao đó. Không tự hạ thấp mình và ý thức mạnh về việc giữ gìn phẩm cách. Cảm giác tinh tế và trực giác sắc bén giúp bạn hiểu sâu về bản thân. Bạn có cảm xú"
+  },
+  "sin_yearly_general": {
+    "id": "sin_yearly_general",
+    "ilgan": "sin",
+    "period": "yearly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "올해 인생 전반 분야의 큰 방향이에요. 이 사람의 인생을 보면 보석처럼 갈고닦을수록 빛나는 스타일이에요. 처음부터 화려하지 않지만 시간이 지날수록 자신만의 가치와 독특함이 드러나거든요. 섬세한 감각과 높은 기준이 삶의 곳곳에 배어있어요. 진짜 가치있는 것들을 알아보는 안목이 있어요. 근데 자존심 때문에 사람들에게 먼저 다가가거나 도움을 요청하는 게 어렵기도 해요. 인간관계에서 갈등이 생기면 해결",
+    "vi": "Năm nay hướng đi lớn Tổng quát: Nhìn cuộc đời bạn, càng mài giũa càng sáng như viên ngọc đó. Không rực rỡ ngay từ đầu nhưng theo thời gian giá trị và sự độc đáo riêng của bạn ngày càng hiện rõ. Cảm giác tinh tế và tiêu chuẩn cao thấ"
+  },
+  "im_daily_love": {
+    "id": "im_daily_love",
+    "ilgan": "im",
+    "period": "daily",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "오늘 연애 분야에서는 이런 흐름이에요. 혹시 연애할 때 한 사람에게 오래 얽매이는 게 답답하게 느껴지는 편이죠? 자유로움을 추구하다 보니 관계가 깊어질수록 부담감을 느끼는 분이에요. 연애할 때 이 사람은 넓은 마음으로 상대를 품는 스타일이에요. 다양한 면을 가진 사람도 포용하고, 상대방의 자유를 존중하거든요. 새로운 경험을 함께 나누고 싶어하고, 연애에서도 변화와 자극을 즐겨요. 깊고 진지하게 연결되고 싶어하면서도 자유로움을 잃지 않아요. 근데 자",
+    "vi": "Hôm nay trong lĩnh vực Tình duyên: Bạn có cảm thấy ngột ngạt khi bị ràng buộc lâu dài với một người trong tình yêu không? Vì yêu thích tự do, bạn hay cảm thấy áp lực khi mối quan hệ ngày càng trở nên nghiêm túc hơn đó. Trong tình yêu, bạn ôm trọn đối phương bằng trái tim rộng lớn đó. Chấp nhận cả người có nhiều mặt khác nhau và tôn trọng tự do của đối phương. Muốn cù"
+  },
+  "im_daily_career": {
+    "id": "im_daily_career",
+    "ilgan": "im",
+    "period": "daily",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "오늘 직업 분야에서는 이런 흐름이에요. 혹시 한 가지 직업이나 분야에 오래 머무는 게 지루하게 느껴지는 편이죠? 넓은 시야와 변화를 좋아하는 성향 때문에 새로운 분야에 자꾸 눈이 가는 분이에요. 일할 때 이 사람은 큰 그림을 보는 능력이 뛰어나요. 디테일보다 전체적인 방향과 흐름을 파악하는 데 탁월하거든요. 새로운 아이디어와 혁신적인 접근 방식을 좋아하고, 변화를 두려워하지 않아요. 다양한 분야에 관심이 많고, 그 폭넓은 지식이 창의적인 해결책으로 이어지기도",
+    "vi": "Hôm nay trong lĩnh vực Sự nghiệp: Bạn có cảm thấy nhàm chán khi phải gắn bó lâu dài với một nghề hay một lĩnh vực không? Vì tầm nhìn rộng và thích thay đổi, bạn hay bị thu hút bởi những lĩnh vực mới mẻ đó nha. Bạn có khả năng nhìn bức tranh toàn cảnh xuất sắc trong công việc đó. Giỏi nắm bắt hướng đi và dòng chảy tổng thể hơn là chi tiết. Thích ý tưởng mới v"
+  },
+  "im_daily_money": {
+    "id": "im_daily_money",
+    "ilgan": "im",
+    "period": "daily",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "오늘 재물 분야에서는 이런 흐름이에요. 혹시 돈을 모으기보다 새로운 경험이나 기회에 쓰는 걸 더 선호하는 편이죠? 넓은 시야와 자유로움을 좋아하다 보니 장기적 재무 계획이 약한 분이에요. 돈에 관해서 이 사람은 큰 기회를 보는 눈이 있어요. 작은 것보다 큰 흐름을 보고 투자하는 편이고, 다양한 수입 채널을 만들어가는 걸 선호해요. 변화하는 시장을 빠르게 읽고, 새로운 기회에 먼저 뛰어드는 용기가 있어요. 고정된 수입보다 다양한 가능성을 추구하는 스타일이",
+    "vi": "Hôm nay trong lĩnh vực Tài lộc: Bạn có thích dùng tiền cho những trải nghiệm và cơ hội mới hơn là tích lũy không? Vì tầm nhìn rộng và yêu tự do, bạn hay yếu về lập kế hoạch tài chính dài hạn đó nha. Bạn có con mắt nhìn thấy cơ hội lớn trong chuyện tiền bạc đó. Thường đầu tư theo dòng chảy lớn hơn là thứ nhỏ lẻ, và thích xây dựng nhiều kênh thu nhậ"
+  },
+  "im_daily_self": {
+    "id": "im_daily_self",
+    "ilgan": "im",
+    "period": "daily",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "오늘 자기관리 분야에서는 이런 흐름이에요. 혹시 자유롭고 넓게 사는 게 좋은데 가끔 나는 너무 뿌리가 없는 건 아닐까 싶은 편이죠? 포용력과 변화를 즐기는 만큼 한 곳에 깊이 뿌리내리기 어려운 분이에요. 이 사람은 자기 자신에 대해 끊임없이 새로운 면을 발견하는 스타일이에요. 고정된 자아보다 계속 변화하고 성장하는 과정 자체를 즐기거든요. 다양한 것에 관심이 있고, 배움을 사랑하며, 새로운 자극에서 에너지를 얻어요. 생각이 깊고, 철학적인 질문을 즐기는 편이에요. 근데",
+    "vi": "Hôm nay trong lĩnh vực Bản thân: Bạn có thích sống tự do rộng mở nhưng đôi khi tự hỏi liệu mình có đang quá không có chỗ bám rễ không? Vì thích thay đổi và có lòng bao dung rộng lớn, bạn khó gắn bó sâu với một nơi hay một thứ gì đó đó nha. Bạn là người không ngừng khám phá những khía cạnh mới của bản thân đó. Thích chính quá trình thay đổi và lớn lên hơn là một cái tôi cố định. Quan tâm"
+  },
+  "im_daily_general": {
+    "id": "im_daily_general",
+    "ilgan": "im",
+    "period": "daily",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "오늘 인생 전반 분야에서는 이런 흐름이에요. 혹시 자유롭게 흘러가며 살아왔는데 어느 순간 이렇게 살다가 어디에 닿을지 막막해지는 편이죠? 변화를 즐기는 삶이 목적지 없이 흘러가는 것 같아 불안한 분이에요. 이 사람의 인생은 강물처럼 끊임없이 흘러가는 스타일이에요. 한 곳에 머물기보다는 계속 새로운 곳으로 나아가고, 그 과정에서 많은 것을 담아가거든요. 다양한 경험과 사람들을 통해 넓어지는 삶을 살아요. 변화 속에서도 자신만의 방향을 잃지 않는 힘이 있어요. 근데 너무 흘",
+    "vi": "Hôm nay trong lĩnh vực Tổng quát: Bạn có từng sống tự do phóng khoáng rồi chợt lo không biết cuộc sống thế này rồi sẽ dẫn mình đến đâu không? Cuộc sống thích thay đổi đôi khi khiến bạn lo ngại vì dường như không có đích đến rõ ràng đó nha. Cuộc đời bạn chảy không ngừng như dòng sông đó. Thay vì dừng lại một chỗ, liên tục tiến về nơi mới và trên hành trình đó tích lũy rất nhiều. Sống một"
+  },
+  "im_monthly_love": {
+    "id": "im_monthly_love",
+    "ilgan": "im",
+    "period": "monthly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "이번달 연애 분야의 흐름입니다. 연애할 때 이 사람은 넓은 마음으로 상대를 품는 스타일이에요. 다양한 면을 가진 사람도 포용하고, 상대방의 자유를 존중하거든요. 새로운 경험을 함께 나누고 싶어하고, 연애에서도 변화와 자극을 즐겨요. 깊고 진지하게 연결되고 싶어하면서도 자유로움을 잃지 않아요. 근데 자유를 중요시하다 보면 상대방이 안정감을 못 느끼는 경우가 있어요. 너무 자유롭게 살고 싶다",
+    "vi": "Tháng này xu hướng Tình duyên: Trong tình yêu, bạn ôm trọn đối phương bằng trái tim rộng lớn đó. Chấp nhận cả người có nhiều mặt khác nhau và tôn trọng tự do của đối phương. Muốn cùng nhau chia sẻ trải nghiệm mới, thích thay đổi và"
+  },
+  "im_monthly_career": {
+    "id": "im_monthly_career",
+    "ilgan": "im",
+    "period": "monthly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "이번달 직업 분야의 흐름입니다. 일할 때 이 사람은 큰 그림을 보는 능력이 뛰어나요. 디테일보다 전체적인 방향과 흐름을 파악하는 데 탁월하거든요. 새로운 아이디어와 혁신적인 접근 방식을 좋아하고, 변화를 두려워하지 않아요. 다양한 분야에 관심이 많고, 그 폭넓은 지식이 창의적인 해결책으로 이어지기도 해요. 근데 한 분야를 깊이 파고드는 게 어렵고, 루틴한 업무에 쉽게 지루함을 느껴요. 마",
+    "vi": "Tháng này xu hướng Sự nghiệp: Bạn có khả năng nhìn bức tranh toàn cảnh xuất sắc trong công việc đó. Giỏi nắm bắt hướng đi và dòng chảy tổng thể hơn là chi tiết. Thích ý tưởng mới và cách tiếp cận đổi mới, không sợ thay đổi. Quan t"
+  },
+  "im_monthly_money": {
+    "id": "im_monthly_money",
+    "ilgan": "im",
+    "period": "monthly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "이번달 재물 분야의 흐름입니다. 돈에 관해서 이 사람은 큰 기회를 보는 눈이 있어요. 작은 것보다 큰 흐름을 보고 투자하는 편이고, 다양한 수입 채널을 만들어가는 걸 선호해요. 변화하는 시장을 빠르게 읽고, 새로운 기회에 먼저 뛰어드는 용기가 있어요. 고정된 수입보다 다양한 가능성을 추구하는 스타일이에요. 근데 큰 그림만 보다가 관리가 소홀해지는 경우가 있어요. 들어오는 것만큼 새는 것도",
+    "vi": "Tháng này xu hướng Tài lộc: Bạn có con mắt nhìn thấy cơ hội lớn trong chuyện tiền bạc đó. Thường đầu tư theo dòng chảy lớn hơn là thứ nhỏ lẻ, và thích xây dựng nhiều kênh thu nhập. Đọc thị trường đang thay đổi nhanh và có dũng k"
+  },
+  "im_monthly_self": {
+    "id": "im_monthly_self",
+    "ilgan": "im",
+    "period": "monthly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "이번달 자기관리 분야의 흐름입니다. 이 사람은 자기 자신에 대해 끊임없이 새로운 면을 발견하는 스타일이에요. 고정된 자아보다 계속 변화하고 성장하는 과정 자체를 즐기거든요. 다양한 것에 관심이 있고, 배움을 사랑하며, 새로운 자극에서 에너지를 얻어요. 생각이 깊고, 철학적인 질문을 즐기는 편이에요. 근데 너무 다양한 방향으로 에너지를 쏟다 보니 중심이 흔들릴 수 있어요. 이것저것 다 해보려다",
+    "vi": "Tháng này xu hướng Bản thân: Bạn là người không ngừng khám phá những khía cạnh mới của bản thân đó. Thích chính quá trình thay đổi và lớn lên hơn là một cái tôi cố định. Quan tâm đến nhiều thứ, yêu thích học hỏi và lấy năng lượng"
+  },
+  "im_monthly_general": {
+    "id": "im_monthly_general",
+    "ilgan": "im",
+    "period": "monthly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "이번달 인생 전반 분야의 흐름입니다. 이 사람의 인생은 강물처럼 끊임없이 흘러가는 스타일이에요. 한 곳에 머물기보다는 계속 새로운 곳으로 나아가고, 그 과정에서 많은 것을 담아가거든요. 다양한 경험과 사람들을 통해 넓어지는 삶을 살아요. 변화 속에서도 자신만의 방향을 잃지 않는 힘이 있어요. 근데 너무 흘러가다 보면 한 곳에 뿌리내리지 못하는 경우가 있어요. 안정이 부족하다고 느끼는 시기가 오",
+    "vi": "Tháng này xu hướng Tổng quát: Cuộc đời bạn chảy không ngừng như dòng sông đó. Thay vì dừng lại một chỗ, liên tục tiến về nơi mới và trên hành trình đó tích lũy rất nhiều. Sống một cuộc đời ngày càng rộng lớn qua những trải nghiệm"
+  },
+  "im_yearly_love": {
+    "id": "im_yearly_love",
+    "ilgan": "im",
+    "period": "yearly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "올해 연애 분야의 큰 방향이에요. 연애할 때 이 사람은 넓은 마음으로 상대를 품는 스타일이에요. 다양한 면을 가진 사람도 포용하고, 상대방의 자유를 존중하거든요. 새로운 경험을 함께 나누고 싶어하고, 연애에서도 변화와 자극을 즐겨요. 깊고 진지하게 연결되고 싶어하면서도 자유로움을 잃지 않아요. 근데 자유를 중요시하다 보면 상대방이 안정감을 못 느끼는 경우가 있어요. 너무 자유롭게 살고 싶다",
+    "vi": "Năm nay hướng đi lớn Tình duyên: Trong tình yêu, bạn ôm trọn đối phương bằng trái tim rộng lớn đó. Chấp nhận cả người có nhiều mặt khác nhau và tôn trọng tự do của đối phương. Muốn cùng nhau chia sẻ trải nghiệm mới, thích thay đổi và"
+  },
+  "im_yearly_career": {
+    "id": "im_yearly_career",
+    "ilgan": "im",
+    "period": "yearly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "올해 직업 분야의 큰 방향이에요. 일할 때 이 사람은 큰 그림을 보는 능력이 뛰어나요. 디테일보다 전체적인 방향과 흐름을 파악하는 데 탁월하거든요. 새로운 아이디어와 혁신적인 접근 방식을 좋아하고, 변화를 두려워하지 않아요. 다양한 분야에 관심이 많고, 그 폭넓은 지식이 창의적인 해결책으로 이어지기도 해요. 근데 한 분야를 깊이 파고드는 게 어렵고, 루틴한 업무에 쉽게 지루함을 느껴요. 마",
+    "vi": "Năm nay hướng đi lớn Sự nghiệp: Bạn có khả năng nhìn bức tranh toàn cảnh xuất sắc trong công việc đó. Giỏi nắm bắt hướng đi và dòng chảy tổng thể hơn là chi tiết. Thích ý tưởng mới và cách tiếp cận đổi mới, không sợ thay đổi. Quan t"
+  },
+  "im_yearly_money": {
+    "id": "im_yearly_money",
+    "ilgan": "im",
+    "period": "yearly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "올해 재물 분야의 큰 방향이에요. 돈에 관해서 이 사람은 큰 기회를 보는 눈이 있어요. 작은 것보다 큰 흐름을 보고 투자하는 편이고, 다양한 수입 채널을 만들어가는 걸 선호해요. 변화하는 시장을 빠르게 읽고, 새로운 기회에 먼저 뛰어드는 용기가 있어요. 고정된 수입보다 다양한 가능성을 추구하는 스타일이에요. 근데 큰 그림만 보다가 관리가 소홀해지는 경우가 있어요. 들어오는 것만큼 새는 것도",
+    "vi": "Năm nay hướng đi lớn Tài lộc: Bạn có con mắt nhìn thấy cơ hội lớn trong chuyện tiền bạc đó. Thường đầu tư theo dòng chảy lớn hơn là thứ nhỏ lẻ, và thích xây dựng nhiều kênh thu nhập. Đọc thị trường đang thay đổi nhanh và có dũng k"
+  },
+  "im_yearly_self": {
+    "id": "im_yearly_self",
+    "ilgan": "im",
+    "period": "yearly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "올해 자기관리 분야의 큰 방향이에요. 이 사람은 자기 자신에 대해 끊임없이 새로운 면을 발견하는 스타일이에요. 고정된 자아보다 계속 변화하고 성장하는 과정 자체를 즐기거든요. 다양한 것에 관심이 있고, 배움을 사랑하며, 새로운 자극에서 에너지를 얻어요. 생각이 깊고, 철학적인 질문을 즐기는 편이에요. 근데 너무 다양한 방향으로 에너지를 쏟다 보니 중심이 흔들릴 수 있어요. 이것저것 다 해보려다",
+    "vi": "Năm nay hướng đi lớn Bản thân: Bạn là người không ngừng khám phá những khía cạnh mới của bản thân đó. Thích chính quá trình thay đổi và lớn lên hơn là một cái tôi cố định. Quan tâm đến nhiều thứ, yêu thích học hỏi và lấy năng lượng"
+  },
+  "im_yearly_general": {
+    "id": "im_yearly_general",
+    "ilgan": "im",
+    "period": "yearly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "올해 인생 전반 분야의 큰 방향이에요. 이 사람의 인생은 강물처럼 끊임없이 흘러가는 스타일이에요. 한 곳에 머물기보다는 계속 새로운 곳으로 나아가고, 그 과정에서 많은 것을 담아가거든요. 다양한 경험과 사람들을 통해 넓어지는 삶을 살아요. 변화 속에서도 자신만의 방향을 잃지 않는 힘이 있어요. 근데 너무 흘러가다 보면 한 곳에 뿌리내리지 못하는 경우가 있어요. 안정이 부족하다고 느끼는 시기가 오",
+    "vi": "Năm nay hướng đi lớn Tổng quát: Cuộc đời bạn chảy không ngừng như dòng sông đó. Thay vì dừng lại một chỗ, liên tục tiến về nơi mới và trên hành trình đó tích lũy rất nhiều. Sống một cuộc đời ngày càng rộng lớn qua những trải nghiệm"
+  },
+  "gye_daily_love": {
+    "id": "gye_daily_love",
+    "ilgan": "gye",
+    "period": "daily",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "오늘 연애 분야에서는 이런 흐름이에요. 혹시 연애할 때 상대방의 감정 변화를 먼저 느끼고 혼자 상상이 커지는 편이죠? 직관력이 강한 만큼 확인되지 않은 감정까지 깊이 파고드는 분이에요. 연애할 때 이 사람은 깊고 조용하게 사랑하는 스타일이에요. 화려하게 표현하기보다는 상대방을 묵묵히 관찰하고, 필요한 순간에 정확하게 다가가거든요. 감정이 정말 깊어서 한번 사랑에 빠지면 오래가고, 상대방을 깊이 이해하려 해요. 직관적으로 상대방의 감정 상태를 읽는 능력",
+    "vi": "Hôm nay trong lĩnh vực Tình duyên: Bạn có thường cảm nhận được sự thay đổi cảm xúc của đối phương trước rồi tự mình nghĩ ngợi lung tung không? Trực giác nhạy bén khiến bạn hay đào sâu vào cả những cảm xúc chưa được xác nhận đó nha. Trong tình yêu, bạn yêu sâu và lặng lẽ đó. Thay vì biểu đạt rực rỡ, bạn âm thầm quan sát đối phương và tiếp cận đúng lúc cần thiết. Cảm xúc thực sự sâ"
+  },
+  "gye_daily_career": {
+    "id": "gye_daily_career",
+    "ilgan": "gye",
+    "period": "daily",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "오늘 직업 분야에서는 이런 흐름이에요. 혹시 직장에서 표면보다 이면을 보는 눈이 있어서 팀 분위기를 혼자 파악하는 편이죠? 관찰력이 뛰어난 만큼 보이지 않는 걸 감지해내지만 그걸 말하기가 어려운 분이에요. 일할 때 이 사람은 관찰력과 직관이 뛰어나요. 겉으로 드러나지 않는 것들을 감지하고, 다른 사람들이 놓치는 부분을 먼저 보는 능력이 있거든요. 깊이 생각하고 분석하는 일을 잘하고, 혼자 집중해서 작업하는 환경에서 최고의 성과를 내요. 감성적인 감각이 필요한 분야나 연구",
+    "vi": "Hôm nay trong lĩnh vực Sự nghiệp: Bạn có thường nhìn thấu bề mặt và tự mình nắm bắt được không khí nhóm mà không ai hay biết không? Khả năng quan sát sắc bén giúp bạn cảm nhận những điều người khác bỏ qua, nhưng lại khó nói ra đó nha. Bạn có khả năng quan sát và trực giác xuất sắc trong công việc đó. Cảm nhận được những thứ không hiện ra bề mặt và nhìn thấy trước phần mà người khác"
+  },
+  "gye_daily_money": {
+    "id": "gye_daily_money",
+    "ilgan": "gye",
+    "period": "daily",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "오늘 재물 분야에서는 이런 흐름이에요. 혹시 돈에 대한 걱정이 많지만 구체적으로 어떻게 해야 할지 막막한 편이죠? 직관력은 강하지만 실행으로 옮기기 전에 너무 많이 생각하다 기회를 놓치는 분이에요. 돈에 관해서 이 사람은 직관적으로 흐름을 읽는 능력이 있어요. 말로 설명하기 어렵지만 어떤 것이 될 것인지, 무엇이 가치있는지 느끼는 감각이 있거든요. 충동적이지 않고 조용히 관찰하다가 타이밍을 잡아요. 감성적인 분야나 문화, 예술 관련 투자에서 남다른 안목을 가지고",
+    "vi": "Hôm nay trong lĩnh vực Tài lộc: Bạn có lo lắng nhiều về tiền bạc nhưng không biết cụ thể phải làm gì không? Trực giác nhạy bén nhưng bạn hay suy nghĩ quá nhiều trước khi hành động và bỏ lỡ cơ hội đó nha. Bạn có khả năng đọc dòng chảy bằng trực giác trong chuyện tiền bạc đó. Khó giải thích bằng lời nhưng có cảm giác cái gì sẽ thành công, cái gì có giá t"
+  },
+  "gye_daily_self": {
+    "id": "gye_daily_self",
+    "ilgan": "gye",
+    "period": "daily",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "오늘 자기관리 분야에서는 이런 흐름이에요. 혹시 남들보다 훨씬 많이 느끼고 생각하는데 그걸 표현하지 못해서 답답한 편이죠? 깊은 감정과 강한 직관이 내면에서 소용돌이치는데 밖으로 꺼내기가 어려운 분이에요. 이 사람은 자기 내면을 굉장히 깊이 들여다보는 사람이에요. 자신의 감정과 생각을 끊임없이 탐구하고, 왜 이런 감정이 드는지 이해하려 하거든요. 직관력이 뛰어나서 자기 자신의 상태를 잘 알아차려요. 혼자만의 시간을 통해 에너지를 채우고, 깊은 사색을 즐겨요. 근데 너무",
+    "vi": "Hôm nay trong lĩnh vực Bản thân: Bạn có cảm thấy bức bối vì cảm nhận và suy nghĩ nhiều hơn người khác nhưng lại không biết cách bộc lộ không? Cảm xúc sâu sắc và trực giác mạnh mẽ đang xoáy trong lòng nhưng bạn khó đưa chúng ra ngoài đó nha. Bạn là người nhìn sâu vào nội tâm của mình đó. Không ngừng khám phá cảm xúc và suy nghĩ của bản thân, cố hiểu tại sao lại có cảm giác này. Trực giác n"
+  },
+  "gye_daily_general": {
+    "id": "gye_daily_general",
+    "ilgan": "gye",
+    "period": "daily",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "오늘 인생 전반 분야에서는 이런 흐름이에요. 혹시 삶에서 느끼는 것도 많고 보이는 것도 많은데 그것들을 어떻게 살아낼지 방법을 모르겠는 편이죠? 깊은 감정과 직관으로 세상을 보지만 그것을 삶으로 연결하기 어려운 분이에요. 이 사람의 인생을 보면 이슬처럼 조용하지만 깊은 스타일이에요. 화려하지 않지만 진짜 중요한 것들을 놓치지 않고, 천천히 그리고 깊이 있게 세상을 경험해요. 예민한 감수성과 직관으로 다른 사람들이 보지 못하는 것들을 보거든요. 깊은 인간관계와 의미 있는 경험을 소중히 여",
+    "vi": "Hôm nay trong lĩnh vực Tổng quát: Bạn có cảm nhận và thấy được nhiều thứ trong cuộc sống nhưng không biết phải sống với tất cả những thứ đó như thế nào không? Bạn nhìn thế giới bằng cảm xúc sâu sắc và trực giác, nhưng khó kết nối chúng thành hành động thực tế đó nha. Nhìn cuộc đời bạn, lặng lẽ mà sâu như hạt sương đó. Không hào nhoáng nhưng không bỏ lỡ những thứ thực sự quan trọng, trải nghiệm thế giới chậm mà sâu."
+  },
+  "gye_monthly_love": {
+    "id": "gye_monthly_love",
+    "ilgan": "gye",
+    "period": "monthly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "이번달 연애 분야의 흐름입니다. 연애할 때 이 사람은 깊고 조용하게 사랑하는 스타일이에요. 화려하게 표현하기보다는 상대방을 묵묵히 관찰하고, 필요한 순간에 정확하게 다가가거든요. 감정이 정말 깊어서 한번 사랑에 빠지면 오래가고, 상대방을 깊이 이해하려 해요. 직관적으로 상대방의 감정 상태를 읽는 능력이 있어요. 근데 내향적인 성향 때문에 먼저 표현하지 않으면 상대방이 내 마음을 모를 수",
+    "vi": "Tháng này xu hướng Tình duyên: Trong tình yêu, bạn yêu sâu và lặng lẽ đó. Thay vì biểu đạt rực rỡ, bạn âm thầm quan sát đối phương và tiếp cận đúng lúc cần thiết. Cảm xúc thực sự sâu nên một khi đã rơi vào tình yêu thì lâu bền, và"
+  },
+  "gye_monthly_career": {
+    "id": "gye_monthly_career",
+    "ilgan": "gye",
+    "period": "monthly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "이번달 직업 분야의 흐름입니다. 일할 때 이 사람은 관찰력과 직관이 뛰어나요. 겉으로 드러나지 않는 것들을 감지하고, 다른 사람들이 놓치는 부분을 먼저 보는 능력이 있거든요. 깊이 생각하고 분석하는 일을 잘하고, 혼자 집중해서 작업하는 환경에서 최고의 성과를 내요. 감성적인 감각이 필요한 분야나 연구, 분석 분야에서 특히 강해요. 근데 자기 생각과 아이디어를 밖으로 표현하는 게 어렵기도",
+    "vi": "Tháng này xu hướng Sự nghiệp: Bạn có khả năng quan sát và trực giác xuất sắc trong công việc đó. Cảm nhận được những thứ không hiện ra bề mặt và nhìn thấy trước phần mà người khác bỏ lỡ. Giỏi suy nghĩ sâu và phân tích, đạt hiệu su"
+  },
+  "gye_monthly_money": {
+    "id": "gye_monthly_money",
+    "ilgan": "gye",
+    "period": "monthly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "이번달 재물 분야의 흐름입니다. 돈에 관해서 이 사람은 직관적으로 흐름을 읽는 능력이 있어요. 말로 설명하기 어렵지만 어떤 것이 될 것인지, 무엇이 가치있는지 느끼는 감각이 있거든요. 충동적이지 않고 조용히 관찰하다가 타이밍을 잡아요. 감성적인 분야나 문화, 예술 관련 투자에서 남다른 안목을 가지고 있어요. 근데 그 직관을 행동으로 옮기는 데 시간이 걸리고, 확신이 없으면 기회를 놓치기도",
+    "vi": "Tháng này xu hướng Tài lộc: Bạn có khả năng đọc dòng chảy bằng trực giác trong chuyện tiền bạc đó. Khó giải thích bằng lời nhưng có cảm giác cái gì sẽ thành công, cái gì có giá trị. Không bốc đồng mà lặng lẽ quan sát rồi bắt đún"
+  },
+  "gye_monthly_self": {
+    "id": "gye_monthly_self",
+    "ilgan": "gye",
+    "period": "monthly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "이번달 자기관리 분야의 흐름입니다. 이 사람은 자기 내면을 굉장히 깊이 들여다보는 사람이에요. 자신의 감정과 생각을 끊임없이 탐구하고, 왜 이런 감정이 드는지 이해하려 하거든요. 직관력이 뛰어나서 자기 자신의 상태를 잘 알아차려요. 혼자만의 시간을 통해 에너지를 채우고, 깊은 사색을 즐겨요. 근데 너무 내면으로 빠져들다 보면 현실과 멀어지거나 우울해지는 경우도 있어요. 과도한 자기분석이 오히",
+    "vi": "Tháng này xu hướng Bản thân: Bạn là người nhìn sâu vào nội tâm của mình đó. Không ngừng khám phá cảm xúc và suy nghĩ của bản thân, cố hiểu tại sao lại có cảm giác này. Trực giác nhạy bén nên nhận ra rõ trạng thái của chính mình."
+  },
+  "gye_monthly_general": {
+    "id": "gye_monthly_general",
+    "ilgan": "gye",
+    "period": "monthly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "이번달 인생 전반 분야의 흐름입니다. 이 사람의 인생을 보면 이슬처럼 조용하지만 깊은 스타일이에요. 화려하지 않지만 진짜 중요한 것들을 놓치지 않고, 천천히 그리고 깊이 있게 세상을 경험해요. 예민한 감수성과 직관으로 다른 사람들이 보지 못하는 것들을 보거든요. 깊은 인간관계와 의미 있는 경험을 소중히 여겨요. 근데 세상이 너무 자극적이고 빠르게 돌아갈 때 소진되는 경우가 있어요. 외부 자극에",
+    "vi": "Tháng này xu hướng Tổng quát: Nhìn cuộc đời bạn, lặng lẽ mà sâu như hạt sương đó. Không hào nhoáng nhưng không bỏ lỡ những thứ thực sự quan trọng, trải nghiệm thế giới chậm mà sâu. Cảm xúc nhạy cảm và trực giác giúp bạn thấy những"
+  },
+  "gye_yearly_love": {
+    "id": "gye_yearly_love",
+    "ilgan": "gye",
+    "period": "yearly",
+    "topic": "love",
+    "topic_ko": "연애",
+    "topic_vi": "Tình duyên",
+    "ko": "올해 연애 분야의 큰 방향이에요. 연애할 때 이 사람은 깊고 조용하게 사랑하는 스타일이에요. 화려하게 표현하기보다는 상대방을 묵묵히 관찰하고, 필요한 순간에 정확하게 다가가거든요. 감정이 정말 깊어서 한번 사랑에 빠지면 오래가고, 상대방을 깊이 이해하려 해요. 직관적으로 상대방의 감정 상태를 읽는 능력이 있어요. 근데 내향적인 성향 때문에 먼저 표현하지 않으면 상대방이 내 마음을 모를 수",
+    "vi": "Năm nay hướng đi lớn Tình duyên: Trong tình yêu, bạn yêu sâu và lặng lẽ đó. Thay vì biểu đạt rực rỡ, bạn âm thầm quan sát đối phương và tiếp cận đúng lúc cần thiết. Cảm xúc thực sự sâu nên một khi đã rơi vào tình yêu thì lâu bền, và"
+  },
+  "gye_yearly_career": {
+    "id": "gye_yearly_career",
+    "ilgan": "gye",
+    "period": "yearly",
+    "topic": "career",
+    "topic_ko": "직업",
+    "topic_vi": "Sự nghiệp",
+    "ko": "올해 직업 분야의 큰 방향이에요. 일할 때 이 사람은 관찰력과 직관이 뛰어나요. 겉으로 드러나지 않는 것들을 감지하고, 다른 사람들이 놓치는 부분을 먼저 보는 능력이 있거든요. 깊이 생각하고 분석하는 일을 잘하고, 혼자 집중해서 작업하는 환경에서 최고의 성과를 내요. 감성적인 감각이 필요한 분야나 연구, 분석 분야에서 특히 강해요. 근데 자기 생각과 아이디어를 밖으로 표현하는 게 어렵기도",
+    "vi": "Năm nay hướng đi lớn Sự nghiệp: Bạn có khả năng quan sát và trực giác xuất sắc trong công việc đó. Cảm nhận được những thứ không hiện ra bề mặt và nhìn thấy trước phần mà người khác bỏ lỡ. Giỏi suy nghĩ sâu và phân tích, đạt hiệu su"
+  },
+  "gye_yearly_money": {
+    "id": "gye_yearly_money",
+    "ilgan": "gye",
+    "period": "yearly",
+    "topic": "money",
+    "topic_ko": "재물",
+    "topic_vi": "Tài lộc",
+    "ko": "올해 재물 분야의 큰 방향이에요. 돈에 관해서 이 사람은 직관적으로 흐름을 읽는 능력이 있어요. 말로 설명하기 어렵지만 어떤 것이 될 것인지, 무엇이 가치있는지 느끼는 감각이 있거든요. 충동적이지 않고 조용히 관찰하다가 타이밍을 잡아요. 감성적인 분야나 문화, 예술 관련 투자에서 남다른 안목을 가지고 있어요. 근데 그 직관을 행동으로 옮기는 데 시간이 걸리고, 확신이 없으면 기회를 놓치기도",
+    "vi": "Năm nay hướng đi lớn Tài lộc: Bạn có khả năng đọc dòng chảy bằng trực giác trong chuyện tiền bạc đó. Khó giải thích bằng lời nhưng có cảm giác cái gì sẽ thành công, cái gì có giá trị. Không bốc đồng mà lặng lẽ quan sát rồi bắt đún"
+  },
+  "gye_yearly_self": {
+    "id": "gye_yearly_self",
+    "ilgan": "gye",
+    "period": "yearly",
+    "topic": "self",
+    "topic_ko": "자기관리",
+    "topic_vi": "Bản thân",
+    "ko": "올해 자기관리 분야의 큰 방향이에요. 이 사람은 자기 내면을 굉장히 깊이 들여다보는 사람이에요. 자신의 감정과 생각을 끊임없이 탐구하고, 왜 이런 감정이 드는지 이해하려 하거든요. 직관력이 뛰어나서 자기 자신의 상태를 잘 알아차려요. 혼자만의 시간을 통해 에너지를 채우고, 깊은 사색을 즐겨요. 근데 너무 내면으로 빠져들다 보면 현실과 멀어지거나 우울해지는 경우도 있어요. 과도한 자기분석이 오히",
+    "vi": "Năm nay hướng đi lớn Bản thân: Bạn là người nhìn sâu vào nội tâm của mình đó. Không ngừng khám phá cảm xúc và suy nghĩ của bản thân, cố hiểu tại sao lại có cảm giác này. Trực giác nhạy bén nên nhận ra rõ trạng thái của chính mình."
+  },
+  "gye_yearly_general": {
+    "id": "gye_yearly_general",
+    "ilgan": "gye",
+    "period": "yearly",
+    "topic": "general",
+    "topic_ko": "인생 전반",
+    "topic_vi": "Tổng quát",
+    "ko": "올해 인생 전반 분야의 큰 방향이에요. 이 사람의 인생을 보면 이슬처럼 조용하지만 깊은 스타일이에요. 화려하지 않지만 진짜 중요한 것들을 놓치지 않고, 천천히 그리고 깊이 있게 세상을 경험해요. 예민한 감수성과 직관으로 다른 사람들이 보지 못하는 것들을 보거든요. 깊은 인간관계와 의미 있는 경험을 소중히 여겨요. 근데 세상이 너무 자극적이고 빠르게 돌아갈 때 소진되는 경우가 있어요. 외부 자극에",
+    "vi": "Năm nay hướng đi lớn Tổng quát: Nhìn cuộc đời bạn, lặng lẽ mà sâu như hạt sương đó. Không hào nhoáng nhưng không bỏ lỡ những thứ thực sự quan trọng, trải nghiệm thế giới chậm mà sâu. Cảm xúc nhạy cảm và trực giác giúp bạn thấy những"
+  }
+}

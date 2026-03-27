@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>MỆnh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="hdr">
+  <h1>MỆnh</h1>
+  <p data-ko="당신의 이야기를 들려드릴게요" data-vi="Để tôi kể câu chuyện của bạn">당신의 이야기를 들려드릴게요</p>
+  <div class="lang-row">
+    <button class="lang-btn on" data-lang="ko">한국어</button>
+    <button class="lang-btn" data-lang="vi">Tiếng Việt</button>
+  </div>
+</header>
+
+<div class="wrap">
+
+<!-- ========== 생년월일 입력 ========== -->
+<div class="scr on" id="scr-input">
+  <div class="cd">
+    <div class="form-title" data-ko="생년월일을 알려주세요" data-vi="Cho tôi biết ngày sinh của bạn">생년월일을 알려주세요</div>
+    <div class="form-sub" data-ko="양력 기준" data-vi="Theo dương lịch">양력 기준</div>
+    <form id="frm">
+      <div class="row">
+        <div class="grp"><label>년</label><input type="number" id="f-y" min="1940" max="2025" placeholder="1995"></div>
+        <div class="grp"><label>월</label><select id="f-m"><option value="1">1</option><option value="2">2</option><option value="3" selected>3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select></div>
+        <div class="grp"><label>일</label><input type="number" id="f-d" min="1" max="31" placeholder="15"></div>
+      </div>
+      <div class="row">
+        <div class="grp"><label data-ko="출생 시간 (선택)" data-vi="Giờ sinh">출생 시간 (선택)</label>
+          <select id="f-h"><option value="">모름</option>
+          <option value="0">00:00~01:00</option><option value="1">01:00~02:00</option><option value="2">02:00~03:00</option><option value="3">03:00~04:00</option><option value="4">04:00~05:00</option><option value="5">05:00~06:00</option><option value="6">06:00~07:00</option><option value="7">07:00~08:00</option><option value="8">08:00~09:00</option><option value="9">09:00~10:00</option><option value="10">10:00~11:00</option><option value="11">11:00~12:00</option><option value="12">12:00~13:00</option><option value="13">13:00~14:00</option><option value="14">14:00~15:00</option><option value="15">15:00~16:00</option><option value="16">16:00~17:00</option><option value="17">17:00~18:00</option><option value="18">18:00~19:00</option><option value="19">19:00~20:00</option><option value="20">20:00~21:00</option><option value="21">21:00~22:00</option><option value="22">22:00~23:00</option><option value="23">23:00~00:00</option>
+          </select>
+        </div>
+      </div>
+      <div class="gen-row">
+        <button type="button" class="gen-btn on" data-g="male">남성</button>
+        <button type="button" class="gen-btn" data-g="female">여성</button>
+      </div>
+      <button type="submit" class="btn">시작하기</button>
+    </form>
+  </div>
+</div>
+
+<!-- ========== 메인 홈 ========== -->
+<div class="scr" id="scr-home">
+  <div class="mini-pillars" id="home-pillars"></div>
+
+  <!-- 오늘의 한 줄 -->
+  <div class="cd card-today" id="home-today" style="cursor:pointer" onclick="go('scr-daily')">
+    <div class="cd-t" data-ko="오늘의 한 줄" data-vi="Hôm nay">오늘의 한 줄</div>
+    <div class="cd-body" id="home-today-text"></div>
+  </div>
+
+  <!-- 메뉴 그리드 -->
+  <div class="cd-t" style="padding:4px 2px;margin-top:4px" data-ko="어떤 이야기가 궁금하세요?" data-vi="Bạn muốn biết điều gì?">어떤 이야기가 궁금하세요?</div>
+  <div class="sit-grid" style="margin-top:10px">
+    <div class="sit-btn" onclick="startTopic('love')"><div class="icon">❤️</div><div class="label">연애</div></div>
+    <div class="sit-btn" onclick="startTopic('career')"><div class="icon">💼</div><div class="label">직업·진로</div></div>
+    <div class="sit-btn" onclick="startTopic('money')"><div class="icon">💰</div><div class="label">돈·재물</div></div>
+    <div class="sit-btn" onclick="startTopic('self')"><div class="icon">🪞</div><div class="label">나 자신</div></div>
+    <div class="sit-btn" onclick="go('scr-compat')"><div class="icon">💑</div><div class="label">궁합</div></div>
+    <div class="sit-btn" onclick="startTopic('general')"><div class="icon">🌏</div><div class="label">인생 전반</div></div>
+  </div>
+
+  <!-- 운세 바로가기 -->
+  <div class="cd-t" style="padding:4px 2px;margin-top:8px" data-ko="운세" data-vi="Vận hạn">운세</div>
+  <div class="row" style="margin-top:10px">
+    <div class="sit-btn" style="flex:1" onclick="go('scr-daily')"><div class="icon">☀️</div><div class="label" data-ko="오늘" data-vi="Hôm nay">오늘</div></div>
+    <div class="sit-btn" style="flex:1" onclick="go('scr-monthly')"><div class="icon">🌙</div><div class="label" data-ko="이달" data-vi="Tháng này">이달</div></div>
+    <div class="sit-btn" style="flex:1" onclick="go('scr-yearly')"><div class="icon">⭐</div><div class="label" data-ko="올해" data-vi="Năm nay">올해</div></div>
+  </div>
+</div>
+
+<!-- ========== 대화형 주제 풀이 ========== -->
+<div class="scr" id="scr-topic">
+  <div class="mini-pillars" id="topic-pillars"></div>
+  <!-- 카드가 쌓이는 영역 -->
+  <div id="topic-cards"></div>
+  <!-- 후속 질문 선택지 -->
+  <div id="topic-follow"></div>
+</div>
+
+<!-- ========== 일운 ========== -->
+<div class="scr" id="scr-daily">
+  <div class="mini-pillars" id="daily-pillars"></div>
+  <div id="daily-content"></div>
+  <button class="btn" style="margin-top:14px" onclick="go('scr-home')" data-ko="돌아가기" data-vi="Quay lại">돌아가기</button>
+</div>
+
+<!-- ========== 월운 ========== -->
+<div class="scr" id="scr-monthly">
+  <div class="mini-pillars" id="monthly-pillars"></div>
+  <div id="monthly-content"></div>
+  <button class="btn" style="margin-top:14px" onclick="go('scr-home')">돌아가기</button>
+</div>
+
+<!-- ========== 년운 ========== -->
+<div class="scr" id="scr-yearly">
+  <div class="mini-pillars" id="yearly-pillars"></div>
+  <div id="yearly-content"></div>
+  <button class="btn" style="margin-top:14px" onclick="go('scr-home')">돌아가기</button>
+</div>
+
+<!-- ========== 궁합 ========== -->
+<div class="scr" id="scr-compat">
+  <div class="cd">
+    <div class="form-title" data-ko="궁합 보기" data-vi="Xem cung hợp">궁합 보기</div>
+    <div class="form-sub" data-ko="상대방의 생년월일을 입력하세요" data-vi="Nhập ngày sinh của đối phương">상대방의 생년월일을 입력하세요</div>
+    <form id="frm-compat">
+      <div class="row">
+        <div class="grp"><label>년</label><input type="number" id="c-y" placeholder="1997"></div>
+        <div class="grp"><label>월</label><input type="number" id="c-m" min="1" max="12" placeholder="8"></div>
+        <div class="grp"><label>일</label><input type="number" id="c-d" min="1" max="31" placeholder="22"></div>
+      </div>
+      <button type="submit" class="btn">💑 궁합 분석</button>
+    </form>
+  </div>
+  <div id="compat-result"></div>
+  <button class="btn" style="margin-top:14px;background:#fff;color:var(--accent);border:1.5px solid var(--accent);box-shadow:none" onclick="go('scr-home')">돌아가기</button>
+</div>
+
+<!-- 로딩 -->
+<div class="ld" id="ld"><div class="dots"><span></span><span></span><span></span></div><p style="margin-top:12px;color:var(--dim)">분석 중...</p></div>
+
+</div>
+
+<!-- 바텀 네비 -->
+<nav class="bnav">
+  <button class="bnav-i on" onclick="go('scr-home')"><span class="ni">🏠</span><span>홈</span></button>
+  <button class="bnav-i" onclick="go('scr-daily')"><span class="ni">☀️</span><span>오늘</span></button>
+  <button class="bnav-i" onclick="go('scr-compat')"><span class="ni">💑</span><span>궁합</span></button>
+</nav>
+
+<script src="js/saju-engine.js"></script>
+<script src="data/saju-db-v2.js"></script>
+<script src="data/saju-db.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "created_at": "2026-03-26",
+  "tables": {
+    "intro":  { "file": "01_intro.json",  "count_target": 50,  "count_current": 5,  "key": "{situation}_{ilgan}" },
+    "ilgan":  { "file": "02_ilgan.json",  "count_target": 50,  "count_current": 5,  "key": "{ilgan}_{situation}" },
+    "combo":  { "file": "03_combo.json",  "count_target": 120, "count_current": 4,  "key": "{ilgan}_{wolji}" },
+    "today":  { "file": "04_today.json",  "count_target": 420, "count_current": 10, "key": "{gapja_index}_{weekday}" },
+    "cheer":  { "file": "05_cheer.json",  "count_target": 25,  "count_current": 25, "key": "{situation}_{ohaeng}" }
+  },
+  "total_target": 665,
+  "total_current": 49,
+  "languages": ["ko", "vi"],
+  "usage": "완전 고정 텍스트. LLM 호출 없음. 5카드 조합 서빙."
+}
