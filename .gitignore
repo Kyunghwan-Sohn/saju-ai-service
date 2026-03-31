@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+
+# Build output
+.next/
+out/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+client_secret*.json
+token.json
+
+# Data (large files)
+data/downloads/
+data/transcripts/
+data/clips/
+data/output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Misc
+.gstack/
